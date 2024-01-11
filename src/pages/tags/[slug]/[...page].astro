@@ -1,0 +1,46 @@
+---
+import type { GetStaticPathsOptions, Page } from 'astro';
+import { type CollectionEntry, getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Pagination from '../../../components/Pagination.astro';
+import PostPreview from '../../../components/PostPreview.astro';
+import Subscribe from '../../../components/Subscribe.astro';
+import siteConfig from '../../../data/site-config';
+import { sortItemsByDateDesc, getAllTags, getPostsByTag } from '../../../utils/data-utils';
+
+export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+    const posts = (await getCollection('blog')).sort(sortItemsByDateDesc);
+    const tags = getAllTags(posts);
+
+    return tags.flatMap((tag) => {
+        const filteredPosts = getPostsByTag(posts, tag.slug);
+        return paginate(filteredPosts, {
+            params: { slug: tag.slug },
+            pageSize: siteConfig.postsPerPage || 4
+        });
+    });
+}
+
+type Props = { page: Page<CollectionEntry<'blog'>> };
+
+const { page } = Astro.props;
+const blog = page.data;
+const params = Astro.params;
+const allPosts = await getCollection('blog');
+const allTags = getAllTags(allPosts);
+const currentTag = allTags.find((tag) => {
+    return tag.slug === params.slug;
+});
+---
+
+<BaseLayout
+    title={`Posts Tagged ${currentTag?.name}`}
+    description={`Explore a curated collection of blog posts under ${currentTag?.name}`}
+    image={{ src: '/dante-preview.jpg', alt: 'The preview of the site' }}
+    showHeader={false}
+>
+    <h1 class="mb-12 text-2xl leading-tight font-serif italic sm:mb-16 sm:text-4xl">Posts Tagged "{currentTag?.name}"</h1>
+    {blog.map((post) => <PostPreview post={post} class="mb-10 sm:mb-12" />)}
+    <Pagination page={page} class="my-16 sm:my-24" />
+    <Subscribe class="my-16 sm:my-24" />
+</BaseLayout>

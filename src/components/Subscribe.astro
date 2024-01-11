@@ -1,0 +1,45 @@
+---
+import Button from './Button.astro';
+import siteConfig from '../data/site-config';
+
+const subscribe = siteConfig.subscribe;
+
+const { class: className } = Astro.props;
+---
+
+{
+    subscribe?.formUrl && (
+        <section class:list={['px-8 py-12 flex flex-col items-center border border-dashed border-main text-center sm:px-12 sm:py-16', className]}>
+            {subscribe.title && (
+                <h2 class:list={['w-full max-w-xl text-2xl leading-tight font-serif font-medium sm:text-4xl', subscribe.text ? 'mb-4' : 'mb-8']}>
+                    {subscribe.title}
+                </h2>
+            )}
+            {subscribe.text && <p class="w-full max-w-xl mb-8 text-sm leading-normal">{subscribe.text}</p>}
+            <form
+                action={subscribe.formUrl}
+                method="post"
+                id="subscribe-form"
+                name="subscribe-form"
+                class="w-full max-w-xl flex flex-col gap-3.5 sm:flex-row"
+                target="_blank"
+            >
+                <label for="email" class="sr-only">
+                    Email Address
+                </label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="w-full h-9 px-5 py-2 text-sm text-main bg-transparent border border-main rounded-full placeholder:text-main/60 focus:outline-none"
+                    required=""
+                    value=""
+                    placeholder="Your email"
+                />
+                <Button type="submit" name="subscribe" class="w-full h-9 sm:w-auto">
+                    Subscribe
+                </Button>
+            </form>
+        </section>
+    )
+}

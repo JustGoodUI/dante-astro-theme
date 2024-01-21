@@ -39,3 +39,11 @@
         document.getElementById('theme-toggle')?.addEventListener('click', handleToggleClick);
     });
 </script>
+
+<script>
+    document.addEventListener('astro:after-swap', () => {
+        if (localStorage.theme === 'dark') {
+            document.documentElement.classList.add('dark');
+        }
+    });
+</script>

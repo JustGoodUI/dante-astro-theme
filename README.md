@@ -31,7 +31,7 @@ If you click this☝️ button, it will create a new repo for you that looks exa
 - @astrojs/mdx - https://docs.astro.build/en/guides/markdown-content/
 - @astrojs/rss - https://docs.astro.build/en/guides/rss/
 
-## 🚀 Project Structure
+## Project Structure
 
 Inside of Dante Astro theme, you'll see the following folders and files:
 

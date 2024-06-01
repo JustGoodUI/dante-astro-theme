@@ -8,22 +8,41 @@ const hero = siteConfig.hero;
 
 {
     (hero?.title || hero?.image?.src || hero?.text || (hero?.actions && hero.actions.length > 0)) && (
-        <section class="w-full flex flex-col gap-8 mb-16 sm:mb-24">
-            {hero.title && <h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight">{hero.title}</h1>}
-            {hero.image?.src && (
-                <figure>
-                    <img class="w-full" src={hero.image.src} loading="lazy" decoding="async" alt={hero.image.alt || ''} />
-                    {hero.image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{hero.image.caption}</figcaption>}
-                </figure>
-            )}
-            {hero.text && <div class="max-w-none prose prose-dante sm:prose-lg" set:html={marked.parse(hero.text)} />}
-            {hero.actions && hero.actions.length > 0 && (
-                <div class="flex flex-wrap gap-4">
-                    {hero.actions.map((action) => (
-                        <Button href={action.href}>{action.text}</Button>
-                    ))}
+        <section class="w-full flex flex-col gap-4 mb-16 sm:mb-24">
+            <div class="flex flex-row gap-8 pt-40 ">
+                {hero.image?.src && (
+                    <figure>
+                        <img class="w-[90%] mr-8" src={hero.image.src} loading="lazy" decoding="async" alt={hero.image.alt || ''} />
+                        {hero.image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{hero.image.caption}</figcaption>}
+                    </figure>
+                )}
+                <div class="flex flex-col gap-8">
+                {hero.title && <p class="text-4xl font-serif font-medium sm:text-7xl sm:leading-tight">{hero.title}</p>}
+                    {hero.text && <div class="max-w-none prose prose-dante sm:prose-lg sm:text-3xl" set:html={marked.parse(hero.text)} />}
+                    {hero.actions && hero.actions.length > 0 && (
+                        <div class="flex flex-wrap gap-8 pt-2">
+                            {hero.actions.map((action) => (
+                                <Button href={action.href}>{action.text}</Button>
+                            ))}
+                        </div>
+                    )}
                 </div>
-            )}
+
+            </div>
+            <div class="my-8 mt-40 h-px bg-white w-full max-w-full"/>
+
+            <div class="pt-20 max-w-4xl">
+                <div class="text-4xl font-serif font-medium sm:text-7xl sm:leading-tight">Ah, the thrill of reinvention...</div>
+                {hero.text2 && <div class="max-w-2xl prose prose-dante sm:text-2xl" set:html={marked.parse(hero.text2)} />}
+                {hero.text3 && <div class="max-w-2xl sm:pt-8 prose prose-dante sm:text-2xl" set:html={marked.parse(hero.text3)} />}
+                {hero.text4 && <div class="max-w-2xl sm:pt-8 prose prose-dante sm:text-2xl" set:html={marked.parse(hero.text4)} />}
+                {hero.actions && hero.actions.length > 0 && (
+                    <div class="flex flex-wrap gap-8 pt-8">
+                            <Button href="/coaching">Learn more</Button>
+                    </div>
+                )}
+            </div>
+
         </section>
     )
 }

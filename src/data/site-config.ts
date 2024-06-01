@@ -12,6 +12,9 @@ export type Link = {
 export type Hero = {
     title?: string;
     text?: string;
+    text2?: string;
+    text3?: string;
+    text4?: string;
     image?: Image;
     actions?: Link[];
 };
@@ -38,12 +41,12 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Manon Jacquin',
+    subtitle: '',
+    description: 'Manon Portfolio and services',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '',
+        alt: 'Manon photo'
     },
     headerNavLinks: [
         {
@@ -51,68 +54,69 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Projects',
-            href: '/projects'
+            text: 'Coaching',
+            href: '/coaching'
         },
-        {
-            text: 'Blog',
-            href: '/blog'
-        },
-        {
-            text: 'Tags',
-            href: '/tags'
-        }
-    ],
-    footerNavLinks: [
         {
             text: 'About',
             href: '/about'
         },
         {
-            text: 'Contact',
-            href: '/contact'
+            text: 'Subscribe',
+            href: 'https://mirth-and-mastery.beehiiv.com/subscribe'
         },
+        // {
+        //     text: 'Writing',
+        //     href: '/blog'
+        // },
+        // {
+        //     text: 'Projects',
+        //     href: '/projects'
+        // },
+        // {
+        //     text: 'Tags',
+        //     href: '/tags'
+        // }
+    ],
+    footerNavLinks: [
         {
-            text: 'Terms',
-            href: '/terms'
+            text: 'Subscribe',
+            href: 'https://mirth-and-mastery.beehiiv.com/subscribe'
         },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
             text: 'Instagram',
-            href: 'https://instagram.com/'
+            href: 'https://instagram.com/manonjacquin'
         },
         {
             text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            href: 'https://twitter.com/muditaja'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: 'Hi, I am Manon️!',
+        // text: "I help people navigate life's changes and manage conflict resolution",
+        text: "Former <u>legal attaché at the UN</u> turned tech developer, I offer coaching to help you navigate <u>career & life's changes</u> and manage <u>conflict resolution</u>",
+        // text: "An adventurous tech lady who's been working as a fullstack developer for the past 5 years, to then take the opportunity to work in Product Management for a year. What I love about tech are its endless growth opportunities, creativity, and that it brings people from different cultures and backgrounds together. ",
+        // text2: "I originally studied humanitarian law and politics, and I worked at the United Nations where I represented France in diplomatic duties. I am proud to have been part of the negotiations for the recently ratified convention on biodiversity beyond national jurisdiction which protect our oceans.",
+        text3: "And the feeling of being lost! Through my own journey from law to tech, and from adapting to different cultures and countries, I’ve seen firsthand the power of reinvention and the importance of support along the way.",
+        text4: "My approach is human-centered, I focus on building strong, supportive relationships that empower you to explore your potential, make bold transitions, and thrive in your chosen paths.",
         image: {
-            src: '/hero.jpeg',
+            src: '/hero.png',
             alt: 'A person sitting at a desk in front of a computer'
         },
         actions: [
             {
-                text: 'Get in Touch',
-                href: '/contact'
+                text: "Let's chat!",
+                href: 'https://calendly.com/manon-jacquin/15min'
             }
         ]
     },
     subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
+        title: 'Subscribe to Manon Newsletter',
+        text: 'Get a monthly dose of good vibes, tips and tricks on living a richer life! ',
+        formUrl: ''
     },
     postsPerPage: 8,
     projectsPerPage: 8

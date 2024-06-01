@@ -8,24 +8,20 @@ import Nav from '../components/Nav.astro';
 export type Props = HeadProps & { showHeader?: boolean };
 
 const { showHeader = true, ...head } = Astro.props;
+const { bg } = Astro.props
 ---
 
 <!doctype html>
 <html lang="en" class="antialiased break-words">
     <head>
         <BaseHead {...head} />
-        <script>
-            if (localStorage.theme === 'dark') {
-                document.documentElement.classList.add('dark');
-            }
-        </script>
         <ViewTransitions />
     </head>
-    <body class="bg-main text-main">
+    <body class={bg ? "bg-gradient-to-r from-blue-800 from-10% via-pink-700 to-yellow-600 h-screen w-full text-main" : "bg-indigo-900 h-screen w-full text-main"}>
         <div class="flex flex-col min-h-screen px-4 md:px-8">
             <Nav />
             {showHeader && <Header />}
-            <main class="grow w-full max-w-3xl mx-auto">
+            <main class="grow w-full max-w-6xl mx-auto">
                 <slot />
             </main>
             <Footer />

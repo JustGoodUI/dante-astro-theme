@@ -8,41 +8,38 @@ const hero = siteConfig.hero;
 
 {
     (hero?.title || hero?.image?.src || hero?.text || (hero?.actions && hero.actions.length > 0)) && (
-        <section class="w-full flex flex-col gap-4 mb-16 sm:mb-24">
-            <div class="flex flex-row gap-8 pt-40 ">
-                {hero.image?.src && (
-                    <figure>
-                        <img class="w-[90%] mr-8" src={hero.image.src} loading="lazy" decoding="async" alt={hero.image.alt || ''} />
-                        {hero.image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{hero.image.caption}</figcaption>}
-                    </figure>
-                )}
-                <div class="flex flex-col gap-8">
+    <section class="w-full flex flex-col gap-4 mb-16 sm:mb-24">
+        <div class="flex flex-col md:flex-row gap-8 md:pt-40 ">
+            {hero.image?.src && (
+                <figure class="order-2 md:order-1">
+                    <img class="w-[90%] mr-8 sm:none" src={hero.image.src} loading="lazy" decoding="async" alt={hero.image.alt || ''} />
+                </figure>
+            )}
+            <div class="flex flex-col gap-8 order-1 md:order-2">
                 {hero.title && <p class="text-4xl font-serif font-medium sm:text-7xl sm:leading-tight">{hero.title}</p>}
-                    {hero.text && <div class="max-w-none prose prose-dante sm:prose-lg sm:text-3xl" set:html={marked.parse(hero.text)} />}
-                    {hero.actions && hero.actions.length > 0 && (
-                        <div class="flex flex-wrap gap-8 pt-2">
-                            {hero.actions.map((action) => (
-                                <Button href={action.href}>{action.text}</Button>
-                            ))}
-                        </div>
-                    )}
-                </div>
-
-            </div>
-            <div class="my-8 mt-40 h-px bg-white w-full max-w-full"/>
-
-            <div class="pt-20 max-w-4xl">
-                <div class="text-4xl font-serif font-medium sm:text-7xl sm:leading-tight">Ah, the thrill of reinvention...</div>
-                {hero.text2 && <div class="max-w-2xl prose prose-dante sm:text-2xl" set:html={marked.parse(hero.text2)} />}
-                {hero.text3 && <div class="max-w-2xl sm:pt-8 prose prose-dante sm:text-2xl" set:html={marked.parse(hero.text3)} />}
-                {hero.text4 && <div class="max-w-2xl sm:pt-8 prose prose-dante sm:text-2xl" set:html={marked.parse(hero.text4)} />}
+                {hero.text && <div class="max-w-none prose prose-dante sm:prose-lg sm:text-3xl" set:html={marked.parse(hero.text)} />}
                 {hero.actions && hero.actions.length > 0 && (
-                    <div class="flex flex-wrap gap-8 pt-8">
-                            <Button href="/coaching">Learn more</Button>
+                    <div class="flex flex-wrap gap-8 pt-2">
+                        {hero.actions.map((action) => (
+                            <Button class="border px-6 py-2 border-main transition hover:bg-white hover:text-black" href={action.href}>{action.text}</Button>
+                        ))}
                     </div>
                 )}
             </div>
+        </div>
+        <div class="my-8 md:mt-40 sm:mt-10 h-px bg-white w-full max-w-full"/>
 
-        </section>
-    )
-}
+        <div class="md:pt-20 sm:pt-12 max-w-4xl">
+            <div class="text-4xl font-serif font-medium sm:text-7xl sm:leading-tight">Ah, the thrill of reinvention...</div>
+            {hero.text2 && <div class="max-w-2xl prose prose-dante sm:text-2xl" set:html={marked.parse(hero.text2)} />}
+            {hero.text3 && <div class="max-w-2xl sm:pt-8 prose prose-dante sm:text-2xl" set:html={marked.parse(hero.text3)} />}
+            {hero.text4 && <div class="max-w-2xl sm:pt-8 prose prose-dante sm:text-2xl" set:html={marked.parse(hero.text4)} />}
+            {hero.actions && hero.actions.length > 0 && (
+                <div class="flex flex-wrap gap-8 pt-8">
+                    <Button class="border px-6 py-2 border-main transition hover:bg-white hover:text-black" href="/coaching">Learn more</Button>
+                </div>
+            )}
+        </div>
+    </section>
+        )
+    }

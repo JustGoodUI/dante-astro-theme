@@ -9,13 +9,14 @@ seo:
 ---
 Hi there! I am glad you're 😊
 
-My friends describe me as someone who embrace the versatility and mutability of life. Also a bit rebellious, I am a freedom seeker above all. I am not settling for the status quo, and often look for deeper meaning and connections in life. 
+My friends describe me as someone who embrace the versatility and mutability of life. Also a bit rebellious, I am a freedom seeker above all. I am not settling for the status quo, and often look for deeper meaning and connections in life.
+
+A humanitarian and empathetic person by heart, I have a passion for helping others thrive to create a positive impact on themselves, their communities and the planet.
+
 
 <br/>
 
 # Life Highlights 
-- Born and raised in the South of France
-
 - Educational background in international law with a specialisation in peace building through justice and conflict resolution studies in post-conflict countries. My expertise lied in finding and implementing alternatives to traditional forms of justice and peace building to reconstruct a broken society sustainably.
 
 - I worked as a legal attaché at the United Nations where I represented France in diplomatic duties, to then learn programming in search for more impact, opportunities, creativity, and fun! 

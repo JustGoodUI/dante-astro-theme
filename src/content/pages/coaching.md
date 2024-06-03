@@ -7,21 +7,14 @@ seo:
     src: '/hero.png'
     alt: A person sitting at a desk in front of a computer
 ---
-#### We often need open, brave and safe space in order to fully let ourselves "be", so we can shift perspective on who we are, where we can be, and how we can do this. Coaching help you uncover that. I'd love to meet you and chat!
+#### We often need open, brave and safe space in order to fully let ourselves "be", so we can shift perspective on who we are, where we want to be, and how to get there. Coaching help you uncover that. I'd love to meet you and chat!
 
 <br/>
-
-## What I offer as a coach
-Through my own journey from law to tech, I’ve seen firsthand the power of reinvention and transitions, and the importance of support along the way. I believe we have everything within to succeed, and a little help can go a long way!  
-
-My approach is human-centered, I focus on building strong, supportive relationships that empower individuals to explore their potential, make bold transitions, and thrive in their chosen paths. I aim to be a transformative catalyst by actively listening and guiding you through yours.
-
-I'll work with you to turn uncertainties and challenges into opportunities for growth, discovery and a more fulfilling life!
-
 
 ## If you...
 
 - Want to make a positive impact in the world
+- Want to turn challenges and uncertainties into opportunities for growth
 - Are navigating change, and feel overwhelmed about the discomfort and uncertainties
 - Are handling tough conversations at work or at home (feedback, firing, conflicts...)
 - Lack confidence and energy to move forward

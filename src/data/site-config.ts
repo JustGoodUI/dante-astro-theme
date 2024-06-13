@@ -63,7 +63,7 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Subscribe',
-            href: 'https://mirth-and-mastery.beehiiv.com/subscribe'
+            href: 'https://mirth-and-mastery.beehiiv.com'
         },
         // {
         //     text: 'Writing',

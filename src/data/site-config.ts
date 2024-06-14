@@ -62,7 +62,7 @@ const siteConfig: SiteConfig = {
             href: '/about'
         },
         {
-            text: 'Subscribe',
+            text: 'Writing',
             href: 'https://mirth-and-mastery.beehiiv.com/'
         },
         // {
@@ -96,7 +96,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hi, I am Manon️!',
-        text: "Former legal attaché at the UN turned software developer, I offer coaching to help you navigate <u>career & life's changes</u> and manage <u>conflict resolution</u>",
+        text: "Former legal attaché at the UN turned software developer, I offer coaching to help you navigate <u>career & life's changes</u> and <u>manage conflict.</u>",
         text3: "And the feeling of being lost! Through my own journey from law to tech, and from adapting to different cultures and countries, I’ve seen firsthand the power of reinvention and the importance of support along the way.",
         text4: "My approach is human-centered, I focus on building strong, supportive relationships that empower you to explore your potential, make bold transitions, and thrive in your chosen paths.",
         image: {

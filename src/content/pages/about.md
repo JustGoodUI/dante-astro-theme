@@ -7,7 +7,7 @@ seo:
     src: '/hero.png'
     alt: A person sitting at a desk in front of a computer
 ---
-Hi there! I am glad you're 😊
+Hi there! I am glad you are here 😊
 
 My friends describe me as someone who embrace the versatility and mutability of life. Also a bit rebellious, I am a freedom seeker above all. I am not settling for the status quo, and often look for deeper meaning and connections in life.
 
@@ -17,7 +17,7 @@ A humanitarian and empathetic person by heart, I have a passion for helping othe
 <br/>
 
 # Life Highlights 
-- Educational background in international law with a specialisation in peace building through justice and conflict resolution studies in post-conflict countries. My expertise lied in finding and implementing alternatives to traditional forms of justice and peace building to reconstruct a broken society sustainably.
+- Educational background in international law with a specialisation in peace building through justice and conflict resolution. My expertise lied in finding and implementing alternatives to traditional forms of justice and peace building to reconstruct a broken society sustainably.
 
 - I worked as a legal attaché at the United Nations where I represented France in diplomatic duties, to then learn programming in search for more impact, opportunities, creativity, and fun! 
 

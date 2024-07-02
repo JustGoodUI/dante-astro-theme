@@ -5,7 +5,7 @@ module.exports = {
     darkMode: 'class',
     theme: {
         fontFamily: {
-            sans: ['Inter', ...defaultTheme.fontFamily.sans],
+            sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
             serif: ['Newsreader', ...defaultTheme.fontFamily.serif]
         },
         extend: {
@@ -51,10 +51,6 @@ module.exports = {
                             '&:hover': {
                                 textDecorationStyle: 'solid'
                             }
-                        },
-                        'h1,h2,h3,h4,h5,h6': {
-                            fontFamily: theme('fontFamily.serif'),
-                            fontWeight: 500
                         },
                         blockquote: {
                             border: 0,

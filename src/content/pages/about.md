@@ -16,4 +16,23 @@ seo:
 
 ## Skills and Expertise
 
-[psst, i'm too lazy for this , will update it soon :p]
+I am very skilled in building **fullstack** software using the following stack:
+
+- React(Nextjs)
+- Typescript
+- PostgreSQL
+- Prisma
+- tRPC
+- Node/Bun
+
+Additionally I have been exploring other programming languages, during nights and weekends:
+
+- Go -> to learn more about concurrency and going multi-threaded
+- OCaml -> to learn about concrete type systems and what lies beyond gradual typing in Typescript
+- Coq -> exploring how can we write secure systems with formal verification and deductive reasoning.
+
+Apart from work, I also talk tech with folks in the [Reason/OCaml India Group](https://discord.gg/4UvnqV3h) and the [Racket Discord](https://discord.gg/9jYj55q3).\n Feel free to say hi to me in you join up sagnikcw#5614.
+
+## Experience
+
+[TODO]

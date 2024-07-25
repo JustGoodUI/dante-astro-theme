@@ -1,19 +1,27 @@
 ---
-title: 'EcoBuddy: Sustainable Living App'
-description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
-publishDate: 'Jan 02 2024'
+title: 'rayt: a raytracer written in Go'
+description: Rayt is a raytracer that I wrote in Go as I wanted to understand the mechanics and working of raytracing and how graphics programming is done.
+publishDate: 'July 25 2024'
 seo:
   image:
-    src: '/project-1.jpg'
-    alt: Project preview
+    src: '/project-rayt/rayt.jpeg'
+    alt: A Raytracer of Spheres
 ---
 
-![Project preview](/project-1.jpg)
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+![A Raytracer of Spheres](/public/project-rayt/rayt.jpeg)
 
 **Project Overview:**
-EcoBuddy is a revolutionary mobile application designed to make sustainable living accessible, engaging, and rewarding. With a focus on gamification and real-world impact, EcoBuddy encourages users to adopt eco-friendly habits, reduce their carbon footprint, and contribute to a healthier planet.
+Rayt is a raytracer that I wrote in Go as I wanted to understand the mechanics and working of raytracing and how graphics programming is done.
+
+## Sample Code:
+
+```go
+package main
+
+func main() {
+  fmt.Println("ok")
+}
+```
 
 ## Objectives
 

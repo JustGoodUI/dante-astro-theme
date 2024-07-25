@@ -1,18 +1,17 @@
 ---
-title: The Advantages & Disadvantages of Working from Home
-excerpt: In recent years, the way we work has undergone a significant transformation, largely due to advancements in technology and changing attitudes toward work-life balance. One of the most notable changes has been the rise of remote work, allowing employees to work from the comfort of their own homes.
-publishDate: 'Aug 5 2023'
+title: anxiety and stress
+excerpt: even though the world has gone through tremendous change in recent years, anxiety levels have peaked more than ever.
+publishDate: 'July 25 2024'
 tags:
-  - Guide
+  - stress
+  - labor laws
 seo:
   image:
-    src: '/post-1.jpg'
+    src: '/anxiety-and-stress/anxiety-and-stress.jpg'
     alt: A person standing at the window
 ---
 
-![A person standing at the window](/post-1.jpg)
-
-**Note:** This post was created using Chat GPT to demonstrate the features of the _[Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/)_.
+![A person standing at the window](/anxiety-and-stress/anxiety-and-stress.jpg)
 
 In recent years, the way we work has undergone a significant transformation, largely due to advancements in technology and changing attitudes toward work-life balance. One of the most notable changes has been the rise of remote work, allowing employees to work from the comfort of their own homes. While this shift has brought about many benefits, it has also introduced its fair share of challenges. Let's explore the advantages and disadvantages of working from home.
 

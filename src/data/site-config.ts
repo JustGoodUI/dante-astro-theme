@@ -83,7 +83,7 @@ const siteConfig: SiteConfig = {
             href: 'https://github.com/sagnikc395'
         },
         {
-            text: 'X/Twitter',
+            text: 'X',
             href: 'https://twitter.com/sagnikcw'
         }
     ],

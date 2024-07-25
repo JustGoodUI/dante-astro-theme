@@ -89,7 +89,10 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: `thoughts on programming, mathematical logic and abstractions! it's gonna be a fun ride 🫶`,
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        text: `I'm **Sagnik Chatterjee**, a Software Developer at IBM India, working in Backend Engineering (Java, SpringBoot) and Distributed Systems (HBase, Apache Kafka).
+        I am interested in the domain of Programming Languages (especially the Functional Programming Paradigm) and Type Theory, and I like how gradual typing lets us create amazing software with both the sanity of typing and the flexibility of dynamically typed languages. 
+        I have also recently become interested in mathematical logic and proof-oriented systems and how they help to formally verify software.
+        \nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/sagnikc395/) or follow me on [X](https://x.com/sagnikcw).`,
         image: {
             src: '/hero.jpg',
             alt: 'a oil painting of countryside'

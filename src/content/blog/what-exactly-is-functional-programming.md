@@ -5,6 +5,8 @@ publishDate: 'Aug 5 2024'
 tags:
   - functional-programming
   - ocaml
+  - pl
+  - types
 ---
 
 ### what exactly is functional programming ?

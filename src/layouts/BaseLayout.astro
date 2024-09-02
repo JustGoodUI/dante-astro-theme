@@ -14,7 +14,7 @@ const { showHeader = true, ...head } = Astro.props;
 <html lang="en" class="antialiased break-words">
     <head>
         <BaseHead {...head} />
-        <script>
+        <script is:inline>
             if (localStorage.theme === 'dark') {
                 document.documentElement.classList.add('dark');
             }

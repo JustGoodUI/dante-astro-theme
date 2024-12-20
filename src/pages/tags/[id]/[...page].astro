@@ -13,9 +13,9 @@ export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
     const tags = getAllTags(posts);
 
     return tags.flatMap((tag) => {
-        const filteredPosts = getPostsByTag(posts, tag.slug);
+        const filteredPosts = getPostsByTag(posts, tag.id);
         return paginate(filteredPosts, {
-            params: { slug: tag.slug },
+            params: { id: tag.id },
             pageSize: siteConfig.postsPerPage || 4
         });
     });
@@ -29,7 +29,7 @@ const params = Astro.params;
 const allPosts = await getCollection('blog');
 const allTags = getAllTags(allPosts);
 const currentTag = allTags.find((tag) => {
-    return tag.slug === params.slug;
+    return tag.id === params.id;
 });
 ---
 

@@ -11,15 +11,15 @@ export function getAllTags(posts: CollectionEntry<'blog'>[]) {
         .map((tag) => {
             return {
                 name: tag,
-                slug: slugify(tag)
+                id: slugify(tag)
             };
         })
         .filter((obj, pos, arr) => {
-            return arr.map((mapObj) => mapObj.slug).indexOf(obj.slug) === pos;
+            return arr.map((mapObj) => mapObj.id).indexOf(obj.id) === pos;
         });
 }
 
-export function getPostsByTag(posts: CollectionEntry<'blog'>[], tagSlug: string) {
-    const filteredPosts: CollectionEntry<'blog'>[] = posts.filter((post) => (post.data.tags || []).map((tag) => slugify(tag)).includes(tagSlug));
+export function getPostsByTag(posts: CollectionEntry<'blog'>[], tagId: string) {
+    const filteredPosts: CollectionEntry<'blog'>[] = posts.filter((post) => (post.data.tags || []).map((tag) => slugify(tag)).includes(tagId));
     return filteredPosts;
 }

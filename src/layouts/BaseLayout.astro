@@ -1,5 +1,5 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
+import { ClientRouter } from 'astro:transitions';
 import BaseHead, { type Props as HeadProps } from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
@@ -19,7 +19,7 @@ const { showHeader = true, ...head } = Astro.props;
                 document.documentElement.classList.add('dark');
             }
         </script>
-        <ViewTransitions />
+        <ClientRouter />
     </head>
     <body class="bg-main text-main">
         <div class="flex flex-col min-h-screen px-4 md:px-8">

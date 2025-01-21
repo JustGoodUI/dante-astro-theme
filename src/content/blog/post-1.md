@@ -1,12 +1,12 @@
 ---
-title: Porque balonmano es más interesante que otros deportes
-excerpt: In recent years, the way we work has undergone a significant transformation, largely due to advancements in technology and changing attitudes toward work-life balance. One of the most notable changes has been the rise of remote work, allowing employees to work from the comfort of their own homes.
-publishDate: 'Aug 5 2023'
+title: Porqué balonmano es más interesante que otros deportes
+excerpt: En nuestro país el fútbol domina en todas las cadenas de televisión consiguiendo ser el deporte más visto. Sin embargo, con la experiencia y comentarios de otras personas, me atrevería a decir que ver balonmano es mucho más interesante. 
+publishDate: '21 enero 2025'
 tags:
   - Guide
 seo:
   image:
-    src: '/post-1.jpg'
+    src: '/Balonmano.jpg'
     alt: A person standing at the window
 ---
 

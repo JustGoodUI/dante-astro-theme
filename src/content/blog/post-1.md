@@ -1,5 +1,5 @@
 ---
-title: Porqué balonmano es más interesante que otros deportes
+title: Porque balonmano es más interesante que otros deportes
 excerpt: In recent years, the way we work has undergone a significant transformation, largely due to advancements in technology and changing attitudes toward work-life balance. One of the most notable changes has been the rise of remote work, allowing employees to work from the comfort of their own homes.
 publishDate: 'Aug 5 2023'
 tags:

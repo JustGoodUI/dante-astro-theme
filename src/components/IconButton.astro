@@ -16,7 +16,7 @@ const buttonClasses = 'inline-flex items-center justify-center p-2 text-main bg-
             <slot />
         </a>
     ) : (
-        <button class:list={[buttonClasses, className]} {...rest}>
+        <button class:list={[buttonClasses, 'cursor-pointer', className]} {...rest}>
             <slot />
         </button>
     )

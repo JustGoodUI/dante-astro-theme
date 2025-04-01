@@ -49,7 +49,6 @@ Inside of Dante Astro theme, you'll see the following folders and files:
 ├── astro.config.mjs
 ├── package.json
 ├── README.md
-├── tailwind.config.cjs
 └── tsconfig.json
 ```
 

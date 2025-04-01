@@ -23,6 +23,7 @@ export type Subscribe = {
 };
 
 export type SiteConfig = {
+    website: string;
     logo?: Image;
     title: string;
     subtitle?: string;
@@ -38,6 +39,7 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
+    website: 'https://example.com',
     title: 'Dante',
     subtitle: 'Minimal Astro.js theme',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',

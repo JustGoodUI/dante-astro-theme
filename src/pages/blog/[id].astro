@@ -29,13 +29,7 @@ const { title, publishDate, updatedDate, excerpt, tags = [], seo } = post.data;
 const { Content } = await render(post);
 ---
 
-<BaseLayout
-    title={seo?.title ?? title}
-    description={seo?.description ?? excerpt}
-    image={seo?.image}
-    pageType="article"
-    showHeader={false}
->
+<BaseLayout title={seo?.title ?? title} description={seo?.description ?? excerpt} image={seo?.image} pageType="article" showHeader={false}>
     <article class="mb-16 sm:mb-24">
         <header class="mb-8">
             <h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight">{title}</h1>
@@ -68,13 +62,7 @@ const { Content } = await render(post);
                     </div>
                 )
             }
-            <Button
-                class="copy-url-button"
-                aria-label="Copy link"
-                data-url={href}
-                data-tooltip-default="Copy link"
-                data-tooltip-success="Copied">Share</Button
-            >
+            <Button class="copy-url-button" aria-label="Copy link" data-url={href} data-tooltip-default="Copy link" data-tooltip-success="Copied">Share</Button>
         </div>
     </article>
     {

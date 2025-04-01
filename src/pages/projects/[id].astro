@@ -1,7 +1,7 @@
 ---
 import { type CollectionEntry, getCollection, render } from 'astro:content';
-import BaseLayout from '../../layouts/BaseLayout.astro';
 import ProjectPreview from '../../components/ProjectPreview.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 import { sortItemsByDateDesc } from '../../utils/data-utils';
 
 export async function getStaticPaths() {
@@ -17,19 +17,29 @@ export async function getStaticPaths() {
     }));
 }
 
-type Props = { project: CollectionEntry<'projects'>; prevProject: CollectionEntry<'projects'>; nextProject: CollectionEntry<'projects'> };
+type Props = {
+    project: CollectionEntry<'projects'>;
+    prevProject: CollectionEntry<'projects'>;
+    nextProject: CollectionEntry<'projects'>;
+};
 
 const { project, prevProject, nextProject } = Astro.props;
 const { title, description, seo } = project.data;
 const { Content } = await render(project);
 ---
 
-<BaseLayout title={seo?.title ?? title} description={seo?.description ?? description} image={seo?.image} pageType="article" showHeader={false}>
+<BaseLayout
+    title={seo?.title ?? title}
+    description={seo?.description ?? description}
+    image={seo?.image}
+    pageType="article"
+    showHeader={false}
+>
     <article class="mb-16 sm:mb-24">
         <header class="mb-8">
             <h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight">{title}</h1>
         </header>
-        <div class="max-w-none prose prose-dante sm:prose-lg">
+        <div class="max-w-none prose sm:prose-lg">
             <Content />
         </div>
     </article>

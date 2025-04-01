@@ -17,7 +17,7 @@ const buttonClasses =
             <slot />
         </a>
     ) : (
-        <button class:list={[buttonClasses, className]} {...rest}>
+        <button class:list={[buttonClasses, 'cursor-pointer', className]} {...rest}>
             <slot />
         </button>
     )

@@ -91,7 +91,7 @@ const siteConfig: SiteConfig = {
         text: "Soy **Valerio Maquera**, Analista de datos, dedicado a la colaboración y la inteligencia artificial. Mi enfoque se basa en las finanzas, blockchain. Tengo un profundo aprecio por los datos y el software, Siéntete libre de explorar algunos de mis proyectos de codificación en<a href='https://github.com/Soyvalder?tab=repositories'>GitHub</a> or follow me on <a href='https://x.com/valderdata'>Twitter/X</a>.",
         image: {
             src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            alt: 'Una persona sentada en un escritorio frente a una computadora.'
         },
         actions: [
             {
@@ -101,8 +101,8 @@ const siteConfig: SiteConfig = {
         ]
     },
     subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
+        title: 'Suscríbete al boletín',
+        text: 'Una actualización por semana. Recibe todas las últimas publicaciones directamente en tu bandeja de entrada.',
         formUrl: '#'
     },
     postsPerPage: 8,

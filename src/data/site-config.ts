@@ -80,7 +80,7 @@ const siteConfig: SiteConfig = {
         {
             text: 'linkedIn',
             href: 'https://www.linkedin.com/in/analyts-vm//'
-        }
+        },
         {
             text: 'X/Twitter',
             href: 'https://twitter.com/'

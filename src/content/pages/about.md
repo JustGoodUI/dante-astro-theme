@@ -1,7 +1,7 @@
 ---
 title: About
 seo:
-  title: About Me
+  title: Acerca de
   description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
   image:
     src: '/about.jpeg'
@@ -10,34 +10,26 @@ seo:
 
 ![Alt text for image](/about.jpeg)
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Note!:**  [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
-## Ethan Donovan - Web Developer based in Estonia
+## Ventura Ingeneria - Asistente Administrativo
 
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+En mi rol en transporte y logística, gestioné operaciones diarias para empresas privadas y públicas. Utilicé herramientas como Excel y el sistemas para realizar seguimiento de expedientes, valorizaciones, facturaciones y control de mantenimientos de unidades.
 
-## Skills and Expertise
+Esta experiencia me permitió desarrollar habilidades en organización y gestión de documentos, asegurando un flujo de trabajo eficiente. Además, apliqué mi pensamiento crítico y analítico en la gestión de datos, utilizando herramientas comoy Python para optimizar la toma de decisiones.
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
+## Bingbong - Operador Analisis Tecnico y Prediccion
 
-## Innovation and Problem-Solving
+Implementé estrategias de comercio adaptado en mercados financieros, enfocándome en futuros y spot, logrando un rendimiento promedio del 8% mensual. Utilicé análisis técnico y fundamental para identificar oportunidades.
 
-I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
+Durante mi experiencia, analicé activos financieros como acciones y ETFs, empleando herramientas como TradingView, Yahoo Finance, Trii y Excel. Realicé análisis, generé informes y colaboré en estrategias de inversión, fortaleciendo mis habilidades críticas y analíticas en la gestión de datos con Power BI, Tableau y Python. Estoy listo para aplicar estas habilidades en futuras oportunidades.
 
-## Global Perspective, Local Impact
+## Efe - Representante de Ventas y Marketing
 
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
+Durante mi trayectoria en ventas, logística y marketing, utilicé herramientas como Excel y un sistema de call center, adquiriendo experiencia en áreas clave del negocio. Participé en el ciclo completo de ventas, colaboré con logística para asegurar la satisfacción del cliente y contribuí a la planificación de estrategias de marketing.
 
-## Continuous Learning
+Desarrollé habilidades de comunicación y resolución de problemas, aprendiendo a trabajar en equipo en entornos dinámicos. Esta experiencia me brindó una sólida comprensión de las operaciones comerciales y me preparó para mi carrera profesional. Estoy entusiasmado por aplicar mis conocimientos en gestión de datos, utilizando herramientas como canva, excel, Facebook Ads y Python, en futuras oportunidades laborales.
 
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
 
-## Collaboration and Communication
 
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
-
-## Get in Touch
-
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
-
-_Let's build something amazing together!_
+_Construyamos algo increíble juntos!_

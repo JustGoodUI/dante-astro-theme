@@ -3,5 +3,10 @@
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": ["source.organizeImports", "source.fixAll"],
     "typescript.tsdk": "node_modules/typescript/lib",
-    "files.associations": { "*.css": "tailwindcss" }
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ]
 }

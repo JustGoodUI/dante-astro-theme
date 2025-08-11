@@ -1,14 +1,14 @@
 ---
-title: Sobre mí
+title: About
 seo:
-  title: Sobre mí
+  title: About Me
   description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
   image:
-    src: '/Foto CV.jpg'
-    alt: Mujer profesional de pie con traje azul
+    src: '/about.jpeg'
+    alt: A person sitting at a desk in front of a computer
 ---
 
-![Alt text for image](/Foto CV.jpg)
+![Alt text for image](/about.jpeg)
 
 **Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 

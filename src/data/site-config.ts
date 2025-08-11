@@ -87,7 +87,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Transformando ideas en software',
-        text: "¡Hola! Soy Yorquidia, una desarrolladora full stack que se entusiasma con la creación de soluciones tecnológicas. Mi experiencia abarca tanto el front-end como el back-end, utilizando tecnologías como [Menciona tus tecnologías clave de front-end, por ejemplo: React, JavaScript, HTML/CSS] para construir interfaces dinámicas y [Menciona tus tecnologías clave de back-end, por ejemplo: Node.js, Express, Python, SQL/NoSQL] para gestionar la lógica del servidor y las bases de datos.Si crees que mi perfil encaja con lo que buscas, te animo a revisar mi trabajo aquí en<a href = 'https://github.com/yorquidiaguzman'>GitHub</ a > a contactarme directamente en<a href = 'https://www.linkedin.com/in/yorquidia-guzman-guzman/'>/ X </a>.",
+        text: "¡Hola! Soy Yorquidia, una desarrolladora full stack que se entusiasma con la creación de soluciones tecnológicas. Mi experiencia abarca tanto el front-end como el back-end, utilizando tecnologías como [Menciona tus tecnologías clave de front-end, por ejemplo: React, JavaScript, HTML/CSS] para construir interfaces dinámicas y [Menciona tus tecnologías clave de back-end, por ejemplo: Node.js, Express, Python, SQL/NoSQL] para gestionar la lógica del servidor y las bases de datos.Si crees que mi perfil encaja con lo que buscas, te animo a revisar mi trabajo aquí en <a href = 'https://github.com/yorquidiaguzman'>GitHub</ a > o contactarme directamente en mi página de Linkedin <a href = 'https://www.linkedin.com/in/yorquidia-guzman-guzman/'>/ X </a>.",
         image: {
             src: '/foto-cv.jpg',
             alt: 'Foto profesional de Yorquidia de pie con traje azul'

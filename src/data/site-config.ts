@@ -58,7 +58,7 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'CV',
-            href: '/Curriculum vitae'
+            href: '/'
         },
         {
             text: 'Github',

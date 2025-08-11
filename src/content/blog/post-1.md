@@ -10,6 +10,6 @@ seo:
     alt: A person standing at the window
 ---
 
-1. Acerca de mí
+## Acerca de mí
 Desarrolladora Full Stack Junior con formación en Desarrollo de Aplicaciones Multiplataforma y experiencia previa en entornos tecnológicos, soporte técnico y gestión de incidencias. Manejo de tecnologías como HTML, CSS, JavaScript, React, Angular, Java, Python, SQL y control de versiones con Git/GitHub.
 Apasionada por el aprendizaje continuo, el desarrollo de software y la creación de soluciones digitales eficientes. Experiencia trabajando con metodologías Agile/Scrum y herramientas de gestión de proyectos como Jira y Trello

@@ -98,8 +98,8 @@ const siteConfig: SiteConfig = {
                 href: 'email: yorquidiaguzmang@gmail.com'
             }
         ]
-    postsPerPage: 8,
-        projectsPerPage: 8
+    postsPerPage: 3,
+        projectsPerPage: 3
     };
 
     export default siteConfig;

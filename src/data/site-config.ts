@@ -84,31 +84,28 @@ const siteConfig: SiteConfig = {
             text: 'Linkedin',
             href: 'https://www.linkedin.com/in/yorquidia-guzman-guzman/'
         },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
     ],
     hero: {
         title: 'Transformando ideas en software',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
-        image: {
-            src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
-        },
-        actions: [
-            {
-                text: 'Get in Touch',
-                href: '/contact'
-            }
-        ]
+        text: "¡Hola! Soy Yorquidia, una desarrolladora full stack que se entusiasma con la creación de soluciones tecnológicas. Mi experiencia abarca tanto el front-end como el back-end, utilizando tecnologías como [Menciona tus tecnologías clave de front-end, por ejemplo: React, JavaScript, HTML/CSS] para construir interfaces dinámicas y [Menciona tus tecnologías clave de back-end, por ejemplo: Node.js, Express, Python, SQL/NoSQL] para gestionar la lógica del servidor y las bases de datos. Siempre pensé que mi vocación era la traducción, ya que disfrutaba conectar a las personas a través de la comunicación. Sin embargo, al descubrir la programación, encontré mi verdadera pasión: una nueva forma de comunicar. En lugar de conectar a personas con personas, ahora traduzco ideas de personas a máquinas para construir herramientas que resuelven problemas y ayudan a otros a alcanzar sus metas. Esta transición me ha permitido fusionar la lógica con la creatividad para desarrollar proyectos con un impacto real.
+Soy una persona proactiva, orientada a la resolución de problemas y siempre en busca de nuevas oportunidades para aprender y crecer.Me motiva trabajar en equipos que busquen crear productos de alta calidad y que me permitan aportar valor con mis habilidades.No dudes en echar un vistazo a mis proyectos o en contactarme si crees que mi perfil encaja con lo que buscas.Si crees que mi perfil encaja con lo que buscas, te animo a revisar mi trabajo aquí en<a href = 'https://github.com/yorquidiaguzman'>GitHub</ a > a contactarme directamente en<a href = 'https://www.linkedin.com/in/yorquidia-guzman-guzman/'>/ X </a>.",
+image: {
+    src: 'Foto CV.jpeg',
+        alt: 'Foto profesional de Yorquidia'
+},
+actions: [
+    {
+        text: 'Contacto',
+        href: 'email: yorquidiaguzmang@gmail.com'
+    }
+]
     },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
+subscribe: {
+    title: 'Subscribe to Dante Newsletter',
         text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
-    },
-    postsPerPage: 8,
+            formUrl: '#'
+},
+postsPerPage: 8,
     projectsPerPage: 8
 };
 

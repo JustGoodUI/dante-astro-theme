@@ -1,45 +1,44 @@
 ---
-import Button from './Button.astro';
 import siteConfig from '../data/site-config';
+import Button from './Button.astro';
 
-const subscribe = siteConfig.subscribe;
+type Props = { class?: string };
 
 const { class: className } = Astro.props;
+const subscribe = siteConfig.subscribe;
+if (!subscribe?.enabled || !subscribe?.form?.action) {
+    return;
+}
 ---
 
-{
-    subscribe?.formUrl && (
-        <section class:list={['px-8 py-12 flex flex-col items-center border border-dashed border-main text-center sm:px-12 sm:py-16', className]}>
-            {subscribe.title && (
-                <h2 class:list={['w-full max-w-xl text-2xl leading-tight font-serif font-medium sm:text-4xl', subscribe.text ? 'mb-4' : 'mb-8']}>
-                    {subscribe.title}
-                </h2>
-            )}
-            {subscribe.text && <p class="w-full max-w-xl mb-8 text-sm leading-normal">{subscribe.text}</p>}
-            <form
-                action={subscribe.formUrl}
-                method="post"
-                id="subscribe-form"
-                name="subscribe-form"
-                class="w-full max-w-xl flex flex-col gap-3.5 sm:flex-row"
-                target="_blank"
-            >
-                <label for="email" class="sr-only">
-                    Email Address
-                </label>
-                <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    class="w-full h-9 px-5 py-2 text-sm text-main bg-transparent border border-main rounded-full placeholder:text-main/60 focus:outline-hidden"
-                    required=""
-                    value=""
-                    placeholder="Your email"
-                />
-                <Button type="submit" name="subscribe" class="w-full h-9 sm:w-auto">
-                    Subscribe
-                </Button>
-            </form>
-        </section>
-    )
-}
+<section class:list={['border-main flex flex-col items-center gap-2 border border-dashed px-8 py-12 text-center sm:px-12 sm:py-16', className]}>
+    {subscribe.title && <h2 class="w-full max-w-xl font-serif text-2xl leading-tight font-medium sm:text-4xl">{subscribe.title}</h2>}
+    {subscribe.text && <p class="w-full max-w-xl text-sm leading-normal">{subscribe.text}</p>}
+    <form
+        action={subscribe.form.action}
+        method="post"
+        id="subscribe-form"
+        name="subscribe-form"
+        class:list={['flex w-full max-w-xl flex-col gap-3.5 sm:flex-row', { 'mt-6': subscribe.title || subscribe.text }]}
+        target="_blank"
+    >
+        <input
+            type="email"
+            name={subscribe.form.emailFieldName || 'email'}
+            required
+            autocomplete="email"
+            placeholder="name@example.com"
+            class="text-main border-main placeholder:text-main/60 h-9 w-full rounded-full border bg-transparent px-5 py-2 text-sm focus:outline-hidden"
+            aria-label="Email address"
+        />
+        {subscribe.form.hiddenFields?.map((field) => <input type="hidden" name={field.name} value={field.value} />)}
+        {
+            subscribe.form.honeypotFieldName && (
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name={subscribe.form.honeypotFieldName} tabindex="-1" autocomplete="off" />
+                </div>
+            )
+        }
+        <Button type="submit" class="h-9 w-full sm:w-auto">Subscribe</Button>
+    </form>
+</section>

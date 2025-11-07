@@ -1,26 +1,27 @@
 ---
 import siteConfig from '../data/site-config';
 
-const socialLinks = siteConfig.socialLinks || [];
-const navLinks = siteConfig.footerNavLinks || [];
+const socialLinks = siteConfig.socialLinks ?? [];
+const navLinks = siteConfig.footerNavLinks ?? [];
+const currentYear = new Date().getFullYear();
 ---
 
-<footer class="w-full max-w-3xl mx-auto pt-12 pb-10 sm:pt-24 sm:pb-14">
+<footer class="mx-auto w-full max-w-3xl pt-12 pb-10 sm:pt-24 sm:pb-14">
     {
         navLinks.length > 0 && (
-            <div class="mb-4 flex flex-wrap gap-x-6 gap-y-1">
+            <nav class="mb-4 flex flex-wrap gap-x-6 gap-y-1" aria-label="Footer navigation">
                 {navLinks.map((link) => (
                     <a class="font-serif hover:underline hover:underline-offset-2" href={link.href}>
                         {link.text}
                     </a>
                 ))}
-            </div>
+            </nav>
         )
     }
     <div
         class:list={[
-            'pt-6 flex flex-col gap-4 border-t border-dashed border-main',
-            { 'sm:flex-row-reverse sm:justify-between sm:items-center': socialLinks.length > 0 }
+            'border-main flex flex-col gap-4 border-t border-dashed pt-6',
+            { 'sm:flex-row-reverse sm:items-center sm:justify-between': socialLinks.length > 0 }
         ]}
     >
         {
@@ -40,7 +41,8 @@ const navLinks = siteConfig.footerNavLinks || [];
             )
         }
         <p class="text-sm">
-            &copy; {new Date().getFullYear()}&nbsp;<a class="hover:underline hover:underline-offset-2" href="/">{siteConfig.title}</a>. All rights reserved.
+            &copy; {currentYear}
+            <a class="hover:underline hover:underline-offset-2" href="/">{siteConfig.title}</a>. All rights reserved.
         </p>
     </div>
 </footer>

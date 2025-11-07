@@ -7,11 +7,11 @@ tags:
   - Web development
 seo:
   image:
-    src: '/post-9.jpg'
+    src: '../../assets/images/post-9.jpg'
     alt: Mountains
 ---
 
-![Mountains](/post-9.jpg)
+![Mountains](../../assets/images/post-9.jpg)
 
 **Note:** This post was created using Chat GPT to demonstrate the features of the _[Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/)_.
 

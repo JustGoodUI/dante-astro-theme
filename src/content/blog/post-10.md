@@ -8,11 +8,11 @@ tags:
   - Web
 seo:
   image:
-    src: '/post-10.jpg'
+    src: '../../assets/images/post-10.jpg'
     alt: Light straight lines
 ---
 
-![Light straight lines](/post-10.jpg)
+![Light straight lines](../../assets/images/post-10.jpg)
 
 **Note:** This post was created using Chat GPT to demonstrate the features of the _[Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/)_.
 

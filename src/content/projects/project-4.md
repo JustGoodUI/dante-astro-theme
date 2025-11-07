@@ -4,10 +4,10 @@ description: Leveraging advanced algorithms and machine learning, NeuralPlaylist
 publishDate: 'Oct 19 2023'
 seo:
   image:
-    src: '/project-4.jpg'
+    src: '../../assets/images/project-4.jpg'
 ---
 
-![Project preview](/project-4.jpg)
+![Project preview](../../assets/images/project-4.jpg)
 
 **Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 

@@ -1,6 +1,6 @@
 ---
 import { type CollectionEntry } from 'astro:content';
-import ArrowRight from '../icons/ArrowRight.astro';
+import ArrowRight from '../assets/icons/arrow-right.svg';
 import FormattedDate from './FormattedDate.astro';
 
 type Props = { post: CollectionEntry<'blog'>; class?: string; headingLevel?: 'h2' | 'h3' };
@@ -10,10 +10,10 @@ const { title, publishDate, updatedDate, excerpt } = post.data;
 const TitleTag = headingLevel;
 ---
 
-<a class:list={['flex justify-between items-start gap-8 group', className]} href={`/blog/${post.id}/`}>
+<a class:list={['group flex items-start justify-between gap-8', className]} href={`/blog/${post.id}/`}>
     <div class="grow">
         <TitleTag
-            class="text-xl leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-2xl"
+            class="font-serif text-xl leading-tight font-medium group-hover:underline group-hover:decoration-dashed group-hover:decoration-1 group-hover:underline-offset-4 sm:text-2xl"
         >
             {title}
         </TitleTag>
@@ -32,7 +32,7 @@ const TitleTag = headingLevel;
         </div>
         {excerpt && <div class="mt-3 text-sm leading-normal">{excerpt}</div>}
     </div>
-    <div class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center sm:shrink-0">
-        Read Post <ArrowRight class="fill-current w-4 h-4" />
+    <div class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:shrink-0 sm:items-center sm:gap-1">
+        Read Post <ArrowRight class="h-4 w-4 fill-current" />
     </div>
 </a>

@@ -8,11 +8,11 @@ tags:
   - Guide
 seo:
   image:
-    src: '/post-14.jpg'
+    src: '../../assets/images/post-14.jpg'
     alt: Wavy lines
 ---
 
-![Wavy lines](/post-14.jpg)
+![Wavy lines](../../assets/images/post-14.jpg)
 
 **Note:** This post was created using Chat GPT to demonstrate the features of the _[Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/)_.
 

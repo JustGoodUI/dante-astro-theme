@@ -1,25 +1,35 @@
 ---
 import { marked } from 'marked';
-import siteConfig from '../data/site-config';
+import type { Hero as HeroProps } from '../types';
 import Button from './Button.astro';
+import CustomImage from './CustomImage.astro';
 
-const hero = siteConfig.hero;
+type Props = HeroProps;
+
+const { title, image, text, actions } = Astro.props;
 ---
 
 {
-    (hero?.title || hero?.image?.src || hero?.text || (hero?.actions && hero.actions.length > 0)) && (
-        <section class="w-full flex flex-col gap-8 mb-16 sm:mb-24">
-            {hero.title && <h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight">{hero.title}</h1>}
-            {hero.image?.src && (
+    (title || image?.src || text || (actions && actions.length > 0)) && (
+        <section class="mb-16 flex w-full flex-col gap-8 sm:mb-24">
+            {title && <h1 class="font-serif text-3xl leading-tight font-medium sm:text-5xl sm:leading-tight">{title}</h1>}
+            {image?.src && (
                 <figure>
-                    <img class="w-full" src={hero.image.src} loading="lazy" decoding="async" alt={hero.image.alt || ''} />
-                    {hero.image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{hero.image.caption}</figcaption>}
+                    <CustomImage
+                        class="w-full"
+                        {...image}
+                        widths={[480, 640, 768, 1024, 1536]}
+                        sizes="(min-width: 832px) 768px, calc(100vw - 32px)"
+                        fetchpriority="high"
+                        loading="eager"
+                    />
+                    {image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{image.caption}</figcaption>}
                 </figure>
             )}
-            {hero.text && <div class="max-w-none prose sm:prose-lg" set:html={marked.parse(hero.text)} />}
-            {hero.actions && hero.actions.length > 0 && (
+            {text && <div class="prose sm:prose-lg max-w-none" set:html={marked.parse(text)} />}
+            {actions && actions.length > 0 && (
                 <div class="flex flex-wrap gap-4">
-                    {hero.actions.map((action) => (
+                    {actions.map((action) => (
                         <Button href={action.href}>{action.text}</Button>
                     ))}
                 </div>

@@ -1,7 +1,7 @@
 ---
 import type { HTMLAttributes } from 'astro/types';
 
-type AnchorProps = HTMLAttributes<'a'> & { type?: never };
+type AnchorProps = HTMLAttributes<'a'> & { href: string; type?: never };
 type ButtonProps = HTMLAttributes<'button'> & { href?: never };
 
 type Props = ButtonProps | AnchorProps;

@@ -7,11 +7,11 @@ tags:
   - Guide
 seo:
   image:
-    src: '/post-11.jpg'
+    src: '../../assets/images/post-11.jpg'
     alt: Empty road into the Horizon
 ---
 
-![Empty road into the Horizon](/post-11.jpg)
+![Empty road into the Horizon](../../assets/images/post-11.jpg)
 
 **Note:** This post was created using Chat GPT to demonstrate the features of the _[Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/)_.
 

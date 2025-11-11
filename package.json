@@ -1,7 +1,7 @@
 {
     "name": "dante-astro-theme",
     "type": "module",
-    "version": "0.2.0",
+    "version": "1.0.0",
     "scripts": {
         "dev": "astro dev",
         "start": "astro dev",
@@ -10,15 +10,15 @@
         "astro": "astro"
     },
     "dependencies": {
-        "@astrojs/mdx": "^4.3.9",
+        "@astrojs/mdx": "^4.3.10",
         "@astrojs/rss": "^4.0.13",
         "@astrojs/sitemap": "^3.6.0",
         "@fontsource-variable/inter": "^5.2.8",
         "@fontsource-variable/newsreader": "^5.2.10",
-        "@tailwindcss/vite": "^4.1.16",
-        "astro": "^5.15.3",
-        "marked": "^16.4.1",
-        "tailwindcss": "^4.1.16"
+        "@tailwindcss/vite": "^4.1.17",
+        "astro": "^5.15.5",
+        "marked": "^17.0.0",
+        "tailwindcss": "^4.1.17"
     },
     "devDependencies": {
         "@tailwindcss/typography": "^0.5.19",

@@ -1,18 +1,37 @@
 ---
 import siteConfig from '../data/site-config';
+import CustomImage from './CustomImage.astro';
+
+const titleClass = 'text-theme-foreground font-serif text-2xl leading-tight font-medium sm:text-3xl';
 ---
 
-<header class="w-full max-w-3xl mx-auto mb-12 sm:mb-16">
+<header class="mx-auto mb-12 flex w-full max-w-3xl items-center gap-4 sm:mb-16">
     {
-        siteConfig.logo && siteConfig.logo?.src ? (
+        siteConfig.avatar?.src && (
             <a href="/">
-                <img src={siteConfig.logo.src} alt={siteConfig.logo.alt || ''} class="max-h-12" />
-            </a>
-        ) : (
-            <a class="font-serif text-2xl leading-tight font-medium text-theme-foreground sm:text-4xl" href="/">
-                {siteConfig.title}
+                <CustomImage
+                    class="aspect-square w-16 rounded-full object-cover sm:w-20"
+                    {...siteConfig.avatar}
+                    loading="eager"
+                    fetchpriority="high"
+                    width={80}
+                    height={80}
+                    widths={[80, 160]}
+                    sizes="80px"
+                />
             </a>
         )
     }
-    {siteConfig.subtitle && <p class="text-sm leading-tight mt-1">{siteConfig.subtitle}</p>}
+    <div class="grow">
+        {
+            siteConfig.avatar?.src ? (
+                <p class={titleClass}>{siteConfig.title}</p>
+            ) : (
+                <a class={titleClass} href="/">
+                    {siteConfig.title}
+                </a>
+            )
+        }
+        {siteConfig.subtitle && <p class="text-sm leading-tight">{siteConfig.subtitle}</p>}
+    </div>
 </header>

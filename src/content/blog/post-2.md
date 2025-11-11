@@ -7,11 +7,11 @@ tags:
   - Web development
 seo:
   image:
-    src: '/post-2.jpg'
+    src: '../../assets/images/post-2.jpg'
     alt: Half open laptop on a desk
 ---
 
-![Half open laptop on a desk](/post-2.jpg)
+![Half open laptop on a desk](../../assets/images/post-2.jpg)
 
 **Note:** This post was created using Chat GPT to demonstrate the features of the _[Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/)_.
 

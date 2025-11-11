@@ -4,10 +4,10 @@ description: This web application encourages users to embark on thrilling advent
 publishDate: 'Dec 28 2023'
 seo:
   image:
-    src: '/project-6.jpg'
+    src: '../../assets/images/project-6.jpg'
 ---
 
-![Project preview](/project-6.jpg)
+![Project preview](../../assets/images/project-6.jpg)
 
 **Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 

@@ -1,24 +1,43 @@
 ---
 import interWoff2 from '@fontsource-variable/inter/files/inter-latin-wght-normal.woff2?url';
 import newsreaderWoff2 from '@fontsource-variable/newsreader/files/newsreader-latin-wght-normal.woff2?url';
+import { getImage } from 'astro:assets';
 import siteConfig from '../data/site-config';
+import type { ImageInput } from '../types';
+
 import '../styles/global.css';
 
 export type Props = {
     title?: string;
     description?: string;
-    image?: { src: string; alt?: string };
+    image?: ImageInput | undefined;
     pageType?: 'website' | 'article';
 };
 
-const { description = '', image = siteConfig.image, pageType = 'website' } = Astro.props;
+const { description = '', pageType = 'website' } = Astro.props;
 const title = [Astro.props.title, siteConfig.title].filter(Boolean).join(' | ');
-const resolvedImage = image?.src
-    ? {
-          src: new URL(image.src, Astro.site).toString(),
-          alt: image.alt
-      }
-    : undefined;
+const image = Astro.props.image ?? siteConfig.image;
+let resolvedImage: { src: string; alt?: string } | undefined;
+if (image?.src) {
+    if (typeof image.src === 'string') {
+        resolvedImage = {
+            src: new URL(image.src, Astro.site).toString(),
+            alt: image.alt
+        };
+    } else {
+        const optimizedImage = await getImage({
+            src: image.src as ImageMetadata,
+            width: 1200,
+            height: 630,
+            format: 'jpeg',
+            fit: 'cover'
+        });
+        resolvedImage = {
+            src: new URL(optimizedImage.src, Astro.site).toString(),
+            alt: image.alt
+        };
+    }
+}
 const canonicalURL = new URL(Astro.request.url, Astro.site);
 
 /**
@@ -59,14 +78,14 @@ function formatCanonicalURL(url: string | URL) {
 <meta property="og:type" content={pageType} />
 <meta property="og:url" content={formatCanonicalURL(canonicalURL)} />
 <meta property="og:title" content={title} />
-<meta property="og:description" content={description} />
+{description && <meta property="og:description" content={description} />}
 {resolvedImage?.src && <meta property="og:image" content={resolvedImage.src} />}
 {resolvedImage?.alt && <meta property="og:image:alt" content={resolvedImage.alt} />}
 
 <!-- X/Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={formatCanonicalURL(canonicalURL)} />
-<meta property="twitter:title" content={title} />
-<meta property="twitter:description" content={description} />
-{resolvedImage?.src && <meta property="twitter:image" content={resolvedImage.src} />}
-{resolvedImage?.alt && <meta name="twitter:image:alt" content={resolvedImage?.alt} />}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content={formatCanonicalURL(canonicalURL)} />
+<meta name="twitter:title" content={title} />
+{description && <meta name="twitter:description" content={description} />}
+{resolvedImage?.src && <meta name="twitter:image" content={resolvedImage.src} />}
+{resolvedImage?.alt && <meta name="twitter:image:alt" content={resolvedImage.alt} />}

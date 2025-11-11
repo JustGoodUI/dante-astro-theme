@@ -1,13 +1,13 @@
 ---
 import type { HTMLAttributes } from 'astro/types';
 
-type AnchorProps = HTMLAttributes<'a'> & { type?: never };
+type AnchorProps = HTMLAttributes<'a'> & { href: string; type?: never };
 type ButtonProps = HTMLAttributes<'button'> & { href?: never };
 
 type Props = ButtonProps | AnchorProps;
 
 const { href, class: className, ...rest } = Astro.props;
-const buttonClasses = 'inline-flex items-center justify-center p-2 text-main bg-main border border-main rounded-full transition hover:bg-muted';
+const buttonClasses = 'inline-flex items-center justify-center p-2 text-main bg-transparent border border-main rounded-full transition-colors hover:bg-muted';
 ---
 
 {

@@ -8,11 +8,11 @@ tags:
 isFeatured: true
 seo:
   image:
-    src: '/post-13.jpg'
+    src: '../../assets/images/post-13.jpg'
     alt: Abstract snow
 ---
 
-![Abstract snow](/post-13.jpg)
+![Abstract snow](../../assets/images/post-13.jpg)
 
 **Note:** This post was created using Chat GPT to demonstrate the features of the _[Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/)_.
 

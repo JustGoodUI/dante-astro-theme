@@ -1,0 +1,26 @@
+---
+import { Image } from 'astro:assets';
+import type { ImageInput } from '../types';
+
+type Props = ImageInput & {
+    class?: string;
+    width?: number;
+    height?: number;
+    sizes?: string;
+    widths?: number[];
+    format?: 'avif' | 'webp' | 'png' | 'jpg' | 'jpeg';
+    loading?: 'lazy' | 'eager';
+    fetchpriority?: 'high' | 'low' | 'auto';
+    decoding?: 'async' | 'sync' | 'auto';
+};
+
+const { src, alt = '', class: className, loading = 'lazy', fetchpriority, decoding = 'async', ...rest } = Astro.props as Props;
+---
+
+{
+    typeof src === 'string' ? (
+        <img class={className} src={src} alt={alt} loading={loading} decoding={decoding} />
+    ) : (
+        <Image class={className} src={src} alt={alt} loading={loading} fetchpriority={fetchpriority} decoding={decoding} {...(rest as any)} />
+    )
+}

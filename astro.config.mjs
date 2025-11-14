@@ -6,7 +6,7 @@ import siteConfig from './src/data/site-config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://nrglen.github.io',
+    site: 'https://nrg.github.io',
     vite: {
         plugins: [tailwindcss()]
     },

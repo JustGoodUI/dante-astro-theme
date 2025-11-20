@@ -16,7 +16,7 @@
         "@fontsource-variable/inter": "^5.2.8",
         "@fontsource-variable/newsreader": "^5.2.10",
         "@tailwindcss/vite": "^4.1.17",
-        "astro": "^5.15.5",
+        "astro": "^5.15.9",
         "marked": "^17.0.0",
         "tailwindcss": "^4.1.17"
     },

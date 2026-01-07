@@ -1,0 +1,9 @@
+---
+const { currentLang } = Astro.props;
+const otherLang = currentLang === 'es' ? 'en' : 'es';
+const label = currentLang === 'es' ? 'English' : 'Español';
+const currentPath = Astro.url.pathname.replace(/^\/(es|en)/, ''); // elimina /es o /en
+const targetPath = `/${otherLang}${currentPath}`;
+---
+
+<a href={targetPath} class="px-2 py-1 border rounded">{label}</a>

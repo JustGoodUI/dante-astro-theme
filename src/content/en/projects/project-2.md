@@ -1,4 +1,14 @@
 ---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Content from '../../../content/en/projects/ejemplo.astro';
+---
+
+<BaseLayout lang="en">
+  <Content />
+</BaseLayout>
+
+
+---
 title: 'TimeWarp - Travel Agency Website'
 description: Explore the possibilities of time travel through an immersive website for a fictional travel agency, complete with dynamic destination timelines and interactive historical events.
 publishDate: 'Oct 2 2023'

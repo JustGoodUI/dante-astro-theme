@@ -1,37 +1,35 @@
 ---
 import siteConfig from '../data/site-config';
 import CustomImage from './CustomImage.astro';
+import LanguageSwitcher from './LanguageSwitcher.astro';
 
 const titleClass = 'text-theme-foreground font-serif text-2xl leading-tight font-medium sm:text-3xl';
 ---
 
 <header class="mx-auto mb-12 flex w-full max-w-3xl items-center gap-4 sm:mb-16">
-    {
-        siteConfig.avatar?.src && (
-            <a href="/">
-                <CustomImage
-                    class="aspect-square w-16 rounded-full object-cover sm:w-20"
-                    {...siteConfig.avatar}
-                    loading="eager"
-                    fetchpriority="high"
-                    width={80}
-                    height={80}
-                    widths={[80, 160]}
-                    sizes="80px"
-                />
-            </a>
-        )
-    }
-    <div class="grow">
-        {
-            siteConfig.avatar?.src ? (
-                <p class={titleClass}>{siteConfig.title}</p>
-            ) : (
-                <a class={titleClass} href="/">
-                    {siteConfig.title}
-                </a>
-            )
-        }
-        {siteConfig.subtitle && <p class="text-sm leading-tight">{siteConfig.subtitle}</p>}
-    </div>
+  {siteConfig.avatar?.src && (
+    <a href="/">
+      <CustomImage
+        class="aspect-square w-16 rounded-full object-cover sm:w-20"
+        {...siteConfig.avatar}
+        loading="eager"
+        fetchpriority="high"
+        width={80}
+        height={80}
+        widths={[80, 160]}
+        sizes="80px"
+      />
+    </a>
+  )}
+  <div class="grow">
+    {siteConfig.avatar?.src ? (
+      <p class={titleClass}>{siteConfig.title}</p>
+    ) : (
+      <a class={titleClass} href="/">{siteConfig.title}</a>
+    )}
+    {siteConfig.subtitle && <p class="text-sm leading-tight">{siteConfig.subtitle}</p>}
+  </div>
+
+  <!-- Switcher agregado -->
+  <LanguageSwitcher currentLang="es" /> 
 </header>

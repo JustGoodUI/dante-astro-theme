@@ -65,31 +65,29 @@ const siteConfig: SiteConfig = {
             href: 'https://twitter.com/'
         }
     ],
-hero: {
-  title: 'Automatización industrial, bien hecha.',
-  text:
-    "Hola, soy **José**.\n\n" +
-    "Trabajo en **automatización industrial**, desarrollando soluciones con **PLC, SCADA, OPC UA y bases de datos**.\n\n" +
-    "Me gusta construir sistemas claros, fiables y bien integrados, donde el control, la visualización " +
-    "y los datos encajan de forma natural.\n\n" +
-    "En este espacio comparto algunos de los proyectos en los que he trabajado: " +
-    "desde lógica de control hasta integración IT/OT y explotación de datos industriales.\n\n" +
-    "Si te interesa cómo llevo una idea desde el PLC hasta la base de datos, estás en el sitio correcto.",
-  image: {
-    src: hero,
-    alt: 'Entorno de trabajo de automatización industrial'
-  },
-  actions: [
-    {
-      text: 'Ver proyectos',
-      href: '/projects'
+    hero: {
+    title: 'Control, Visión e Integración IIoT.',
+    text:
+      "Hola, soy **Daniel**.\n\n" +
+      "Soy un **Programador de PLC** apasionado por la innovación industrial, especializado en **Siemens (TIA Portal), Omron y Visión Artificial**.\n\n" +
+      "No solo escribo código en **Ladder o SCL**; diseño soluciones completas que van desde el esquema eléctrico en **Eplan** hasta la integración de datos con **Node-RED y Python**.\n\n" +
+      "Aquí encontrarás proyectos reales donde combino el control de movimiento (**Servos**) con sistemas de visión y conectividad **OPC UA**.\n\n" +
+      "Si buscas a alguien curioso, ambicioso y capaz de unir el taller con la nube, bienvenido a mi portfolio.",
+    image: {
+      src: hero,
+      alt: 'Daniel Pastor - Programador de Automatización'
     },
-    {
-      text: 'Contacto',
-      href: '/contact'
-    }
-  ]
-},
+    actions: [
+        {
+        text: 'Ver proyectos',
+        href: '/projects'
+        },
+        {
+        text: 'Contacto',
+        href: '/contact'
+        }
+    ]
+    },
     subscribe: {
         enabled: true,
         title: 'Subscribe to Dante Newsletter',

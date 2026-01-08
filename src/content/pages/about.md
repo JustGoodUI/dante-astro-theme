@@ -3,12 +3,8 @@ title: "Máquina Etiquetadora Inteligente 4.0"
 description: "Automatización completa de una etiquetadora con control de movimiento (Servos), Visión Artificial (Cognex) e integración IoT con Node-RED."
 publishDate: 2025-09-01
 isFeatured: true
-seo:
-  image:
-    src: "/assets/images/project-scada.jpg"
 ---
 
-![Project preview](/assets/images/project-scada.jpg)
 
 **Nota:** Este proyecto representa mi Trabajo de Final de Grado, desarrollado durante 4 meses, integrando tecnologías de control, visión y conectividad IoT.
 

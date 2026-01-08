@@ -1,83 +1,86 @@
 ---
-title: "Máquina Etiquetadora Inteligente 4.0"
-description: "Automatización completa de una etiquetadora con control de movimiento (Servos), Visión Artificial (Cognex) e integración IoT con Node-RED."
-publishDate: 2025-09-01
+title: "Stack Tecnológico y Competencias"
+description: "Perfil técnico especializado en el ecosistema Siemens, integración de sistemas Omron y digitalización de procesos industriales."
+publishDate: 2024-01-01
 isFeatured: true
 ---
 
 
-**Nota:** Este proyecto representa mi Trabajo de Final de Grado, desarrollado durante 4 meses, integrando tecnologías de control, visión y conectividad IoT.
 
-**Resumen del Proyecto:** Diseño y programación integral de una máquina etiquetadora automática. El sistema coordina el control de movimiento de precisión, la validación de calidad mediante visión artificial y la comunicación entre múltiples CPUs y sistemas de gestión de datos.
-
----
-
-## 🎯 Objetivos
-
-1. **Sincronización de Control:** Comunicar 2 PLCs Siemens para gestionar la lógica de seguridad y proceso de forma distribuida.
-2. **Precisión Milimétrica:** Implementar control de movimiento avanzado mediante **Servomotores** para el etiquetado exacto.
-3. **Control de Calidad:** Integrar cámara **Cognex** para validación automática de etiquetas.
-4. **Industria 4.0:** Digitalizar el proceso enviando datos de producción a través de **Node-RED**.
+> [cite_start]**"La curiosidad y la ambición son el motor de mi aprendizaje continuo. Busco transformar problemas complejos en soluciones de control eficientes y escalables."** [cite: 4, 5]
 
 ---
 
-## ⚡ Características Principales
+## 🚀 Especialidades en Automatización
 
-### 1. Arquitectura de Control Distribuida
-El sistema no depende de un solo cerebro. Se implementó una comunicación robusta entre controladores y periferia:
+### 🧠 Control Lógico y Programación (PLC)
+[cite_start]Dominio profundo de los lenguajes estándar de la industria bajo normativas IEC 61131-3. [cite: 10]
 
-| Componente | Función | Tecnología |
-|------------|---------|------------|
-| **PLC Maestro** | Lógica central y secuencias | Siemens S7-1200/1500 |
-| **PLC Esclavo** | Gestión de subsistemas | Comunicación S7 / Profinet |
-| **HMI** | Interfaz de operario | Omron NB Series |
+* [cite_start]**Siemens TIA Portal:** Experto en arquitectura S7-1200 y S7-1500 utilizando **SCL** para lógica compleja y **Ladder** para procesos secuenciales. [cite: 10, 11]
+* [cite_start]**Omron CX-Programmer:** Desarrollo de soluciones robustas para controladores compactos y modulares. [cite: 11]
+* [cite_start]**Simulación Avanzada:** Validación de procesos mediante **Factory IO** antes de la puesta en marcha real, reduciendo tiempos de error. [cite: 16]
 
-### 2. Visión Artificial y Motion Control
-La máquina no solo "mueve" cosas, sino que "ve" y "corrige":
+### 🖥️ Visualización y Supervisión (HMI/SCADA)
+[cite_start]Diseño de interfaces centradas en el operario para una monitorización intuitiva. [cite: 12]
 
-* **Servomotor:** Configuración de perfiles de movimiento para asegurar que la etiqueta se aplica a la velocidad exacta de la cinta transportadora.
-* **Cámara Cognex:** Inspección en tiempo real. Si la etiqueta está torcida o falta, el sistema lo detecta.
-
-### 3. Conectividad IT/OT (Node-RED)
-Salto del taller a la nube. El sistema expone datos para su visualización o almacenamiento externo.
-
-> **Dato Clave:** La integración con Node-RED permite crear dashboards web accesibles desde móvil o enviar alertas por Telegram/Email en caso de fallo.
+| Plataforma | Herramienta de Diseño | Funcionalidades |
+| :--- | :--- | :--- |
+| **Siemens** | Simatic WinCC | [cite_start]Gestión de alarmas, recetas y logging de datos. [cite: 12] |
+| **Omron** | CX-Designer / NB Designer | [cite_start]Interfaces táctiles optimizadas para rendimiento. [cite: 12, 25] |
+| **Modern UI** | Node-Red Dashboards | [cite_start]Visualización remota y control vía web/móvil. [cite: 25, 35] |
 
 ---
 
-## 🛠️ Tech Stack
+## ⚡ Conectividad e Industria 4.0
 
-![Siemens](https://img.shields.io/badge/PLC-Siemens-009999?style=for-the-badge&logo=siemens&logoColor=white)
-![TIA Portal](https://img.shields.io/badge/IDE-TIA_Portal-grey?style=for-the-badge)
-![Omron](https://img.shields.io/badge/HMI-Omron_NB-blue?style=for-the-badge&logo=omron&logoColor=white)
-![Cognex](https://img.shields.io/badge/Visión-Cognex-yellow?style=for-the-badge)
-![Node-RED](https://img.shields.io/badge/IoT-Node--RED-8F0000?style=for-the-badge&logo=nodered&logoColor=white)
+### 🌐 Redes Industriales y Protocolos
+[cite_start]Capacidad para interconectar dispositivos en arquitecturas de red complejas. [cite: 13]
 
-- **Lenguajes:** Ladder (LAD), SCL.
-- **Hardware:** 2x PLCs Siemens, 1x Pantalla Omron, Servodrivers.
-- **Software:** TIA Portal, NB Designer, Software de Cognex.
-- **Protocolos:** S7 Communication, TCP/IP.
+* [cite_start]**Bus de Campo:** Implementación de **Profibus** y **Profinet** para control en tiempo real. [cite: 13]
+* [cite_start]**Smart Sensors:** Configuración de dispositivos **IO-Link** para diagnósticos avanzados. [cite: 13]
+* [cite_start]**Interoperabilidad:** Integración de sistemas mediante **OPC UA**, facilitando el flujo de datos entre el taller y la oficina. [cite: 25]
 
----
-
-## 📊 Desafíos y Resultados
-
-| Desafío | Solución Implementada | Resultado |
-|---------|-----------------------|-----------|
-| **Comunicación entre marcas** | Integración de HMI Omron con PLC Siemens | ✅ Visualización fluida y sin latencia |
-| **Sincronización** | Configuración precisa del Servomotor | ✅ Etiquetado sin arrugas ni desviaciones |
-| **Gestión de Datos** | Flujo de Node-RED personalizado | ✅ Dashboard en tiempo real disponible |
-| **Tiempo de desarrollo** | Planificación estructurada (4 meses) | ✅ Proyecto funcional en plazo |
+### 🦾 Motion Control y Visión
+* [cite_start]**Precisión:** Configuración y puesta en marcha de **Servomotores** y variadores de frecuencia. [cite: 16, 35]
+* [cite_start]**Inteligencia:** Parametrización de cámaras de visión artificial para inspección y guiado. [cite: 14, 35]
 
 ---
 
-## 🖼️ Arquitectura del Sistema
+## 🛠️ Herramientas de Desarrollo (Tech Stack)
+
+![Siemens](https://img.shields.io/badge/PLC-Siemens_S7--1500-009999?style=flat-square&logo=siemens&logoColor=white) 
+![Omron](https://img.shields.io/badge/PLC-Omron_Sysmac-005EB8?style=flat-square&logo=omron&logoColor=white) 
+![Eplan](https://img.shields.io/badge/CAD-Eplan_P8-orange?style=flat-square) 
+![Node-Red](https://img.shields.io/badge/IoT-Node--Red-8F0000?style=flat-square&logo=node-red&logoColor=white) 
+![Python](https://img.shields.io/badge/Language-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+### 📊 Desglose de Competencias Técnicas
+
+| Área | Tecnologías |
+| :--- | :--- |
+| **Lenguajes Industriales** | [cite_start]Ladder, SCL (Structured Control Language). [cite: 10, 24] |
+| **Lenguajes IT** | [cite_start]Python, Visual Basic, HTML. [cite: 24] |
+| **Diseño de Hardware** | [cite_start]Montaje de cuadros eléctricos y diseño en **Eplan**. [cite: 15, 31] |
+| **Metodología** | [cite_start]Trabajo en equipo, Perfeccionismo y Responsabilidad. [cite: 26, 27] |
+
+---
+
+## 🗺️ Ecosistema de Trabajo (Workflow)
 
 ```mermaid
-graph TD
-    A[PLC Siemens Maestro] <-->|Profinet/S7| B[PLC Siemens Esclavo]
-    A -->|Pulsos/PTO| C[Servomotor Etiquetado]
-    A <-->|I/O o Com| D[Cámara Cognex]
-    A <-->|Ethernet| E[HMI Omron NB]
-    A -->|TCP/IP| F[Node-RED]
-    F --> G[Dashboard Web / BBDD]
+graph LR
+    subgraph "Fase de Diseño"
+    A[Eplan - Esquemas] --> B[TIA Portal - Lógica]
+    end
+    
+    subgraph "Fase de Control"
+    B --> C{Protocolos}
+    C -->|Profinet| D[Servomotores]
+    C -->|IO-Link| E[Sensores/Visión]
+    end
+    
+    subgraph "Fase de Datos"
+    B --> F[OPC UA]
+    F --> G[Node-Red / Python]
+    G --> H[Dashboard IoT]
+    end

@@ -73,8 +73,7 @@ const siteConfig: SiteConfig = {
     "Más allá de la tecnología, valoro **trabajar en un buen ambiente**, rodeado de personas con las que se pueda colaborar, reír y aprender juntos. Me considero alguien **amigable, cercano y con ganas de aportar**, porque sé que los mejores resultados nacen cuando el equipo se siente cómodo y motivado.\n\n" +
     "Cuando no estoy entre cables y pantallas, soy **deportista**: me gusta mantener la energía, la disciplina y la mente clara, lo que también se refleja en mi manera de abordar los proyectos.\n\n" +
     "Si buscas a alguien que combine **pasión por aprender, curiosidad tecnológica y buena energía para el equipo**, aquí estoy.\n\n" +
-    "📩 **Hablemos y compartamos ideas**."
-
+    "📩 **Hablemos y compartamos ideas**.",
     image: {
       src: hero,
       alt: 'Daniel Pastor - Programador de Automatización'

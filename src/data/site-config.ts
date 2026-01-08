@@ -9,7 +9,7 @@ const siteConfig: SiteConfig = {
         alt: 'Ethan Donovan'
     },
     title: 'Daniel Pastor Redondo',
-    subtitle: 'Técnico de Automatización Industrial | PLC & SCADA',
+    subtitle: 'Automation Technician | PLC, SCADA, OPC UA & SQL Databases',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
@@ -65,20 +65,31 @@ const siteConfig: SiteConfig = {
             href: 'https://twitter.com/'
         }
     ],
-    hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
-        image: {
-            src: hero,
-            alt: 'A person sitting at a desk in front of a computer'
-        },
-        actions: [
-            {
-                text: 'Get in Touch',
-                href: '/contact'
-            }
-        ]
+hero: {
+  title: 'Automatización industrial, bien hecha.',
+  text:
+    "Hola, soy **José**.\n\n" +
+    "Trabajo en **automatización industrial**, desarrollando soluciones con **PLC, SCADA, OPC UA y bases de datos**.\n\n" +
+    "Me gusta construir sistemas claros, fiables y bien integrados, donde el control, la visualización " +
+    "y los datos encajan de forma natural.\n\n" +
+    "En este espacio comparto algunos de los proyectos en los que he trabajado: " +
+    "desde lógica de control hasta integración IT/OT y explotación de datos industriales.\n\n" +
+    "Si te interesa cómo llevo una idea desde el PLC hasta la base de datos, estás en el sitio correcto.",
+  image: {
+    src: hero,
+    alt: 'Entorno de trabajo de automatización industrial'
+  },
+  actions: [
+    {
+      text: 'Ver proyectos',
+      href: '/projects'
     },
+    {
+      text: 'Contacto',
+      href: '/contact'
+    }
+  ]
+},
     subscribe: {
         enabled: true,
         title: 'Subscribe to Dante Newsletter',

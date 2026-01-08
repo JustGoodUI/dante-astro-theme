@@ -29,7 +29,7 @@ title: "Sobre mí"
 ## 💼 Experiencia Destacada
 
 
-**Técnico en Automatización y Control Industrial | Antares SIstemas S.L.**
+**Técnico en Automatización y Control Industrial | Antares SIstemas S.L.**\n
 *(Noviembre 2025 — Febrero 2026)*
 
 * **Puesta en marcha:** Implementación, pruebas y arranque de sistemas de automatización industrial, garantizando la operatividad y eficiencia de la maquinaria.
@@ -37,7 +37,7 @@ title: "Sobre mí"
 * **Programación SCADA:** Desarrollo y mantenimiento de interfaces SCADA para monitoreo y control de procesos industriales.
 * **Edición de PLC:** Programacion, modificación, migración y optimización de programas PLC para mejorar el rendimiento de maquinaria y fabricas.
 
-**Técnico Montador y Programador | Zetes Multicom S.A.**
+**Técnico Montador y Programador | Zetes Multicom S.A.**\n
 *(Septiembre 2024 — Septiembre 2025)*
 
 * **Montaje Técnico:** Ensamblaje de cuadros eléctricos y neumáticos, junto con el montaje mecánico de maquinaria industrial, durante 3 meses.

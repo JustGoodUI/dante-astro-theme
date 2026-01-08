@@ -66,9 +66,9 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-    title: 'Control, Visión e Integración IIoT.',
+    title: 'Carta de presentación',
     text:
-    "Hola, soy **Daniel**.\n\n" +
+    "Hola, soy **Daniel Pastor**.\n\n" +
     "Si algo me define es la **curiosidad**. Me encanta aprender, explorar **software y hardware nuevos**, descubrir cómo funcionan las cosas y experimentar con todo lo que sea nuevo conocimiento. Cada proyecto es para mí una oportunidad de crecer, de probar algo distinto y de encontrar soluciones creativas que realmente funcionen.\n\n" +
     "Más allá de la tecnología, valoro **trabajar en un buen ambiente**, rodeado de personas con las que se pueda colaborar, reír y aprender juntos. Me considero alguien **amigable, cercano y con ganas de aportar**, porque sé que los mejores resultados nacen cuando el equipo se siente cómodo y motivado.\n\n" +
     "Cuando no estoy entre cables y pantallas, soy **deportista**: me gusta mantener la energía, la disciplina y la mente clara, lo que también se refleja en mi manera de abordar los proyectos.\n\n" +

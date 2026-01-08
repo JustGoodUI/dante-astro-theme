@@ -1,14 +1,13 @@
 ---
-title = "EN Español";
-description = "Sistema SCADA con Movicon para supervisión, control y optimización de una fábrica de pienso, integrado con MES y base de datos SQL.";
-publishDate = "2026-01-07";
-isFeatured = true;
-seo = {
-  image: {
-    src: '../../assets/images/project-scada.jpg'
-  }
-};
+title: "EN Español"
+description: "Sistema SCADA con Movicon para supervisión, control y optimización de una fábrica de pienso, integrado con MES y base de datos SQL."
+publishDate: 2026-01-07
+isFeatured: true
+seo:
+  image:
+    src: "../../assets/images/project-scada.jpg"
 ---
+
 
 
 ![Project preview](../../assets/images/project-scada.jpg)

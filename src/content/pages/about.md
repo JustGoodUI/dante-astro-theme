@@ -8,7 +8,7 @@ seo:
     src: "/assets/images/etiquetadora-preview.jpg"
 ---
 
-![Project preview](/assets/images/etiquetadora-preview.jpg)
+![Project preview](/assets/images/project-scada.jpg)
 
 **Nota:** Este proyecto representa mi Trabajo de Final de Grado, desarrollado durante 4 meses, integrando tecnologías de control, visión y conectividad IoT.
 

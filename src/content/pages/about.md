@@ -11,10 +11,10 @@ title: "Sobre mí"
 
 | Automatización y Control | Digitalización e IT Industrial |
 | :--- | :--- |
-| **PLC:** TIA Portal (Siemens), CX-Programmer (Omron) | **SCADA/MES:** Movicon, Simatic WinCC, CX-designer, Kinco HMIware |
-| **Lenguajes:** Ladder, SCL, Visual Basic, Python, HTML | **Datos:** BBDD (Bases de Datos), OPC UA, Node-Red |
-| **Hardware:** Servomotores, Variadores, Cámaras Cognex | **IT Tools:** .git (Control de versiones) |
-| **Redes:** Profinet, Profibus, IO-Link | **Diseño:** Eplan (Esquemas eléctricos) |
+| **PLC:** TIA Portal, CX-Programmer | **SCADA/MES:** Movicon, Simatic WinCC, CX-designer, Kinco HMIware |
+| **Lenguajes:** Ladder, SCL, Visual Basic, Python, HTML | **Datos:** BBDD, OPC UA, Node-Red |
+| **Hardware:** Servomotores, Variadores, Cámaras Cognex | **IT Tools:** .git, sourcetree |
+| **Redes:** Profinet, Profibus, IO-Link | **Diseño:** Eplan |
 
 
 ---

@@ -46,23 +46,20 @@ const siteConfig: SiteConfig = {
             text: 'Terms',
             href: '/terms'
         },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
+
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'Linkedin',
+            href: 'https://www.linkedin.com/in/daniel-pastor-redondo-49794a331/'
         },
         {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
+            text: 'GitHub',
+            href: 'https://github.com/McJosebas'
         },
         {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'WebSite',
+            href: 'https://mcjosebas.github.io/'
         }
     ],
     hero: {
@@ -74,10 +71,10 @@ const siteConfig: SiteConfig = {
     "Cuando no estoy entre cables y pantallas, soy **deportista**: me gusta mantener la energía, la disciplina y la mente clara, lo que también se refleja en mi manera de abordar los proyectos.\n\n" +
     "Si buscas a alguien que combine **pasión por aprender, curiosidad tecnológica y buena energía para el equipo**, aquí estoy.\n\n" +
     "📩 **Hablemos y compartamos ideas**.",
-    image: {
-      src: hero,
-      alt: 'Daniel Pastor - Programador de Automatización'
-    },
+    //image: {
+    //  src: hero,
+    //  alt: 'Daniel Pastor - Programador de Automatización'
+    //},
     actions: [
         {
         text: 'Ver proyectos',

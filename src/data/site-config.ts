@@ -68,11 +68,13 @@ const siteConfig: SiteConfig = {
     hero: {
     title: 'Control, Visión e Integración IIoT.',
     text:
-      "Hola, soy **Daniel**.\n\n" +
-      "Soy un **Programador de PLC** apasionado por la innovación industrial, especializado en **Siemens (TIA Portal), Omron y Visión Artificial**.\n\n" +
-      "No solo escribo código en **Ladder o SCL**; diseño soluciones completas que van desde el esquema eléctrico en **Eplan** hasta la integración de datos con **Node-RED y Python**.\n\n" +
-      "Aquí encontrarás proyectos reales donde combino el control de movimiento (**Servos**) con sistemas de visión y conectividad **OPC UA**.\n\n" +
-      "Si buscas a alguien curioso, ambicioso y capaz de unir el taller con la nube, bienvenido a mi portfolio.",
+    "Hola, soy **Daniel**.\n\n" +
+    "Si algo me define es la **curiosidad**. Me encanta aprender, explorar **software y hardware nuevos**, descubrir cómo funcionan las cosas y experimentar con todo lo que sea nuevo conocimiento. Cada proyecto es para mí una oportunidad de crecer, de probar algo distinto y de encontrar soluciones creativas que realmente funcionen.\n\n" +
+    "Más allá de la tecnología, valoro **trabajar en un buen ambiente**, rodeado de personas con las que se pueda colaborar, reír y aprender juntos. Me considero alguien **amigable, cercano y con ganas de aportar**, porque sé que los mejores resultados nacen cuando el equipo se siente cómodo y motivado.\n\n" +
+    "Cuando no estoy entre cables y pantallas, soy **deportista**: me gusta mantener la energía, la disciplina y la mente clara, lo que también se refleja en mi manera de abordar los proyectos.\n\n" +
+    "Si buscas a alguien que combine **pasión por aprender, curiosidad tecnológica y buena energía para el equipo**, aquí estoy.\n\n" +
+    "📩 **Hablemos y compartamos ideas**."
+
     image: {
       src: hero,
       alt: 'Daniel Pastor - Programador de Automatización'
@@ -83,8 +85,8 @@ const siteConfig: SiteConfig = {
         href: '/projects'
         },
         {
-        text: 'Contacto',
-        href: '/contact'
+        text: 'Currículum',
+        href: '/about'
         }
     ]
     },

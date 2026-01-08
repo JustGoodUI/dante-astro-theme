@@ -5,7 +5,7 @@ publishDate: 2025-09-01
 isFeatured: true
 seo:
   image:
-    src: "/assets/images/etiquetadora-preview.jpg"
+    src: "/assets/images/project-scada.jpg"
 ---
 
 ![Project preview](/assets/images/project-scada.jpg)

@@ -1,43 +1,87 @@
 ---
-title: About
+title: "Máquina Etiquetadora Inteligente 4.0"
+description: "Automatización completa de una etiquetadora con control de movimiento (Servos), Visión Artificial (Cognex) e integración IoT con Node-RED."
+publishDate: 2025-09-01
+isFeatured: true
 seo:
-  title: About Me
-  description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
   image:
-    src: '../../assets/images/about.jpg'
-    alt: A person sitting at a desk in front of a computer
+    src: "/assets/images/etiquetadora-preview.jpg"
 ---
 
-![Alt text for image](../../assets/images/about.jpg)
+![Project preview](/assets/images/etiquetadora-preview.jpg)
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Nota:** Este proyecto representa mi Trabajo de Final de Grado, desarrollado durante 4 meses, integrando tecnologías de control, visión y conectividad IoT.
 
-## Ethan Donovan - Web Developer based in Estonia
+**Resumen del Proyecto:** Diseño y programación integral de una máquina etiquetadora automática. El sistema coordina el control de movimiento de precisión, la validación de calidad mediante visión artificial y la comunicación entre múltiples CPUs y sistemas de gestión de datos.
 
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+---
 
-## Skills and Expertise
+## 🎯 Objetivos
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
+1. **Sincronización de Control:** Comunicar 2 PLCs Siemens para gestionar la lógica de seguridad y proceso de forma distribuida.
+2. **Precisión Milimétrica:** Implementar control de movimiento avanzado mediante **Servomotores** para el etiquetado exacto.
+3. **Control de Calidad:** Integrar cámara **Cognex** para validación automática de etiquetas.
+4. **Industria 4.0:** Digitalizar el proceso enviando datos de producción a través de **Node-RED**.
 
-## Innovation and Problem-Solving
+---
 
-I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
+## ⚡ Características Principales
 
-## Global Perspective, Local Impact
+### 1. Arquitectura de Control Distribuida
+El sistema no depende de un solo cerebro. Se implementó una comunicación robusta entre controladores y periferia:
 
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
+| Componente | Función | Tecnología |
+|------------|---------|------------|
+| **PLC Maestro** | Lógica central y secuencias | Siemens S7-1200/1500 |
+| **PLC Esclavo** | Gestión de subsistemas | Comunicación S7 / Profinet |
+| **HMI** | Interfaz de operario | Omron NB Series |
 
-## Continuous Learning
+### 2. Visión Artificial y Motion Control
+La máquina no solo "mueve" cosas, sino que "ve" y "corrige":
 
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
+* **Servomotor:** Configuración de perfiles de movimiento para asegurar que la etiqueta se aplica a la velocidad exacta de la cinta transportadora.
+* **Cámara Cognex:** Inspección en tiempo real. Si la etiqueta está torcida o falta, el sistema lo detecta.
 
-## Collaboration and Communication
+### 3. Conectividad IT/OT (Node-RED)
+Salto del taller a la nube. El sistema expone datos para su visualización o almacenamiento externo.
 
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
+> **Dato Clave:** La integración con Node-RED permite crear dashboards web accesibles desde móvil o enviar alertas por Telegram/Email en caso de fallo.
 
-## Get in Touch
+---
 
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
+## 🛠️ Tech Stack
 
-_Let's build something amazing together!_
+![Siemens](https://img.shields.io/badge/PLC-Siemens-009999?style=for-the-badge&logo=siemens&logoColor=white)
+![TIA Portal](https://img.shields.io/badge/IDE-TIA_Portal-grey?style=for-the-badge)
+![Omron](https://img.shields.io/badge/HMI-Omron_NB-blue?style=for-the-badge&logo=omron&logoColor=white)
+![Cognex](https://img.shields.io/badge/Visión-Cognex-yellow?style=for-the-badge)
+![Node-RED](https://img.shields.io/badge/IoT-Node--RED-8F0000?style=for-the-badge&logo=nodered&logoColor=white)
+
+- **Lenguajes:** Ladder (LAD), SCL.
+- **Hardware:** 2x PLCs Siemens, 1x Pantalla Omron, Servodrivers.
+- **Software:** TIA Portal, NB Designer, Software de Cognex.
+- **Protocolos:** S7 Communication, TCP/IP.
+
+---
+
+## 📊 Desafíos y Resultados
+
+| Desafío | Solución Implementada | Resultado |
+|---------|-----------------------|-----------|
+| **Comunicación entre marcas** | Integración de HMI Omron con PLC Siemens | ✅ Visualización fluida y sin latencia |
+| **Sincronización** | Configuración precisa del Servomotor | ✅ Etiquetado sin arrugas ni desviaciones |
+| **Gestión de Datos** | Flujo de Node-RED personalizado | ✅ Dashboard en tiempo real disponible |
+| **Tiempo de desarrollo** | Planificación estructurada (4 meses) | ✅ Proyecto funcional en plazo |
+
+---
+
+## 🖼️ Arquitectura del Sistema
+
+```mermaid
+graph TD
+    A[PLC Siemens Maestro] <-->|Profinet/S7| B[PLC Siemens Esclavo]
+    A -->|Pulsos/PTO| C[Servomotor Etiquetado]
+    A <-->|I/O o Com| D[Cámara Cognex]
+    A <-->|Ethernet| E[HMI Omron NB]
+    A -->|TCP/IP| F[Node-RED]
+    F --> G[Dashboard Web / BBDD]

@@ -1,3 +1,7 @@
+---
+title: "Sobre mí"
+---
+
 # Daniel Pastor Redondo
 ### Programador de PLC e Integrador de Sistemas
 

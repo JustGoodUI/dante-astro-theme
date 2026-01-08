@@ -11,30 +11,41 @@ title: "Sobre mí"
 
 | Automatización y Control | Digitalización e IT Industrial |
 | :--- | :--- |
-| **PLC:** TIA Portal (Siemens), CX-Programmer (Omron) | **SCADA/MES:** Movicon, Simatic WinCC |
+| **PLC:** TIA Portal (Siemens), CX-Programmer (Omron) | **SCADA/MES:** Movicon, Simatic WinCC, CX-designer, Kinco HMIware |
 | **Lenguajes:** Ladder, SCL, Visual Basic, Python, HTML | **Datos:** BBDD (Bases de Datos), OPC UA, Node-Red |
-| **Hardware:** Servomotores, Variadores, Cámaras Cognex | **IT Tools:** .git (Control de versiones), Linux basics |
+| **Hardware:** Servomotores, Variadores, Cámaras Cognex | **IT Tools:** .git (Control de versiones) |
 | **Redes:** Profinet, Profibus, IO-Link | **Diseño:** Eplan (Esquemas eléctricos) |
 
----
-
-## 💼 Experiencia Destacada
-
-**Técnico Montador y Programador | Zetes Multicom S.A.**
-*(Septiembre 2024 — Septiembre 2025)*
-
-* **Programación Integral:** Desarrollo completo de la lógica de una máquina etiquetadora durante 4 meses.
-* **Integración de Sistemas:** Conexión y comunicación entre PLC Siemens, HMI Omron, Visión artificial Cognex y flujos de datos en Node-Red.
-* **Montaje Técnico:** Ensamblaje de cuadros eléctricos y neumáticos, junto con el montaje mecánico de maquinaria industrial.
 
 ---
 
 ## 🎓 Formación
 
 * **Grado Superior en Automatización y Robótica Industrial** | Instituto Palau Ausít (2023 - 2025).
-* **Idiomas:** Castellano y Catalán (Nativos), Inglés (Nivel intermedio).
+* **Idiomas:** Castellano y Catalán (Nativos), Inglés (B2).
 
 ---
 
+## 💼 Experiencia Destacada
+
+
+**Técnico en Automatización y Control Industrial | Antares SIstemas S.L.**
+*(Noviembre 2025 — Febrero 2026)*
+
+* **Puesta en marcha:** Implementación, pruebas y arranque de sistemas de automatización industrial, garantizando la operatividad y eficiencia de la maquinaria.
+* **Integración de sistemas:** Conexión de sistemas de automatización con OPC, bases de datos y MES, garantizando la supervisión y el flujo de información entre procesos.
+* **Programación SCADA:** Desarrollo y mantenimiento de interfaces SCADA para monitoreo y control de procesos industriales.
+* **Edición de PLC:** Programacion, modificación, migración y optimización de programas PLC para mejorar el rendimiento de maquinaria y fabricas.
+
+**Técnico Montador y Programador | Zetes Multicom S.A.**
+*(Septiembre 2024 — Septiembre 2025)*
+
+* **Montaje Técnico:** Ensamblaje de cuadros eléctricos y neumáticos, junto con el montaje mecánico de maquinaria industrial, durante 3 meses.
+* **Asistencia en programación:** Colaboración en el desarrollo de lógicas de control y pruebas de sistemas automatizados durante 9 meses.
+* **Programación SCADA:** Programación y desarrollo de interfaces SCADA para monitoreo y control de maquinas etiquetadoras durante 9 meses.
+
+
+--
+
 ## 💡 Perfil
-Curioso y ambicioso. Me apasiona la innovación en el sector de la automatización industrial, buscando siempre resolver problemas mediante el aprendizaje continuo y el uso de herramientas de vanguardia.
+Curioso por naturaleza. Mi objetivo es aprender siempre que tengo oportunidad.

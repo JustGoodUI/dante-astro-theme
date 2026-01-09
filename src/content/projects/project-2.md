@@ -19,12 +19,23 @@ Sistema SCADA con Movicon para supervisión completa de una fábrica de pienso a
 
 ---
 
-## 🎯 Objectives
+## 🛠️ Technology Stack
+<div style="display: flex; gap: 10px; align-items: center;">
+  <img src="https://img.shields.io/badge/SCADA-Movicon-blue" alt="Movicon" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/PLC-Siemens-brightgreen" alt="PLC" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/Database-SQL-orange" alt="SQL" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/MES-Integración-yellow" alt="MES" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/OPC-UA-red" alt="OPC" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/OPC-UA-red" alt="OPC" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/VCS-Git-orange" alt="Git" style="vertical-align: middle;">
+</div>
 
-1. Desarrollar un SCADA con múltiples sinópticos que permita **control total y supervisión clara** de la planta.  
-2. Integrar SCADA con MES y SQL para **recibir datos críticos** de fórmulas, pesos, stock y alarmas.  
-3. Mejorar la **eficiencia de la producción** mediante diagnósticos rápidos de errores y trazabilidad de datos.  
-4. Diseñar una **interfaz HMI profesional**, con colores por estado, tendencias y alarmas visuales.  
+- **SCADA:** Movicon  
+- **PLC:** Siemens
+- **Database:** SQL Server  
+- **MES Integration:** Programa MES propio de la planta  
+- **Communication:** OPC UA  
+- **Version Control:** Git
 
 ---
 
@@ -74,31 +85,24 @@ Sistema SCADA con Movicon para supervisión completa de una fábrica de pienso a
   <img src="https://img.shields.io/badge/Database-SQL-orange" alt="SQL" style="vertical-align: middle;">
   <img src="https://img.shields.io/badge/MES-Integración-yellow" alt="MES" style="vertical-align: middle;">
   <img src="https://img.shields.io/badge/OPC-UA-red" alt="OPC" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/OPC-UA-red" alt="OPC" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/VCS-Git-orange" alt="Git" style="vertical-align: middle;">
 </div>
 
 - **SCADA:** Movicon  
-- **PLC:** Siemens / Allen-Bradley  
+- **PLC:** Siemens
 - **Database:** SQL Server  
 - **MES Integration:** Programa MES propio de la planta  
 - **Communication:** OPC UA  
-
+- **Version Control:** Git
 ---
 
-## 📊 KPIs y Resultados
+## 🎯 Objectives
 
-| KPI | Antes SCADA | Después SCADA | Mejora |
-|-----|------------|---------------|--------|
-| Errores de pesaje | 15/día | 2/día | 87% ↓ |
-| Tiempo de diagnóstico de fallos | 45 min | 5 min | 89% ↓ |
-| Tiempo de supervisión | Parcial | Total planta | 100% cobertura |
-| Producción diaria | 5000 kg | 5400 kg | +8% |
-
-**Beneficios:**
-- Diagnóstico rápido de errores  
-- Control centralizado de la planta  
-- Integración con MES y SQL  
-- Mayor eficiencia y trazabilidad de la producción  
-- Interfaz profesional para supervisores  
+1. Desarrollar un SCADA con múltiples sinópticos que permita **control total y supervisión clara** de la planta.  
+2. Integrar SCADA con MES y SQL para **recibir datos críticos** de fórmulas, pesos, stock y alarmas.  
+3. Mejorar la **eficiencia de la producción** mediante diagnósticos rápidos de errores y trazabilidad de datos.  
+4. Diseñar una **interfaz HMI profesional**, con colores por estado, tendencias y alarmas visuales.  
 
 ---
 

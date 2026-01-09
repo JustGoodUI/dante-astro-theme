@@ -69,7 +69,11 @@ Sistema SCADA con Movicon para supervisión completa de una fábrica de pienso a
 
 ## 🛠️ Technology Stack
 
-![Movicon](https://img.shields.io/badge/SCADA-Movicon-blue) ![PLC](https://img.shields.io/badge/PLC-Siemens-brightgreen) ![SQL](https://img.shields.io/badge/Database-SQL-orange) ![MES](https://img.shields.io/badge/MES-Integración-yellow) ![OPC](https://img.shields.io/badge/OPC-UA-red)
+<img src="https://img.shields.io/badge/SCADA-Movicon-blue" alt="Movicon" style="display:inline-block; margin-right:5px;">
+<img src="https://img.shields.io/badge/PLC-Siemens-brightgreen" alt="PLC" style="display:inline-block; margin-right:5px;">
+<img src="https://img.shields.io/badge/Database-SQL-orange" alt="SQL" style="display:inline-block; margin-right:5px;">
+<img src="https://img.shields.io/badge/MES-Integración-yellow" alt="MES" style="display:inline-block; margin-right:5px;">
+<img src="https://img.shields.io/badge/OPC-UA-red" alt="OPC" style="display:inline-block;">
 
 - **SCADA:** Movicon  
 - **PLC:** Siemens / Allen-Bradley  

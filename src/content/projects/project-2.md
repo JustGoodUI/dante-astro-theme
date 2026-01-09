@@ -27,7 +27,6 @@ Sistema SCADA con Movicon para supervisión completa de una fábrica de pienso a
   <img src="https://img.shields.io/badge/Database-SQL-orange" alt="SQL" style="vertical-align: middle;">
   <img src="https://img.shields.io/badge/MES-Integración-yellow" alt="MES" style="vertical-align: middle;">
   <img src="https://img.shields.io/badge/OPC-UA-red" alt="OPC" style="vertical-align: middle;">
-  <img src="https://img.shields.io/badge/OPC-UA-red" alt="OPC" style="vertical-align: middle;">
   <img src="https://img.shields.io/badge/VCS-.Git-orange" alt=".Git" style="vertical-align: middle;">
 </div>
 
@@ -99,3 +98,14 @@ Sistema SCADA con Movicon para supervisión completa de una fábrica de pienso a
 ### Diagrama de Arquitectura
 
 ![Diagrama de Arquitectura](../../assets/images/Diagrama-de-Arquitectura-project-2.jpg)
+
+```mermaid
+graph TD
+    PLC[PLC] -- "OPC UA" --> SCADA[SCADA MOVICON]
+    SCADA --> DB[(BBDD MySQL)]
+    SCADA --> MES[MES]
+
+    style PLC fill:#87b5ff,stroke:#555
+    style SCADA fill:#87b5ff,stroke:#555
+    style DB fill:#87b5ff,stroke:#555
+    style MES fill:#87b5ff,stroke:#555

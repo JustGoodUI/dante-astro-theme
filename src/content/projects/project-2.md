@@ -68,7 +68,6 @@ Sistema SCADA con Movicon para supervisión completa de una fábrica de pienso a
 ---
 
 ## 🛠️ Technology Stack
-
 <div style="display: flex; gap: 10px; align-items: center;">
   <img src="https://img.shields.io/badge/SCADA-Movicon-blue" alt="Movicon" style="vertical-align: middle;">
   <img src="https://img.shields.io/badge/PLC-Siemens-brightgreen" alt="PLC" style="vertical-align: middle;">

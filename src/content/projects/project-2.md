@@ -39,7 +39,7 @@ Sistema SCADA con Movicon para supervisión completa de una fábrica de pienso a
 | Área | Funcionalidad |
 |------|---------------|
 | Entradas y dosificación | Supervisión de materia prima y flujo de ingredientes |
-| Dosificación Báscula 4 | Visualización de pesajes y fórmulas |
+| Dosificación Básculas | Visualización de pesajes y fórmulas |
 | Stock | Niveles de silos y materia prima |
 | Molienda 1 y 2 | Control de granuladoras y raseras |
 | Otros equipos | Distribuidores, piqueras, elevadores |

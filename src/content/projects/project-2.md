@@ -69,11 +69,13 @@ Sistema SCADA con Movicon para supervisión completa de una fábrica de pienso a
 
 ## 🛠️ Technology Stack
 
-<img src="https://img.shields.io/badge/SCADA-Movicon-blue" alt="Movicon" style="display:inline-block; margin-right:5px;">
-<img src="https://img.shields.io/badge/PLC-Siemens-brightgreen" alt="PLC" style="display:inline-block; margin-right:5px;">
-<img src="https://img.shields.io/badge/Database-SQL-orange" alt="SQL" style="display:inline-block; margin-right:5px;">
-<img src="https://img.shields.io/badge/MES-Integración-yellow" alt="MES" style="display:inline-block; margin-right:5px;">
-<img src="https://img.shields.io/badge/OPC-UA-red" alt="OPC" style="display:inline-block;">
+<div style="display: flex; gap: 10px; align-items: center;">
+  <img src="https://img.shields.io/badge/SCADA-Movicon-blue" alt="Movicon" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/PLC-Siemens-brightgreen" alt="PLC" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/Database-SQL-orange" alt="SQL" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/MES-Integración-yellow" alt="MES" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/OPC-UA-red" alt="OPC" style="vertical-align: middle;">
+</div>
 
 - **SCADA:** Movicon  
 - **PLC:** Siemens / Allen-Bradley  

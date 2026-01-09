@@ -98,14 +98,3 @@ Sistema SCADA con Movicon para supervisión completa de una fábrica de pienso a
 ### Diagrama de Arquitectura
 
 ![Diagrama de Arquitectura](../../assets/images/Diagrama-de-Arquitectura-project-2.jpg)
-
-```mermaid
-graph TD
-    PLC[PLC] -- "OPC UA" --> SCADA[SCADA MOVICON]
-    SCADA --> DB[(BBDD MySQL)]
-    SCADA --> MES[MES]
-
-    style PLC fill:#87b5ff,stroke:#555
-    style SCADA fill:#87b5ff,stroke:#555
-    style DB fill:#87b5ff,stroke:#555
-    style MES fill:#87b5ff,stroke:#555

@@ -12,14 +12,15 @@ seo:
 
 ![Project preview](../../assets/images/project-scada.jpg)
 
-**Note:** Este caso de estudio muestra un proyecto real de automatización industrial desarrollado con Movicon, PLC, SQL y MES.
+**Nota:** Este caso de estudio muestra un proyecto real de automatización industrial desarrollado con Movicon, PLC, SQL y MES.
 
-**Project Overview:**  
+**Descripción general del proyecto:**  
 Sistema SCADA con Movicon para supervisión completa de una fábrica de pienso automatizada. Permite visualización en tiempo real, control de producción, gestión de alarmas, integración con MES y SQL, y optimización de procesos industriales críticos.
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Tecnologías
+
 <div style="display: flex; gap: 10px; align-items: center;">
   <img src="https://img.shields.io/badge/SCADA-Movicon-blue" alt="Movicon" style="vertical-align: middle;">
   <img src="https://img.shields.io/badge/PLC-Siemens-brightgreen" alt="PLC" style="vertical-align: middle;">
@@ -27,7 +28,7 @@ Sistema SCADA con Movicon para supervisión completa de una fábrica de pienso a
   <img src="https://img.shields.io/badge/MES-Integración-yellow" alt="MES" style="vertical-align: middle;">
   <img src="https://img.shields.io/badge/OPC-UA-red" alt="OPC" style="vertical-align: middle;">
   <img src="https://img.shields.io/badge/OPC-UA-red" alt="OPC" style="vertical-align: middle;">
-  <img src="https://img.shields.io/badge/VCS-Git-orange" alt="Git" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/VCS-.Git-orange" alt=".Git" style="vertical-align: middle;">
 </div>
 
 - **SCADA:** Movicon  
@@ -35,11 +36,21 @@ Sistema SCADA con Movicon para supervisión completa de una fábrica de pienso a
 - **Database:** SQL Server  
 - **MES Integration:** Programa MES propio de la planta  
 - **Communication:** OPC UA  
-- **Version Control:** Git
+- **Version Control:** .Git / SourceTree
 
 ---
 
-## ⚡ Features
+## 🎯 Objectivos
+
+1. Desarrollar un SCADA con múltiples sinópticos que permita **control total y supervisión clara** de la planta.  
+2. Integrar SCADA con MES y SQL para **recibir datos críticos** de fórmulas, pesos, stock y alarmas.  
+3. Mejorar la **eficiencia de la producción** mediante diagnósticos rápidos de errores y trazabilidad de datos.  
+4. Diseñar una **interfaz HMI profesional**, con colores por estado, tendencias y alarmas visuales.  
+
+---
+
+
+## ⚡ Características
 
 ### 1. Visualización y Control de Planta
 - Más de **10 sinópticos** por áreas (dosificación, molienda, stock, entradas, básculas, etc.)  
@@ -78,34 +89,6 @@ Sistema SCADA con Movicon para supervisión completa de una fábrica de pienso a
 
 ---
 
-## 🛠️ Technology Stack
-<div style="display: flex; gap: 10px; align-items: center;">
-  <img src="https://img.shields.io/badge/SCADA-Movicon-blue" alt="Movicon" style="vertical-align: middle;">
-  <img src="https://img.shields.io/badge/PLC-Siemens-brightgreen" alt="PLC" style="vertical-align: middle;">
-  <img src="https://img.shields.io/badge/Database-SQL-orange" alt="SQL" style="vertical-align: middle;">
-  <img src="https://img.shields.io/badge/MES-Integración-yellow" alt="MES" style="vertical-align: middle;">
-  <img src="https://img.shields.io/badge/OPC-UA-red" alt="OPC" style="vertical-align: middle;">
-  <img src="https://img.shields.io/badge/OPC-UA-red" alt="OPC" style="vertical-align: middle;">
-  <img src="https://img.shields.io/badge/VCS-Git-orange" alt="Git" style="vertical-align: middle;">
-</div>
-
-- **SCADA:** Movicon  
-- **PLC:** Siemens
-- **Database:** SQL Server  
-- **MES Integration:** Programa MES propio de la planta  
-- **Communication:** OPC UA  
-- **Version Control:** Git
----
-
-## 🎯 Objectives
-
-1. Desarrollar un SCADA con múltiples sinópticos que permita **control total y supervisión clara** de la planta.  
-2. Integrar SCADA con MES y SQL para **recibir datos críticos** de fórmulas, pesos, stock y alarmas.  
-3. Mejorar la **eficiencia de la producción** mediante diagnósticos rápidos de errores y trazabilidad de datos.  
-4. Diseñar una **interfaz HMI profesional**, con colores por estado, tendencias y alarmas visuales.  
-
----
-
 ## 🖼️ Evidencia Visual
 
 ### Sinópticos
@@ -114,17 +97,5 @@ Sistema SCADA con Movicon para supervisión completa de una fábrica de pienso a
 - ![Sinóptico Área Dosificación](../../assets/images/project-scada.jpg)
 -->
 ### Diagrama de Arquitectura
-```text
-           +-------------------+
-           |       PLC         |
-           +-------------------+
-                 | OPC
-                 v
-           +-------------------+
-           |  SCADA Movicon    |
-           +-------------------+
-            |            |
-           v              v
-      +--------+      +--------+
-      |  SQL   |      |  MES   |
-      +--------+      +--------+
+
+![Diagrama de Arquitectura](../../assets/images/Diagrama-de-Arquitectura-project-2.jpg)

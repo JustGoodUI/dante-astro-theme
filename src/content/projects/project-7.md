@@ -10,50 +10,67 @@ seo:
 
 ![Project preview](../../assets/images/project-7.jpg)
 
-# Sistema de Etiquetado Automático 4 Caras con Verificación por Visión Artificial
+# 📦 Sistema de Etiquetado Automático 4 Caras
+> **Proyecto de Automatización Industrial, Robótica y Visión Artificial.**
 
-## 📋 Descripción del Proyecto
-Este proyecto consiste en el diseño, programación e implementación de una estación automatizada industrial capaz de aplicar etiquetas en las **cuatro caras de una caja** de forma secuencial. El sistema integra un control preciso de movimiento mediante servomotor y un sistema de verificación de calidad basado en **visión artificial** para garantizar la correcta trazabilidad del producto.
-
-### 🎯 Objetivos Logrados
-* **Automatización Integral:** Ciclo completo de etiquetado sin intervención humana.
-* [cite_start]**Control de Calidad en Tiempo Real:** Verificación de códigos QR mediante cámara Cognex; en caso de error, el sistema gestiona la reimpresión automática[cite: 23, 577].
-* [cite_start]**Sincronización Multieje:** Coordinación entre el brazo aplicador neumático y el giro de 90° de la caja mediante servocontrol[cite: 24, 633].
+Este proyecto documenta el diseño e implementación de una estación de trabajo automatizada para el etiquetado secuencial de cajas en sus cuatro caras, integrando control de movimiento de alta precisión y verificación de calidad mediante visión artificial.
 
 ---
 
-## 🛠️ Tecnologías y Hardware Utilizado
+## 🚀 Vista General del Proyecto
+El sistema soluciona la necesidad de trazabilidad total en líneas de producción, asegurando que cada producto sea etiquetado correctamente y que la información (QR/Datos) sea legible antes de salir de la estación.
 
-### Control y Comunicación
-* [cite_start]**PLCs:** 2x Siemens SIMATIC S7-1200 (Configuración Maestro-Esclavo vía **PROFINET**)[cite: 27, 28].
-* [cite_start]**HMI:** Siemens KTP700 Basic para el control y monitorización del operador[cite: 818].
-* [cite_start]**Software:** TIA Portal V17 (Programación en **KOP** y **SCL**)[cite: 427, 430].
-
-### Accionamientos y Sensores
-* [cite_start]**Motion Control:** Servomotor Panasonic MINAS LIQI con tecnología de tren de pulsos (PTO)[cite: 401, 408].
-* [cite_start]**Visión Artificial:** Cámara Cognex IN8000 para lectura y validación de datos[cite: 566, 612].
-* [cite_start]**Neumática:** Sistema de vacío y soplado para transferencia de etiquetas, controlado por electroválvulas[cite: 598, 607].
-* [cite_start]**Impresión:** Impresora industrial Zebra ZE500[cite: 818].
+### **Puntos Clave:**
+* **Precisión:** Uso de servomotores para el posicionamiento exacto de la carga.
+* **Fiabilidad:** Verificación en tiempo real con cámaras Cognex.
+* **Estándar Industrial:** Programación basada en la Guía GEMMA.
 
 ---
 
-## ⚙️ Arquitectura de Software
-El desarrollo se basó en metodologías robustas para asegurar la escalabilidad y facilidad de mantenimiento:
+## 🛠️ Stack Tecnológico
 
-1.  [cite_start]**Guía GEMMA:** Implementación de estados operativos (Producción, Paradas de Emergencia, Preparación posterior a defecto y Verificación manual) para un control seguro de la máquina[cite: 410, 421].
-2.  [cite_start]**Gestión de Datos:** Comunicación con software *Maewin* para la carga de datos en el buffer de la impresora antes del inicio de producción[cite: 567].
-3.  [cite_start]**Lógica de Reintento:** Si la cámara detecta una lectura fallida, el sistema activa un bucle de reimpresión del mismo código hasta que la validación sea positiva, evitando descartes innecesarios[cite: 577].
-
----
-
-## 📈 Desempeño y Mantenimiento
-Para garantizar la fiabilidad a largo plazo, la documentación incluye:
-* [cite_start]**Protocolos de Mantenimiento:** Tareas preventivas semanales y mensuales (limpieza de sensores de fibra óptica, filtros de aire y revisión de presión neumática a 6 bar)[cite: 434, 435].
-* [cite_start]**Diagnóstico de Fallos:** Guía detallada para la resolución de problemas comunes como pérdida de vacío o errores de comunicación[cite: 446].
+| Categoría | Tecnología |
+| :--- | :--- |
+| **Control (PLC)** | 2x Siemens SIMATIC S7-1200 (Arquitectura Maestro-Esclavo) |
+| **HMI** | Siemens KTP700 Basic |
+| **Motion Control** | Servomotor Panasonic MINAS LIQI (Control por PTO) |
+| **Visión Artificial** | Cámara Cognex In-Sight 8000 |
+| **Comunicaciones** | Profinet, TCP/IP, FTP e integración con Software Maewin |
+| **Impresión** | Zebra ZE500 (Motor de impresión industrial) |
+| **Neumática** | Sistemas de vacío y soplado para transferencia de etiquetas |
 
 ---
 
-## 👤 Autor
-**Daniel Pastor Redondo**
-*Proyecto Final - Ciclo Formativo de Grado Superior en Automatización y Robótica Industrial*
-*Institut Palau Ausit, Ripollet.*
+## ⚙️ Ingeniería y Desarrollo
+
+### 1. Arquitectura de Control
+Se ha implementado una red **Profinet** robusta que comunica todos los dispositivos. El software se desarrolló en **TIA Portal V17**, utilizando una mezcla de:
+* **Lógica en KOP:** Para la secuenciación principal.
+* **Programación en SCL:** Para la gestión de datos y cálculos complejos.
+
+### 2. Gestión de Estados (Guía GEMMA)
+Para garantizar la seguridad y operatividad profesional, el sistema gestiona:
+* **Modos de Marcha:** Producción normal, preparación (F2) y parada en estado inicial (A1).
+* **Gestión de Defectos:** Reintento automático de impresión en caso de lectura fallida de QR.
+* **Seguridad:** Paradas de emergencia integradas y rearme seguro.
+
+### 3. Sistema de Verificación (QA)
+La cámara Cognex actúa como el "juez" del proceso. Si el QR no cumple los estándares de calidad o es ilegible, el PLC detiene el ciclo de avance y solicita una nueva etiqueta, garantizando **cero errores** en la salida.
+
+---
+
+## 📂 Documentación del Proyecto
+El proyecto cuenta con manuales técnicos detallados que cubren todo el ciclo de vida de la máquina:
+
+* **Manual de Usuario:** Procedimientos de operación, riesgos laborales y seguridad.
+* **Manual de Funcionamiento:** Detalles de la lógica de programación y estados del sistema.
+* **Manual de Comunicación:** Configuración de direcciones IP y protocolos de intercambio de datos.
+
+---
+
+## 👨‍💻 Sobre el Autor
+**Daniel Pastor Redondo** *Técnico en Automatización y Robótica Industrial* Especializado en la integración de sistemas Siemens, visión artificial y control de movimiento.
+
+---
+
+> **¿Te interesa saber más sobre este proyecto?** > Puedes contactarme a través de mi [perfil de LinkedIn](https://www.linkedin.com/in/daniel-pastor-redondo-49794a331/) o revisar el código fuente en este repositorio.

@@ -1,66 +1,100 @@
 ---
-title: 'EcoBuddy: Sustainable Living App'
-description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
-publishDate: 'Jan 02 2024'
+title: "Sistema SCADA con Integración MES y SQL para Fábrica de Pienso"
+description: "Sistema SCADA con Movicon para supervisión, control y optimización de una fábrica de pienso, integrado con MES y base de datos SQL."
+publishDate: 2026-01-07
+isFeatured: true
 seo:
   image:
-    src: '../../assets/images/project-1.jpg'
-    alt: Project preview
+    src: "../../assets/images/project-scada.jpg"
 ---
 
-![Project preview](../../assets/images/project-1.jpg)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
-**Project Overview:**
-EcoBuddy is a revolutionary mobile application designed to make sustainable living accessible, engaging, and rewarding. With a focus on gamification and real-world impact, EcoBuddy encourages users to adopt eco-friendly habits, reduce their carbon footprint, and contribute to a healthier planet.
+![Project preview](../../assets/images/project-scada.jpg)
 
-## Objectives
+**Nota:** Este caso de estudio muestra un proyecto real de automatización industrial desarrollado con Movicon, PLC, SQL y MES.
 
-1. Develop a user-friendly mobile app that motivates individuals to adopt sustainable practices in their daily lives.
-2. Utilize gamification elements to make sustainable living fun and interactive.
-3. Provide educational resources and personalized challenges to empower users to make informed eco-conscious decisions.
+**Descripción general del proyecto:**  
+Sistema SCADA con Movicon para supervisión completa de una fábrica de pienso automatizada. Permite visualización en tiempo real, control de producción, gestión de alarmas, integración con MES y SQL, y optimización de procesos industriales críticos.
 
-## Features
+---
 
-1. **EcoScore and Challenges:**
+## 🛠️ Tecnologías
 
-- Users are assigned an EcoScore based on their sustainable activities and choices.
-- Daily and weekly challenges encourage users to adopt new habits and compete with friends or the community to earn EcoPoints.
+<div style="display: flex; gap: 10px; align-items: center;">
+  <img src="https://img.shields.io/badge/SCADA-Movicon-blue" alt="Movicon" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/PLC-Siemens-brightgreen" alt="PLC" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/Database-SQL-orange" alt="SQL" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/MES-Integración-yellow" alt="MES" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/OPC-UA-red" alt="OPC" style="vertical-align: middle;">
+  <img src="https://img.shields.io/badge/VCS-.Git-orange" alt=".Git" style="vertical-align: middle;">
+</div>
 
-2. **Personalized Eco-Goals:**
+- **SCADA:** Movicon  
+- **PLC:** Siemens
+- **Database:** SQL Server  
+- **MES Integration:** Programa MES propio de la planta  
+- **Communication:** OPC UA  
+- **Version Control:** .Git / SourceTree
 
-- Users can set and track personalized eco-goals, such as reducing plastic usage, conserving water, or choosing eco-friendly transportation.
-- The app provides tips and suggestions to help users achieve their goals.
+---
 
-3. **Green Rewards Marketplace:**
+## 🎯 Objectivos
 
-- EcoPoints earned through challenges and sustainable actions can be redeemed in a virtual Green Rewards Marketplace.
-- The marketplace offers discounts on eco-friendly products, services, and even contributions to environmental causes.
+1. Desarrollar un SCADA con múltiples sinópticos que permita **control total y supervisión clara** de la planta.  
+2. Integrar SCADA con MES y SQL para **recibir datos críticos** de fórmulas, pesos, stock y alarmas.  
+3. Mejorar la **eficiencia de la producción** mediante diagnósticos rápidos de errores y trazabilidad de datos.  
+4. Diseñar una **interfaz HMI profesional**, con colores por estado, tendencias y alarmas visuales.  
 
-4. **Community Hub:**
+---
 
-- A community feature allows users to connect, share their eco-friendly achievements, and inspire others.
-- Users can join local eco-groups, organize clean-up events, and collaborate on sustainability projects.
 
-5. **EcoEducator AI Assistant:**
+## ⚡ Características
 
-- An AI-powered assistant, EcoEducator, provides personalized eco-tips, facts, and information based on users' preferences and habits.
-- Users can chat with EcoEducator for instant advice on sustainable living.
+### 1. Visualización y Control de Planta
+- Más de **10 sinópticos** por áreas (dosificación, molienda, stock, entradas, básculas, etc.)  
+- **2 sinópticos 4K** con visión global de la fábrica  
+- Supervisión de actuadores y sensores:  
+  ⚙️ Motores, elevadores, raseras, distribuidores, piqueras, básculas y silos  
 
-## Technology Stack
+| Área | Funcionalidad |
+|------|---------------|
+| Entradas y dosificación | Supervisión de materia prima y flujo de ingredientes |
+| Dosificación Básculas | Visualización de pesajes y fórmulas |
+| Stock | Niveles de silos y materia prima |
+| Molienda 1 y 2 | Control de granuladoras y raseras |
+| Otros equipos | Distribuidores, piqueras, elevadores |
 
-- Frontend: React Native for cross-platform mobile app development.
-- Backend: Firebase for real-time data synchronization and user authentication.
-- Database: Firestore for scalable and flexible data storage.
-- AI Integration: Dialogflow for natural language processing and conversation with EcoEducator.
+### 2. Gestión de Alarmas
+- Fallos de marcha ⚡  
+- Fallos de pesaje ⚖️  
+- Fallos en lógica de rutas 🛤️  
+- Nivel bajo de materia prima ⬇️  
 
-## Outcome
+| Prioridad | Color | Ejemplo |
+|-----------|-------|---------|
+| Alta | 🔴 Rojo | Motor detenido, fallo crítico |
+| Media | 🟡 Amarillo | Pesaje fuera de rango |
+| Baja | 🟢 Verde | Advertencia de nivel bajo de silo |
 
-EcoBuddy has successfully created a community of environmentally conscious individuals who actively participate in sustainable living practices. The app not only educates and motivates users but also provides tangible rewards for their commitment to a greener lifestyle, fostering a positive impact on the environment.
+### 3. Integración con MES y SQL
+- Recepción de datos críticos: fórmulas, pesos de lotes, stock de materia prima, alarmas  
+- Centralización de información para **optimización de producción y trazabilidad**  
 
-## Client Testimonial
+### 4. Interfaz HMI Profesional
+- Colores y gráficos claros según estado  
+- Tendencias de peso y producción en tiempo real 📈  
+- Navegación intuitiva y fácil de usar para supervisores y operarios  
 
-> We couldn't be happier with the results delivered by Ethan Donovan. From the initial concept discussions to the final product, their responsiveness and collaborative approach were impressive. Our startup's website now stands out, thanks to their creative input and commitment to excellence.
+---
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+## 🖼️ Evidencia Visual
+
+### Sinópticos
+<!--
+- ![Sinóptico 4K - Vista General](../../assets/images/project-scada.jpg)  
+- ![Sinóptico Área Dosificación](../../assets/images/project-scada.jpg)
+-->
+### Diagrama de Arquitectura
+
+![Diagrama de Arquitectura](../../assets/images/Diagrama-de-Arquitectura-project-2.jpg)

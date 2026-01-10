@@ -1,100 +1,76 @@
 ---
-title: "Sistema SCADA con Integración MES y SQL para Fábrica de Pienso"
-description: "Sistema SCADA con Movicon para supervisión, control y optimización de una fábrica de pienso, integrado con MES y base de datos SQL."
+title: Projecto Maquina Etiquetadora
+description: Projecto Maquina Etiquetadora.
 publishDate: 2026-01-07
 isFeatured: true
 seo:
   image:
-    src: "../../assets/images/project-scada.jpg"
+    src: '../../assets/images/project-2.jpg'
 ---
 
+![Project preview](../../assets/images/project-2.jpg)
 
+# 📦 Sistema de Etiquetado Automático 4 Caras
+> **Proyecto de Automatización Industrial, Robótica y Visión Artificial.**
 
-![Project preview](../../assets/images/project-scada.jpg)
-
-**Nota:** Este caso de estudio muestra un proyecto real de automatización industrial desarrollado con Movicon, PLC, SQL y MES.
-
-**Descripción general del proyecto:**  
-Sistema SCADA con Movicon para supervisión completa de una fábrica de pienso automatizada. Permite visualización en tiempo real, control de producción, gestión de alarmas, integración con MES y SQL, y optimización de procesos industriales críticos.
-
----
-
-## 🛠️ Tecnologías
-
-<div style="display: flex; gap: 10px; align-items: center;">
-  <img src="https://img.shields.io/badge/SCADA-Movicon-blue" alt="Movicon" style="vertical-align: middle;">
-  <img src="https://img.shields.io/badge/PLC-Siemens-brightgreen" alt="PLC" style="vertical-align: middle;">
-  <img src="https://img.shields.io/badge/Database-SQL-orange" alt="SQL" style="vertical-align: middle;">
-  <img src="https://img.shields.io/badge/MES-Integración-yellow" alt="MES" style="vertical-align: middle;">
-  <img src="https://img.shields.io/badge/OPC-UA-red" alt="OPC" style="vertical-align: middle;">
-  <img src="https://img.shields.io/badge/VCS-.Git-orange" alt=".Git" style="vertical-align: middle;">
-</div>
-
-- **SCADA:** Movicon  
-- **PLC:** Siemens
-- **Database:** SQL Server  
-- **MES Integration:** Programa MES propio de la planta  
-- **Communication:** OPC UA  
-- **Version Control:** .Git / SourceTree
+Este proyecto documenta el diseño e implementación de una estación de trabajo automatizada para el etiquetado secuencial de cajas en sus cuatro caras, integrando control de movimiento de alta precisión y verificación de calidad mediante visión artificial.
 
 ---
 
-## 🎯 Objectivos
+## 🚀 Vista General del Proyecto
+El sistema soluciona la necesidad de trazabilidad total en líneas de producción, asegurando que cada producto sea etiquetado correctamente y que la información (QR/Datos) sea legible antes de salir de la estación.
 
-1. Desarrollar un SCADA con múltiples sinópticos que permita **control total y supervisión clara** de la planta.  
-2. Integrar SCADA con MES y SQL para **recibir datos críticos** de fórmulas, pesos, stock y alarmas.  
-3. Mejorar la **eficiencia de la producción** mediante diagnósticos rápidos de errores y trazabilidad de datos.  
-4. Diseñar una **interfaz HMI profesional**, con colores por estado, tendencias y alarmas visuales.  
-
----
-
-
-## ⚡ Características
-
-### 1. Visualización y Control de Planta
-- Más de **10 sinópticos** por áreas (dosificación, molienda, stock, entradas, básculas, etc.)  
-- **2 sinópticos 4K** con visión global de la fábrica  
-- Supervisión de actuadores y sensores:  
-  ⚙️ Motores, elevadores, raseras, distribuidores, piqueras, básculas y silos  
-
-| Área | Funcionalidad |
-|------|---------------|
-| Entradas y dosificación | Supervisión de materia prima y flujo de ingredientes |
-| Dosificación Básculas | Visualización de pesajes y fórmulas |
-| Stock | Niveles de silos y materia prima |
-| Molienda 1 y 2 | Control de granuladoras y raseras |
-| Otros equipos | Distribuidores, piqueras, elevadores |
-
-### 2. Gestión de Alarmas
-- Fallos de marcha ⚡  
-- Fallos de pesaje ⚖️  
-- Fallos en lógica de rutas 🛤️  
-- Nivel bajo de materia prima ⬇️  
-
-| Prioridad | Color | Ejemplo |
-|-----------|-------|---------|
-| Alta | 🔴 Rojo | Motor detenido, fallo crítico |
-| Media | 🟡 Amarillo | Pesaje fuera de rango |
-| Baja | 🟢 Verde | Advertencia de nivel bajo de silo |
-
-### 3. Integración con MES y SQL
-- Recepción de datos críticos: fórmulas, pesos de lotes, stock de materia prima, alarmas  
-- Centralización de información para **optimización de producción y trazabilidad**  
-
-### 4. Interfaz HMI Profesional
-- Colores y gráficos claros según estado  
-- Tendencias de peso y producción en tiempo real 📈  
-- Navegación intuitiva y fácil de usar para supervisores y operarios  
+### **Puntos Clave:**
+* **Precisión:** Uso de servomotores para el posicionamiento exacto de la carga.
+* **Fiabilidad:** Verificación en tiempo real con cámaras Cognex.
+* **Estándar Industrial:** Programación basada en la Guía GEMMA.
 
 ---
 
-## 🖼️ Evidencia Visual
+## 🛠️ Stack Tecnológico
 
-### Sinópticos
-<!--
-- ![Sinóptico 4K - Vista General](../../assets/images/project-scada.jpg)  
-- ![Sinóptico Área Dosificación](../../assets/images/project-scada.jpg)
--->
-### Diagrama de Arquitectura
+| Categoría | Tecnología |
+| :--- | :--- |
+| **Control (PLC)** | 2x Siemens SIMATIC S7-1200 (Arquitectura Maestro-Esclavo) |
+| **HMI** | Siemens KTP700 Basic |
+| **Motion Control** | Servomotor Panasonic MINAS LIQI (Control por PTO) |
+| **Visión Artificial** | Cámara Cognex In-Sight 8000 |
+| **Comunicaciones** | Profinet, TCP/IP, FTP e integración con Software Maewin |
+| **Impresión** | Zebra ZE500 (Motor de impresión industrial) |
+| **Neumática** | Sistemas de vacío y soplado para transferencia de etiquetas |
 
-![Diagrama de Arquitectura](../../assets/images/Diagrama-de-Arquitectura-project-2.jpg)
+---
+
+## ⚙️ Ingeniería y Desarrollo
+
+### 1. Arquitectura de Control
+Se ha implementado una red **Profinet** robusta que comunica todos los dispositivos. El software se desarrolló en **TIA Portal V17**, utilizando una mezcla de:
+* **Lógica en KOP:** Para la secuenciación principal.
+* **Programación en SCL:** Para la gestión de datos y cálculos complejos.
+
+### 2. Gestión de Estados (Guía GEMMA)
+Para garantizar la seguridad y operatividad profesional, el sistema gestiona:
+* **Modos de Marcha:** Producción normal, preparación (F2) y parada en estado inicial (A1).
+* **Gestión de Defectos:** Reintento automático de impresión en caso de lectura fallida de QR.
+* **Seguridad:** Paradas de emergencia integradas y rearme seguro.
+
+### 3. Sistema de Verificación (QA)
+La cámara Cognex actúa como el "juez" del proceso. Si el QR no cumple los estándares de calidad o es ilegible, el PLC detiene el ciclo de avance y solicita una nueva etiqueta, garantizando **cero errores** en la salida.
+
+---
+
+## 📂 Documentación del Proyecto
+El proyecto cuenta con manuales técnicos detallados que cubren todo el ciclo de vida de la máquina:
+
+* **Manual de Usuario:** Procedimientos de operación, riesgos laborales y seguridad.
+* **Manual de Funcionamiento:** Detalles de la lógica de programación y estados del sistema.
+* **Manual de Comunicación:** Configuración de direcciones IP y protocolos de intercambio de datos.
+
+---
+
+## 👨‍💻 Sobre el Autor
+**Daniel Pastor Redondo** *Técnico en Automatización y Robótica Industrial* Especializado en la integración de sistemas Siemens, visión artificial y control de movimiento.
+
+---
+
+> **¿Te interesa saber más sobre este proyecto?** > Puedes contactarme a través de mi [perfil de LinkedIn](https://www.linkedin.com/in/daniel-pastor-redondo-49794a331/) o revisar el código fuente en este repositorio.

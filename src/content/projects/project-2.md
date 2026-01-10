@@ -5,10 +5,10 @@ publishDate: 2026-01-07
 isFeatured: true
 seo:
   image:
-    src: '../../assets/images/project-2.jpg'
+    src: '../../assets/images/project-7.jpg'
 ---
 
-![Project preview](../../assets/images/project-2.jpg)
+![Project preview](../../assets/images/project-7.jpg)
 
 # 📦 Sistema de Etiquetado Automático 4 Caras
 > **Proyecto de Automatización Industrial, Robótica y Visión Artificial.**

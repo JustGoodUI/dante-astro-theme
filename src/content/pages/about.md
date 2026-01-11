@@ -62,7 +62,7 @@ title: "Sobre mí"
 * **Programación SCADA:** Programación y desarrollo de interfaces SCADA para monitoreo y control de maquinas etiquetadoras durante 9 meses.
 
 
-<img src="../../assets/images/ConexionesPLCS.jpg" width="400">
+![Project preview](../../assets/images/ConexionesPLCS.jpg){: width="400px" }
 
 
 

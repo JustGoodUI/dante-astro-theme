@@ -56,9 +56,9 @@ title: "Sobre mí"
 * **Programación SCADA:** Programación y desarrollo de interfaces SCADA para monitoreo y control de maquinas etiquetadoras durante 9 meses.
 
 * **Idiomas:** 
-🇪🇸  Castellano (Nativos)
-🏴󠁥󠁳󠁣󠁴󠁿 Catalán (Nativos)
-🇬🇧  Inglés (B2)
+Castellano (Nativo)<br>
+Catalán (Nativo)<br>
+Inglés (B2)<br>
 
 --
 

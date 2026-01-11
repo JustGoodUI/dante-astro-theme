@@ -34,7 +34,7 @@ title: "Sobre mí"
 🔹 Neumática e hidráulica: montaje y control de sistemas industriales.<br>
 🔹 Instrumentación y medición: sensores inductivos y capacitivos, ETs, voltímetros.<br>
 🔹 Proyectos prácticos: Montaje, puesta en marcha y mantenimiento de instalaciones
-ㅤㅤautomatizadas.<br>
+ㅤㅤ automatizadas.<br>
 
 ![Project preview](../../assets/images/ConexionesPLCS.jpg)
 

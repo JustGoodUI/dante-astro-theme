@@ -61,8 +61,7 @@ title: "Sobre mí"
 * **Asistencia en programación:** Colaboración en el desarrollo de lógicas de control y pruebas de sistemas automatizados durante 9 meses.
 * **Programación SCADA:** Programación y desarrollo de interfaces SCADA para monitoreo y control de maquinas etiquetadoras durante 9 meses.
 
-![Project preview](../../assets/images/CuadroReader.jpg) ![Project preview](../../assets/images/CuadroVacio.jpg)
-<img src="../../assets/images/CuadroReader.jpg" alt="Project preview" width="300">
+![Project preview](../../assets/images/Antena (2).jpg) ![Project preview](../../assets/images/Antena.jpg)
 
 
 * **Idiomas:** <br>

@@ -24,7 +24,8 @@ title: "Sobre mí"
 * **Grado Superior en Automatización y Robótica Industrial** | Instituto Palau Ausít (2023 - 2025).
 
 🔹 Comunicación industrial: Profinet, Profibus, IO-Link.<br>
-🔹 Cuadros eléctricos y control de motores: Contactores, relés, temporizadores físicos, motores, servomotores.<br>
+🔹 Cuadros eléctricos y control de motores: Contactores, relés, temporizadores físicos,<br>
+    motores, servomotores.<br>
 🔹 Programación y automatización: PLC con TIA Portal y CX-Programmer, manejo de periféricas, programación en Visual Basic, Python y HTML.<br>
 🔹 SCADA y supervisión de procesos: WinCC, desarrollo de sistemas de control<br>
 🔹 Diseño y documentación eléctrica: EPLAN.<br>

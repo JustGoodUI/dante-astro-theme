@@ -26,13 +26,15 @@ title: "Sobre mí"
 🔹 Comunicación industrial: Profinet, Profibus, IO-Link.<br>
 🔹 Cuadros eléctricos y control de motores: Contactores, relés, temporizadores físicos,<br>
 ㅤㅤmotores, servomotores.<br>
-🔹 Programación y automatización: PLC con TIA Portal y CX-Programmer, manejo de periféricas, programación en Visual Basic, Python y HTML.<br>
+🔹 Programación y automatización: PLC con TIA Portal y CX-Programmer, manejo de
+ㅤㅤperiféricas, programación en Visual Basic, Python y HTML.<br>
 🔹 SCADA y supervisión de procesos: WinCC, desarrollo de sistemas de control<br>
 🔹 Diseño y documentación eléctrica: EPLAN.<br>
 🔹 Robótica industrial: Universal Robot, RobotStudio.<br>
 🔹 Neumática e hidráulica: montaje y control de sistemas industriales.<br>
 🔹 Instrumentación y medición: sensores inductivos y capacitivos, ETs, voltímetros.<br>
-🔹 Proyectos prácticos: Montaje, puesta en marcha y mantenimiento de instalaciones automatizadas.<br>
+🔹 Proyectos prácticos: Montaje, puesta en marcha y mantenimiento de instalaciones
+ㅤㅤautomatizadas.<br>
 
 ![Project preview](../../assets/images/ConexionesPLCS.jpg)
 

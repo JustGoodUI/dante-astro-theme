@@ -66,11 +66,11 @@ const siteConfig: SiteConfig = {
     title: 'Carta de presentación',
     text:
     "Hola, soy **Daniel Pastor**.\n\n" +
-    "Si algo me define es la **curiosidad**. Me encanta aprender, explorar **software y hardware nuevos**, descubrir cómo funcionan las cosas y experimentar con todo lo que sea nuevo conocimiento. Cada proyecto es para mí una oportunidad de crecer, de probar algo distinto y de encontrar soluciones creativas que realmente funcionen.\n\n" +
-    "Más allá de la tecnología, valoro **trabajar en un buen ambiente**, rodeado de personas con las que se pueda colaborar, reír y aprender juntos. Me considero alguien **amigable, cercano y con ganas de aportar**, porque sé que los mejores resultados nacen cuando el equipo se siente cómodo y motivado.\n\n" +
-    "Cuando no estoy entre cables y pantallas, soy **deportista**: me gusta mantener la energía, la disciplina y la mente clara, lo que también se refleja en mi manera de abordar los proyectos.\n\n" +
-    "Si buscas a alguien que combine **pasión por aprender, curiosidad tecnológica y buena energía para el equipo**, aquí estoy.\n\n" +
-    "📩 **Hablemos y compartamos ideas**.",
+    "Ingeniero en automatización y robótica industrial, con experiencia en el desarrollo de sistemas basados en **PLC, SCADA** y **arquitecturas de datos industriales**. Trabajo integrando software y hardware para mejorar procesos, fiabilidad y eficiencia en entornos industriales.\n\n" +
+    "Me gusta entender cómo funciona cada sistema en profundidad, desde el control hasta la visualización y el tratamiento de datos, para diseñar **soluciones claras, robustas y fáciles de mantener**.\n\n" +
+    "Disfruto colaborando en equipos técnicos donde el criterio, la comunicación y el aprendizaje continuo marcan la diferencia en el resultado final.\n\n" +
+    "En este portfolio presento **proyectos reales, tecnologías con las que trabajo** y mi enfoque profesional en automatización industrial.\n\n" +
+    "📩 **Si quieres comentar un proyecto o una colaboración, hablemos.**",
     //image: {
     //  src: hero,
     //  alt: 'Daniel Pastor - Programador de Automatización'

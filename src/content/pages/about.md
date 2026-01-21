@@ -27,13 +27,13 @@ title: "Sobre mí"
 🔹 <span style="font-weight:700;">Comunicación industrial:</span> Profinet, Profibus, IO-Link.<br>
 🔹 <span style="font-weight:700;">Cuadros eléctricos y control de motores:</span> Contactores, relés, temporizadores físicos,<br>
 ㅤㅤmotores, servomotores.<br>
-🔹 <span style="font-weight:700;">Programación y automatización:</span> PLC con TIA Portal y CX-Programmer, manejo de periféricas, programación en Visual Basic, Python y HTML.<br>
-🔹 <span style="font-weight:700;">SCADA y supervisión de procesos:</span> WinCC, desarrollo de sistemas de control<br>
+🔹 <span style="font-weight:700;">Programación y automatización:</span> PLC con TIA Portal y CX-Programmer, manejo ㅤㅤde periféricas, programación en Visual Basic, Python y HTML.<br>
+🔹 <span style="font-weight:700;">SCADA y supervisión de procesos:</span> WinCC, desarrollo de sistemas de ㅤㅤcontrol<br>
 🔹 <span style="font-weight:700;">Diseño y documentación eléctrica:</span> EPLAN.<br>
 🔹 <span style="font-weight:700;">Robótica industrial:</span> Universal Robot, RobotStudio.<br>
 🔹 <span style="font-weight:700;">Neumática e hidráulica:</span> montaje y control de sistemas industriales.<br>
-🔹 <span style="font-weight:700;">Instrumentación y medición:</span> sensores inductivos y capacitivos, ETs, voltímetros.<br>
-🔹 <span style="font-weight:700;">Proyectos prácticos:</span> Montaje, puesta en marcha y mantenimiento de instalaciones automatizadas.<br>
+🔹 <span style="font-weight:700;">Instrumentación y medición:</span> sensores inductivos y capacitivos, ETs, ㅤㅤvoltímetros.<br>
+🔹 <span style="font-weight:700;">Proyectos prácticos:</span> Montaje, puesta en marcha y mantenimiento de ㅤㅤinstalaciones automatizadas.<br>
 
 ![Project preview](../../assets/images/ConexionesPLCS.jpg)
 

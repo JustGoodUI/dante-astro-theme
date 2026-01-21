@@ -9,13 +9,13 @@ title: "Sobre mí"
 
 ## 🛠️ Habilidades Técnicas
 
-| Automatización y Control | Digitalización e IT Industrial |
-| :--- | :--- |
+
+| ⚙️ Automatización y Control | 💻 Digitalización e IT Industrial |
+| :--------------------------: | :-----------------------------: |
 | **PLC:** TIA Portal, CX-Programmer | **SCADA/MES:** Movicon, Simatic WinCC, CX-designer, Kinco HMIware |
 | **Lenguajes:** Ladder, SCL, Visual Basic, Python, HTML | **Datos:** BBDD, OPC UA, Node-Red |
 | **Hardware:** Servomotores, Variadores, Cámaras Cognex | **IT Tools:** .git, sourcetree |
 | **Redes:** Profinet, Profibus, IO-Link | **Diseño:** Eplan |
-
 
 ---
 

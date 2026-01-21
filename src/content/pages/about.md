@@ -12,10 +12,10 @@ title: "Sobre mí"
 
 | ⚙️ Automatización y Control | 💻 Digitalización e IT Industrial |
 | :--------------------------: | :-----------------------------: |
-| <span style="font-weight:100;">PLC:</span> TIA Portal, CX-Programmer | <span style="font-weight:500;">SCADA/MES:</span> Movicon, Simatic WinCC, CX-designer, Kinco HMIware |
-| <span style="font-weight:200;">Lenguajes:</span> Ladder, SCL, Visual Basic, Python, HTML | <span style="font-weight:600;">Datos:</span> BBDD, OPC UA, Node-Red |
-| <span style="font-weight:300;">Hardware:</span> Servomotores, Variadores, Cámaras Cognex | <span style="font-weight:700;">IT Tools:</span> .git, sourcetree |
-| <span style="font-weight:400;">Redes:</span> Profinet, Profibus, IO-Link | <span style="font-weight:800;">Diseño:</span> Eplan |
+| <span style="font-weight:700;">PLC:</span> TIA Portal, CX-Programmer | <span style="font-weight:700;">SCADA/MES:</span> Movicon, Simatic WinCC, CX-designer, Kinco HMIware |
+| <span style="font-weight:700;">Lenguajes:</span> Ladder, SCL, Visual Basic, Python, HTML | <span style="font-weight:700;">Datos:</span> BBDD, OPC UA, Node-Red |
+| <span style="font-weight:700;">Hardware:</span> Servomotores, Variadores, Cámaras Cognex | <span style="font-weight:700;">IT Tools:</span> .git, sourcetree |
+| <span style="font-weight:700;">Redes:</span> Profinet, Profibus, IO-Link | <span style="font-weight:700;">Diseño:</span> Eplan |
 
 
 ---
@@ -24,18 +24,16 @@ title: "Sobre mí"
 
 * **Grado Superior en Automatización y Robótica Industrial** | Instituto Palau Ausít (2023 - 2025).
 
-🔹 Comunicación industrial: Profinet, Profibus, IO-Link.<br>
-🔹 Cuadros eléctricos y control de motores: Contactores, relés, temporizadores físicos,<br>
+🔹 <span style="font-weight:700;">Comunicación industrial:</span> Profinet, Profibus, IO-Link.<br>
+🔹 <span style="font-weight:700;">Cuadros eléctricos y control de motores:</span> Contactores, relés, temporizadores físicos,<br>
 ㅤㅤmotores, servomotores.<br>
-🔹 Programación y automatización: PLC con TIA Portal y CX-Programmer, manejo de
-ㅤㅤㅤㅤperiféricas, programación en Visual Basic, Python y HTML.<br>
-🔹 SCADA y supervisión de procesos: WinCC, desarrollo de sistemas de control<br>
-🔹 Diseño y documentación eléctrica: EPLAN.<br>
-🔹 Robótica industrial: Universal Robot, RobotStudio.<br>
-🔹 Neumática e hidráulica: montaje y control de sistemas industriales.<br>
-🔹 Instrumentación y medición: sensores inductivos y capacitivos, ETs, voltímetros.<br>
-🔹 Proyectos prácticos: Montaje, puesta en marcha y mantenimiento de instalaciones
-ㅤㅤ ㅤautomatizadas.<br>
+🔹 <span style="font-weight:700;">Programación y automatización:</span> PLC con TIA Portal y CX-Programmer, manejo de periféricas, programación en Visual Basic, Python y HTML.<br>
+🔹 <span style="font-weight:700;">SCADA y supervisión de procesos:</span> WinCC, desarrollo de sistemas de control<br>
+🔹 <span style="font-weight:700;">Diseño y documentación eléctrica:</span> EPLAN.<br>
+🔹 <span style="font-weight:700;">Robótica industrial:</span> Universal Robot, RobotStudio.<br>
+🔹 <span style="font-weight:700;">Neumática e hidráulica:</span> montaje y control de sistemas industriales.<br>
+🔹 <span style="font-weight:700;">Instrumentación y medición:</span> sensores inductivos y capacitivos, ETs, voltímetros.<br>
+🔹 <span style="font-weight:700;">Proyectos prácticos:</span> Montaje, puesta en marcha y mantenimiento de instalaciones automatizadas.<br>
 
 ![Project preview](../../assets/images/ConexionesPLCS.jpg)
 

@@ -65,12 +65,12 @@ const siteConfig: SiteConfig = {
     hero: {
     title: 'Carta de presentación',
     text:
-    "Hola, soy **Daniel Pastor**.\n\n" +
-    "Ingeniero en automatización y robótica industrial, con experiencia en el desarrollo de sistemas basados en **PLC, SCADA** y **arquitecturas de datos industriales**. Trabajo integrando software y hardware para mejorar procesos, fiabilidad y eficiencia en entornos industriales.\n\n" +
-    "Me gusta entender cómo funciona cada sistema en profundidad, desde el control hasta la visualización y el tratamiento de datos, para diseñar **soluciones claras, robustas y fáciles de mantener**.\n\n" +
-    "Disfruto colaborando en equipos técnicos donde el criterio, la comunicación y el aprendizaje continuo marcan la diferencia en el resultado final.\n\n" +
-    "En este portfolio presento **proyectos reales, tecnologías con las que trabajo** y mi enfoque profesional en automatización industrial.\n\n" +
-    "📩 **Si quieres comentar un proyecto o una colaboración, hablemos.**",
+    "¿Trabajas en **Recursos Humanos**, eres **cliente**, **dueño de una empresa** o simplemente estás buscando un **perfil como el mío**?\n\n" +
+    "La idea de esta web es **ponerte las cosas un poco más fáciles** a la hora de decidir si soy la persona adecuada para lo que estás buscando.\n\n" +
+    "Elegir a alguien solo por su **currículum** puede ser arriesgado: no siempre muestra **cómo trabaja una persona** ni **de qué es realmente capaz**.\n\n" +
+    "Con este **portafolio** no pretendo decir que sea mejor que otros candidatos, sino enseñarte con claridad **mi experiencia**, **mi recorrido profesional** y **los proyectos** en los que he trabajado.\n\n" +
+    "Así podrás hacerte una mejor idea de **mi perfil** y tomar una decisión con **más información y menos incertidumbre**.",
+
     //image: {
     //  src: hero,
     //  alt: 'Daniel Pastor - Programador de Automatización'

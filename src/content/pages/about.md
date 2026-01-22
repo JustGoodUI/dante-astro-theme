@@ -22,7 +22,7 @@ title: "Sobre mí"
 
 ## 🎓 Formación
 
-* **Grado Superior en Automatización y Robótica Industrial**<br>
+# **Grado Superior en Automatización y Robótica Industrial**<br>
 | Instituto Palau Ausít (2023 - 2025).
 
 🔹 <span style="font-weight:700;">Comunicación industrial:</span> Profinet, Profibus, IO-Link.<br>

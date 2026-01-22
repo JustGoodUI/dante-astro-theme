@@ -22,7 +22,8 @@ title: "Sobre mí"
 
 ## 🎓 Formación
 
-* **Grado Superior en Automatización y Robótica Industrial** | Instituto Palau Ausít (2023 - 2025).
+* **Grado Superior en Automatización y Robótica Industrial**<br>
+| Instituto Palau Ausít (2023 - 2025).
 
 🔹 <span style="font-weight:700;">Comunicación industrial:</span> Profinet, Profibus, IO-Link.<br>
 🔹 <span style="font-weight:700;">Cuadros eléctricos y control de motores:</span> Contactores, relés, temporizadores físicos,<br>
@@ -33,7 +34,7 @@ title: "Sobre mí"
 🔹 <span style="font-weight:700;">Robótica industrial:</span> Universal Robot, RobotStudio.<br>
 🔹 <span style="font-weight:700;">Neumática e hidráulica:</span> montaje y control de sistemas industriales.<br>
 🔹 <span style="font-weight:700;">Instrumentación y medición:</span> sensores inductivos y capacitivos, ETs, voltímetros.<br>
-🔹 <span style="font-weight:700;">Proyectos prácticos:</span> Montaje, puesta en marcha y mantenimiento de instalaciones automatizadas.<br>
+🔹 <span style="font-weight:700;">Proyectos prácticos:</span> Montaje, puesta en marcha y mantenimiento de instalaciones &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatizadas.<br>
 
 ![Project preview](../../assets/images/ConexionesPLCS.jpg)
 
@@ -42,23 +43,23 @@ title: "Sobre mí"
 ## 💼 Experiencia Destacada
 
 
-**Técnico en Automatización y Control Industrial | Antares SIstemas S.L.**\n
+**Técnico en Automatización y Control Industrial | Antares SIstemas S.L.**<br>
 *(Noviembre 2025 — Febrero 2026)*
 
-* **Puesta en marcha:** Implementación, pruebas y arranque de sistemas de automatización industrial, garantizando la operatividad y eficiencia de la maquinaria.
-* **Integración de sistemas:** Conexión de sistemas de automatización con OPC, bases de datos y MES, garantizando la supervisión y el flujo de información entre procesos.
-* **Programación SCADA:** Desarrollo y mantenimiento de interfaces SCADA para monitoreo y control de procesos industriales.
-* **Edición de PLC:** Programacion, modificación, migración y optimización de programas PLC para mejorar el rendimiento de maquinaria y fabricas.
+* <span style="font-weight:700;">Puesta en marcha:</span> Implementación, pruebas y arranque de sistemas de automatización industrial, garantizando la operatividad y eficiencia de la maquinaria.
+* <span style="font-weight:700;">Integración de sistemas:</span> Conexión de sistemas de automatización con OPC, bases de datos y MES, garantizando la supervisión y el flujo de información entre procesos.
+* <span style="font-weight:700;">Programación SCADA:</span> Desarrollo y mantenimiento de interfaces SCADA para monitoreo y control de procesos industriales.
+* <span style="font-weight:700;">Edición de PLC:</span> Programacion, modificación, migración y optimización de programas PLC para mejorar el rendimiento de maquinaria y fabricas.
 
 
 
 
-**Técnico Montador y Programador | Zetes Multicom S.A.**\n
+**Técnico Montador y Programador | Zetes Multicom S.A.**<br>
 *(Septiembre 2024 — Septiembre 2025)*
 
-* **Montaje Técnico:** Ensamblaje de cuadros eléctricos y neumáticos, junto con el montaje mecánico de maquinaria industrial, durante 3 meses.
-* **Asistencia en programación:** Colaboración en el desarrollo de lógicas de control y pruebas de sistemas automatizados durante 9 meses.
-* **Programación SCADA:** Programación y desarrollo de interfaces SCADA para monitoreo y control de maquinas etiquetadoras durante 9 meses.
+* <span style="font-weight:700;">Montaje Técnico:</span> Ensamblaje de cuadros eléctricos y neumáticos, junto con el montaje mecánico de maquinaria industrial, durante 3 meses.
+* <span style="font-weight:700;">Asistencia en programación:</span> Colaboración en el desarrollo de lógicas de control y pruebas de sistemas automatizados durante 9 meses.
+* <span style="font-weight:700;">Programación SCADA:</span> Programación y desarrollo de interfaces SCADA para monitoreo y control de maquinas etiquetadoras durante 9 meses.
 
 
 ![Project preview](../../assets/images/ConexionesPLCS.jpg){: width="50%" }

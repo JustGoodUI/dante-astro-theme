@@ -37,7 +37,7 @@ title: "Sobre mí"
 🔹 <span style="font-weight:700;">Proyectos prácticos:</span> Montaje, puesta en marcha y mantenimiento de instalaciones &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatizadas.<br>
 
 <div style="display:flex; justify-content:center;">
-  <img src="src/assets/images/ConexionesPLCS.jpg">
+  <img src="assets/images/ConexionesPLCS.jpg">
 </div>
 ---
 

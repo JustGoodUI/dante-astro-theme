@@ -38,7 +38,7 @@ title: "Sobre mí"
 
 ![Project preview](../../assets/images/ConexionesPLCS.jpg)
 <div style="display:flex; justify-content:center;">
-  <img src="/_astro/ConexionesPLCS.D1r7tbfX_1VEOX6.webp" width="400" alt="Project preview">
+  <img src="/_astro/ConexionesPLCS.D1r7tbfX_1VEOX6.webp" alt="Project preview">
 </div>
 ---
 

@@ -44,7 +44,7 @@ title: "Sobre mí"
 ## 💼 Experiencia Destacada
 
 
-**Técnico en Automatización y Control Industrial | Antares SIstemas S.L.**<br>
+### Técnico en Automatización y Control Industrial | Antares SIstemas S.L.<br>
 *(Noviembre 2025 — Febrero 2026)*
 
 * <span style="font-weight:700;">Puesta en marcha:</span> Implementación, pruebas y arranque de sistemas de automatización industrial, garantizando la operatividad y eficiencia de la maquinaria.
@@ -55,7 +55,7 @@ title: "Sobre mí"
 
 
 
-**Técnico Montador y Programador | Zetes Multicom S.A.**<br>
+### Técnico Montador y Programador | Zetes Multicom S.A.<br>
 *(Septiembre 2024 — Septiembre 2025)*
 
 * <span style="font-weight:700;">Montaje Técnico:</span> Ensamblaje de cuadros eléctricos y neumáticos, junto con el montaje mecánico de maquinaria industrial, durante 3 meses.
@@ -68,7 +68,7 @@ title: "Sobre mí"
 
 
 
-* **Idiomas:** <br>
+### Idiomas: <br>
 Castellano (Nativo)<br>
 Catalán (Nativo)<br>
 Inglés (B2)<br>

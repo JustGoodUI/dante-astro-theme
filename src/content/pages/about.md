@@ -28,7 +28,7 @@ title: "Sobre mí"
 🔹 <span style="font-weight:700;">Cuadros eléctricos y control de motores:</span> Contactores, relés, temporizadores físicos,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;motores, servomotores.<br>
 🔹 <span style="font-weight:700;">Programación y automatización:</span> PLC con TIA Portal y CX-Programmer, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;programacion en Visual Basic, Python y HTML.<br>
-🔹 <span style="font-weight:700;">SCADA y supervisión de procesos:</span> Uso de WinCC en profundidad. Desarrollo de &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;interfaces HMI, configuración de alarmas y eventos, gestión de recetas, tendencias e históricos de proceso, control de usuarios y comunicación HMI‑PLC, incluyendo scripts y soporte en puesta en marcha.<br>
+🔹 <span style="font-weight:700;">SCADA y supervisión de procesos:</span> Uso de WinCC en profundidad. Desarrollo de &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;interfaces HMI, configuración de alarmas y eventos, gestión de recetas, tendencias e &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;históricos de proceso, control de usuarios y comunicación HMI‑PLC, incluyendo scripts y soporte en puesta en marcha.<br>
 🔹 <span style="font-weight:700;">Diseño y documentación eléctrica:</span> EPLAN.<br>
 🔹 <span style="font-weight:700;">Robótica industrial:</span> Universal Robot, RobotStudio.<br>
 🔹 <span style="font-weight:700;">Neumática e hidráulica:</span> montaje y control de sistemas industriales.<br>

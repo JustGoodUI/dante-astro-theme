@@ -37,9 +37,9 @@ title: "Sobre mí"
 🔹 <span style="font-weight:700;">Proyectos prácticos:</span> Montaje, puesta en marcha y mantenimiento de instalaciones &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatizadas.<br>
 
 ![Project preview](../../assets/images/ConexionesPLCS.jpg)
-<p style="text-align:center;">
-  <img src="/_astro/ConexionesPLCS.D1r7tbfX_1VEOX6.webp">
-</p>
+<div style="text-align:center;">
+  <img src="/_astro/ConexionesPLCS.D1r7tbfX_1VEOX6.webp" width="400" alt="Project preview">
+</div>
 ---
 
 ## 💼 Experiencia Destacada

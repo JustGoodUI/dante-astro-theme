@@ -1,5 +1,5 @@
 ---
-title: "[Atras](https://mcjosebas.github.io/about/)"
+title: [Atras](https://mcjosebas.github.io/about/)
 ---
 
 # Wincc

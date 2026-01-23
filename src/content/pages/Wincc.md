@@ -11,15 +11,15 @@ title: "WinCC"
   <img src="/images/WinCC/WinCC1.jpg" alt="" />
   <img src="/images/WinCC/WinCC2.jpg" alt="" />
   <img src="/images/WinCC/WinCC3.jpg" alt="" />
-  <img src="/images/Wincc/WinCC4.jpg" alt="" />
-  <img src="/images/Wincc/WinCC5.jpg" alt="" />
-  <img src="/images/Wincc/WinCC6.jpg" alt="" />
-  <img src="/images/Wincc/WinCC7.jpg" alt="" />
-  <img src="/images/Wincc/WinCC8.jpg" alt="" />
-  <img src="/images/Wincc/WinCC9.jpg" alt="" />
-  <img src="/images/Wincc/WinCC10.jpg" alt="" />
-  <img src="/images/Wincc/WinCC11.jpg" alt="" />
-  <img src="/images/Wincc/WinCC12.jpg" alt="" />
+  <img src="/images/WinCC/WinCC4.jpg" alt="" />
+  <img src="/images/WinCC/WinCC5.jpg" alt="" />
+  <img src="/images/WinCC/WinCC6.jpg" alt="" />
+  <img src="/images/WinCC/WinCC7.jpg" alt="" />
+  <img src="/images/WinCC/WinCC8.jpg" alt="" />
+  <img src="/images/WinCC/WinCC9.jpg" alt="" />
+  <img src="/images/WinCC/WinCC10.jpg" alt="" />
+  <img src="/images/WinCC/WinCC11.jpg" alt="" />
+  <img src="/images/WinCC/WinCC12.jpg" alt="" />
 </div>
 
 <div style="

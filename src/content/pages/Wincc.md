@@ -1,8 +1,11 @@
+## [Atras](https://mcjosebas.github.io/about/)
+[Atras](https://mcjosebas.github.io/about/)
+
 ---
-title: "winCC"
+title: "WinCC"
 ---
 
-# [Atras](https://mcjosebas.github.io/about/)
+## [Atras](https://mcjosebas.github.io/about/)
 [Atras](https://mcjosebas.github.io/about/)
 <div style="
   display:grid;

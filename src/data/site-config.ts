@@ -23,6 +23,10 @@ const siteConfig: SiteConfig = {
         {
             text: 'Projectos',
             href: '/projects'
+        },
+        {
+            text: 'Curriculum',
+            href: '/about'
         }
 //        {
 //            text: 'Blog',

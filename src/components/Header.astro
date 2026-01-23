@@ -6,6 +6,65 @@ const titleClass = 'text-theme-foreground font-serif text-2xl leading-tight font
 ---
 
 <header class="mx-auto mb-12 flex w-full max-w-3xl items-center gap-4 sm:mb-16">
+
+    {/* Avatar */}
+    {
+        siteConfig.avatar?.src && (
+            <a href="/">
+                <CustomImage
+                    class="aspect-square w-16 rounded-full object-cover sm:w-20"
+                    {...siteConfig.avatar}
+                    loading="eager"
+                    fetchpriority="high"
+                    width={80}
+                    height={80}
+                    widths={[80, 160]}
+                    sizes="80px"
+                />
+            </a>
+        )
+    }
+
+    {/* Nombre + Subtítulo */}
+    <div class="grow">
+        {
+            siteConfig.avatar?.src ? (
+                <p class={titleClass}>{siteConfig.title}</p>
+            ) : (
+                <a class={titleClass} href="/">
+                    {siteConfig.title}
+                </a>
+            )
+        }
+
+        {siteConfig.subtitle && (
+            <p class="text-sm leading-tight">{siteConfig.subtitle}</p>
+        )}
+
+        {/* ------------------------------------------------ */}
+        {/* NUEVO: Menú de navegación usando headerNavLinks */}
+        {/* ------------------------------------------------ */}
+        {siteConfig.headerNavLinks && siteConfig.headerNavLinks.length > 0 && (
+            <nav class="mt-3 flex flex-wrap gap-4 text-sm">
+                {siteConfig.headerNavLinks.map((link) => (
+                    <a
+                        href={link.href}
+                        class="text-theme-muted hover:text-theme-foreground transition"
+                    >
+                        {link.text}
+                    </a>
+                ))}
+            </nav>
+        )}
+        {/* ------------------------------------------------ */}
+    </div>
+
+</header>
+
+
+
+{/*
+<header class="mx-auto mb-12 flex w-full max-w-3xl items-center gap-4 sm:mb-16">
     {
         siteConfig.avatar?.src && (
             <a href="/">
@@ -35,3 +94,4 @@ const titleClass = 'text-theme-foreground font-serif text-2xl leading-tight font
         {siteConfig.subtitle && <p class="text-sm leading-tight">{siteConfig.subtitle}</p>}
     </div>
 </header>
+*/}

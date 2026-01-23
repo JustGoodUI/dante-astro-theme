@@ -77,17 +77,17 @@ const siteConfig: SiteConfig = {
     //},
     actions: [
         {
-        text: 'Ver proyectos',
-        href: '/projects'
-        },
-        {
         text: 'Currículum',
         href: '/about'
+        },
+        {
+        text: 'Ver proyectos',
+        href: '/projects'
         }
     ]
     },
     subscribe: {
-        enabled: true,
+        enabled: false,
         title: 'Subscribe to Dante Newsletter',
         text: 'One update per week. All the latest posts directly in your inbox.',
         form: {

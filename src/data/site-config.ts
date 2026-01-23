@@ -77,7 +77,7 @@ const siteConfig: SiteConfig = {
     //},
     actions: [
         {
-        text: 'Currículum',
+        text: '**Currículum**',
         href: '/about'
         },
         {

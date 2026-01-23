@@ -9,7 +9,7 @@ title: "WinCC"
   gap: 16px;
 ">
   <img src="/images/ConexionesPLCS.jpg" alt="" />
-  <img src="/images/wincc/wincc2.jpg" alt="" />
+  <img src="/images/wincc1.jpg" alt="" />
   <img src="/images/wincc/WinCC3.jpg" alt="" />
   <img src="/images/wincc/WinCC4.jpg" alt="" />
   <img src="/images/wincc/WinCC5.jpg" alt="" />

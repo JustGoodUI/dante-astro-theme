@@ -1,9 +1,9 @@
 ---
-title: [Atras](https://mcjosebas.github.io/about/)
+title: "winCC"
 ---
 
-# Wincc
-
+# [Atras](https://mcjosebas.github.io/about/)
+[Atras](https://mcjosebas.github.io/about/)
 <div style="
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));

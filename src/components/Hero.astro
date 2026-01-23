@@ -8,8 +8,48 @@ type Props = HeroProps;
 
 const { title, image, text, actions } = Astro.props;
 ---
-
 {
+    (title || image?.src || text || (actions && actions.length > 0)) && (
+        <section class="mb-16 flex w-full flex-col gap-8 sm:mb-24">
+            {title && <h1 class="font-serif text-3xl leading-tight font-medium sm:text-5xl sm:leading-tight">{title}</h1>}
+            {image?.src && (
+                <figure>
+                    <CustomImage
+                        class="w-full"
+                        {...image}
+                        widths={[480, 640, 768, 1024, 1536]}
+                        sizes="(min-width: 832px) 768px, calc(100vw - 32px)"
+                        fetchpriority="high"
+                        loading="eager"
+                    />
+                    {image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{image.caption}</figcaption>}
+                </figure>
+            )}
+            {text && <div class="prose sm:prose-lg max-w-none" set:html={marked.parse(text)} />}
+
+            {/* ---------------------------------------------------- */}
+            {/* NUEVO: Sección de botones grandes y centrados */}
+            {/* ---------------------------------------------------- */}
+            {actions && actions.length > 0 && (
+                <div class="flex justify-center flex-wrap gap-4 mt-6">
+                    {actions.map((action) => (
+                        <Button
+                            href={action.href}
+                            // Clases nuevas para tamaño, centrado y responsividad
+                            class="px-8 py-4 text-lg sm:text-xl font-semibold rounded-lg w-full sm:w-auto text-center"
+                        >
+                            {action.text}
+                        </Button>
+                    ))}
+                </div>
+            )}
+            {/* ---------------------------------------------------- */}
+        </section>
+    )
+}
+
+
+/*{
     (title || image?.src || text || (actions && actions.length > 0)) && (
         <section class="mb-16 flex w-full flex-col gap-8 sm:mb-24">
             {title && <h1 class="font-serif text-3xl leading-tight font-medium sm:text-5xl sm:leading-tight">{title}</h1>}
@@ -36,4 +76,4 @@ const { title, image, text, actions } = Astro.props;
             )}
         </section>
     )
-}
+}*/

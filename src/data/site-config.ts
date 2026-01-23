@@ -86,23 +86,27 @@ const siteConfig: SiteConfig = {
         }
     ]
     },
+    
 ---
-const { actions } = Astro.props;
+const { title, text, actions } = Astro.props;
 ---
 
 <div class="text-center mt-8">
-  <div class="flex justify-center gap-4 flex-wrap">
-    {actions.map((action) => {
-      return (
+  <h1 class="text-3xl sm:text-5xl font-bold">{title}</h1>
+  <p class="mt-4 text-lg sm:text-xl whitespace-pre-line">{text}</p>
+
+  {actions && actions.length > 0 && (
+    <div class="flex justify-center gap-4 flex-wrap mt-6">
+      {actions.map(action => (
         <a
           href={action.href}
           class="w-full sm:w-auto px-8 py-4 text-lg sm:text-xl font-semibold rounded-lg inline-block text-center bg-blue-600 text-white hover:bg-blue-700 transition"
         >
           {action.text}
         </a>
-      );
-    })}
-  </div>
+      ))}
+    </div>
+  )}
 </div>
 
     

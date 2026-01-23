@@ -10,7 +10,7 @@ title: "WinCC"
 ">
   <img src="/images/ConexionesPLCS.jpg" alt="" />
   <img src="/images/wincc-1.jpg" alt="" />
-  <img src="/images/wincc/WinCC3.jpg" alt="" />
+  <img src="/images/wincc/wincc2.jpg" alt="WinCC2" />
   <img src="/images/wincc/WinCC4.jpg" alt="" />
   <img src="/images/wincc/WinCC5.jpg" alt="" />
   <img src="/images/wincc/WinCC6.jpg" alt="" />

@@ -8,9 +8,9 @@ title: "WinCC"
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 16px;
 ">
-  <img src="/images/ConexionesPLCS.jpg" alt="" />
-  <img src="/images/scadasiemens.jpg" alt="" />
-  <img src="/images/WinCC/WinCC01.jpg" alt="" />
+  <img src="/images/WinCC/WinCC1.jpg" alt="" />
+  <img src="/images/WinCC/WinCC2.jpg" alt="" />
+  <img src="/images/WinCC/WinCC3.jpg" alt="" />
   <img src="/images/wincc/WinCC4.jpg" alt="" />
   <img src="/images/wincc/WinCC5.jpg" alt="" />
   <img src="/images/wincc/WinCC6.jpg" alt="" />

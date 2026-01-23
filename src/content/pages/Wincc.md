@@ -28,7 +28,7 @@ title: "WinCC"
   flex-wrap:wrap;
   justify-content:center;
 ">
-  <img src="/images/ConexionesPLCS.jpg" width="200">
-  <img src="/images/ConexionesPLCS.jpg" width="200">
+  <img src="/images/wincc1.jpg" width="200">
+  <img src="/images/wincc/WinCC3.jpg" width="200">
   <img src="/images/ConexionesPLCS.jpg" width="200">
 </div>

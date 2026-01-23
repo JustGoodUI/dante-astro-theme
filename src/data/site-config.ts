@@ -77,7 +77,7 @@ const siteConfig: SiteConfig = {
     //},
     actions: [
         {
-        text: '**Currículum**',
+        text: 'Currículum',
         href: '/about'
         },
         {
@@ -86,6 +86,20 @@ const siteConfig: SiteConfig = {
         }
     ]
     },
+
+<div class="text-center mt-8">
+  <div class="flex justify-center gap-4 flex-wrap">
+    {actions.map((action) => (
+      <a
+        href={action.href}
+        class="w-full sm:w-auto px-8 py-4 text-lg sm:text-xl font-semibold rounded-lg inline-block text-center bg-blue-600 text-white hover:bg-blue-700 transition"
+      >
+        {action.text}
+      </a>
+    ))}
+  </div>
+</div>
+    
     subscribe: {
         enabled: false,
         title: 'Subscribe to Dante Newsletter',

@@ -21,29 +21,29 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Projects',
+            text: 'Projectos',
             href: '/projects'
-        },
-        {
-            text: 'Blog',
-            href: '/blog'
-        },
-        {
-            text: 'Tags',
-            href: '/tags'
         }
+//        {
+//            text: 'Blog',
+//            href: '/blog'
+//        },
+//        {
+//            text: 'Tags',
+//            href: '/tags'
+//        }
     ],
     footerNavLinks: [
         {
-            text: 'About',
+            text: 'Curriculum',
             href: '/about'
         },
         {
-            text: 'Contact',
+            text: 'Contacto',
             href: '/contact'
         },
         {
-            text: 'Terms',
+            text: 'Terminos',
             href: '/terms'
         },
 

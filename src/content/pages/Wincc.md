@@ -8,7 +8,7 @@ title: "WinCC"
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 16px;
 ">
-  <img src="/images/wincc/WinCC1.jpg" alt="" />
+  <img src="/images/WinCC1.jpg" alt="" />
   <img src="/images/wincc/WinCC2.jpg" alt="" />
   <img src="/images/wincc/WinCC3.jpg" alt="" />
   <img src="/images/wincc/WinCC4.jpg" alt="" />

@@ -63,15 +63,15 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+        text: "Soy desarrollador Front End con más de 3 años de experiencia creando interfaces que no solo se ven bien, sino que se sienten bien al usarlas. Me motiva transformar ideas en experiencias digitales claras, intuitivas y atractivas, cuidando cada detalle visual y funcional.Trabajé en distintos proyectos donde pude crecer, adaptarme y aportar valor, entendiendo que el Front End no es solo código, sino comunicación, diseño y empatía con el usuario.",
         image: {
             src: Gey,
             alt: 'A person sitting at a desk in front of a computer'
         },
         actions: [
             {
-                text: 'Get in Touch',
-                href: '/contact'
+                text: 'Contactame',
+                href: '/damignr02@gmail.com'
             }
         ]
     },

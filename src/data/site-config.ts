@@ -47,20 +47,7 @@ const siteConfig: SiteConfig = {
             href: '/terms'
         },
     ],
-    socialLinks: [
-        {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
-        }
-    ],
+   
     hero: {
         title: 'Hi There & Welcome to My Corner of the Web!',
         text: "Soy desarrollador Front End con más de 3 años de experiencia creando interfaces que no solo se ven bien, sino que se sienten bien al usarlas. Me motiva transformar ideas en experiencias digitales claras, intuitivas y atractivas, cuidando cada detalle visual y funcional.Trabajé en distintos proyectos donde pude crecer, adaptarme y aportar valor, entendiendo que el Front End no es solo código, sino comunicación, diseño y empatía con el usuario.",

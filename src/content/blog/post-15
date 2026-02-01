@@ -6,10 +6,7 @@ isFeatured: true
 tags:
   - Android
   - Kotlin
-seo:
-  image:
-    src: '../../assets/images/post-14.jpg'
-    alt: Wavy lines
+
 ---
 
 Esto es el contenido
@@ -21,3 +18,4 @@ contenido 1
 ## Cabecera 2
 
 contenido 2
+

@@ -30,7 +30,7 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Github',
-            href: 'https:https://github.com/DamianCode28'
+            href: 'https://github.com/DamianCode28'
         }
     ],
     footerNavLinks: [

@@ -8,8 +8,8 @@ const siteConfig: SiteConfig = {
         src: avatar,
         alt: 'Ethan Donovan'
     },
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
+    title: 'Damian Alejandro Gey',
+    subtitle: 'Here it is my personal blog 💻🚀',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
@@ -29,14 +29,14 @@ const siteConfig: SiteConfig = {
             href: '/blog'
         },
         {
-            text: 'Tags',
-            href: '/tags'
+            text: 'Github',
+            href: 'https:https://github.com/DamianCode28'
         }
     ],
     footerNavLinks: [
         {
-            text: 'About',
-            href: '/about'
+            text: 'Linkedin',
+            href: 'https://www.linkedin.com/in/damian-gey/'
         },
         {
             text: 'Contact',
@@ -46,10 +46,6 @@ const siteConfig: SiteConfig = {
             text: 'Terms',
             href: '/terms'
         },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
     ],
     socialLinks: [
         {

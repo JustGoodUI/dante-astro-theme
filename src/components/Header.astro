@@ -3,12 +3,13 @@ import siteConfig from '../data/site-config';
 import CustomImage from './CustomImage.astro';
 
 const titleClass = 'text-theme-foreground font-serif text-2xl leading-tight font-medium sm:text-3xl';
+const homeHref = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/`;
 ---
 
 <header class="mx-auto mb-12 flex w-full max-w-3xl items-center gap-4 sm:mb-16">
     {
         siteConfig.avatar?.src && (
-            <a href="/">
+            <a href={homeHref}>
                 <CustomImage
                     class="aspect-square w-16 rounded-full object-cover sm:w-20"
                     {...siteConfig.avatar}
@@ -27,7 +28,7 @@ const titleClass = 'text-theme-foreground font-serif text-2xl leading-tight font
             siteConfig.avatar?.src ? (
                 <p class={titleClass}>{siteConfig.title}</p>
             ) : (
-                <a class={titleClass} href="/">
+                <a class={titleClass} href={homeHref}>
                     {siteConfig.title}
                 </a>
             )

@@ -2,13 +2,14 @@
 title: Get in touch
 seo:
   title: Contact
-  description: Get in touch through email or social media! Let me know how I can help.
+  description: Get in touch through email or social media!
 ---
 
-Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
+Thank you for reaching out! Whether you have a question about an upcoming event, want to collaborate, or have an idea for the community, we’d love to hear from you. Use any of the options below and we’ll get back to you as soon as we can.
 
 _Email:_
-Feel free to drop me an email at [example@example.com](mailto:example@example.com), and I'll do my best to respond as soon as possible.
+Send us a note at info@badasswomeninwine.org
+ and we’ll reply soon.
 
 _Social Media:_
-Connect with me on social media as well. Find me on [Twitter](https://twitter.com) or [LinkedIn](https://www.linkedin.com/).
+Connect with us on social and join the conversation. Follow along on <a href="https://www.instagram.com/badasswomeninwine/" target="_blank" rel="noopener noreferrer">Instagram</a> (and feel free to DM us).

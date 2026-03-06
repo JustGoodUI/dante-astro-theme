@@ -1,0 +1,52 @@
+---
+type Props = {
+    instagramPosts?: string[];
+    instagramTitle?: string;
+};
+
+const { instagramPosts, instagramTitle } = Astro.props;
+
+const extractInstagramPostCode = (url: string) => {
+    try {
+        const parsedUrl = new URL(url);
+        const parts = parsedUrl.pathname.split('/').filter(Boolean);
+        if (parts[0] === 'p' && parts[1]) {
+            return parts[1];
+        }
+    } catch {
+        return null;
+    }
+    return null;
+};
+
+const validInstagramEmbeds =
+    instagramPosts
+        ?.map((url) => extractInstagramPostCode(url))
+        .filter((code): code is string => Boolean(code))
+        .map((code) => ({
+            code,
+            embedUrl: `https://www.instagram.com/p/${code}/embed/`
+        })) ?? [];
+---
+
+{
+    validInstagramEmbeds.length > 0 && (
+        <section class="mb-16 sm:mb-24">
+            <h2 class="mb-6 font-serif text-xl italic sm:text-2xl">{instagramTitle || 'Instagram'}</h2>
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {validInstagramEmbeds.map(({ code, embedUrl }) => (
+                    <iframe
+                        title={`Instagram post ${code}`}
+                        src={embedUrl}
+                        width="100%"
+                        height="520"
+                        frameborder="0"
+                        scrolling="no"
+                        loading="lazy"
+                        style="max-width:100%; border:0;"
+                    />
+                ))}
+            </div>
+        </section>
+    )
+}

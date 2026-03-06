@@ -15,13 +15,15 @@ export type Props = {
 };
 
 const { description = '', pageType = 'website' } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const hasSite = Boolean(Astro.site);
 const title = [Astro.props.title, siteConfig.title].filter(Boolean).join(' | ');
 const image = Astro.props.image ?? siteConfig.image;
 let resolvedImage: { src: string; alt?: string } | undefined;
 if (image?.src) {
     if (typeof image.src === 'string') {
         resolvedImage = {
-            src: new URL(image.src, Astro.site).toString(),
+            src: hasSite ? new URL(image.src, Astro.site).toString() : image.src,
             alt: image.alt
         };
     } else {
@@ -33,12 +35,12 @@ if (image?.src) {
             fit: 'cover'
         });
         resolvedImage = {
-            src: new URL(optimizedImage.src, Astro.site).toString(),
+            src: hasSite ? new URL(optimizedImage.src, Astro.site).toString() : optimizedImage.src,
             alt: image.alt
         };
     }
 }
-const canonicalURL = new URL(Astro.request.url, Astro.site);
+const canonicalURL = hasSite ? new URL(Astro.request.url, Astro.site) : Astro.url.pathname;
 
 /**
  * Enforce some standard canonical URL formatting across the site.
@@ -66,9 +68,8 @@ function formatCanonicalURL(url: string | URL) {
 <link rel="preload" as="font" type="font/woff2" href={newsreaderWoff2} crossorigin="anonymous" />
 
 <!-- Low Priority Global Metadata -->
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="sitemap" href="/sitemap-index.xml" />
-<link rel="alternate" type="application/rss+xml" href="/rss.xml" title="RSS" />
+<link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
+{hasSite && <link rel="sitemap" href={`${base}/sitemap-index.xml`} />}
 
 <!-- Page Metadata -->
 <link rel="canonical" href={formatCanonicalURL(canonicalURL)} />

@@ -14,6 +14,8 @@ export type Hero = {
     text?: string;
     image?: ImageInput;
     actions?: Link[];
+    instagramPosts?: string[];
+    instagramTitle?: string;
 };
 
 export type SubscribeForm = {
@@ -43,5 +45,4 @@ export type SiteConfig = {
     hero?: Hero;
     subscribe?: Subscribe;
     postsPerPage?: number;
-    projectsPerPage?: number;
 };

@@ -4,6 +4,7 @@ import siteConfig from '../data/site-config';
 const socialLinks = siteConfig.socialLinks ?? [];
 const navLinks = siteConfig.footerNavLinks ?? [];
 const currentYear = new Date().getFullYear();
+const homeHref = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/`;
 ---
 
 <footer class="mx-auto w-full max-w-3xl pt-12 pb-10 sm:pt-24 sm:pb-14">
@@ -42,7 +43,7 @@ const currentYear = new Date().getFullYear();
         }
         <p class="text-sm">
             &copy; {currentYear}
-            <a class="hover:underline hover:underline-offset-2" href="/">{siteConfig.title}</a>. All rights reserved.
+            <a class="hover:underline hover:underline-offset-2" href={homeHref}>{siteConfig.title}</a>. All rights reserved.
         </p>
     </div>
 </footer>

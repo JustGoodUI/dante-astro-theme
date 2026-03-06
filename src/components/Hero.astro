@@ -3,37 +3,45 @@ import { marked } from 'marked';
 import type { Hero as HeroProps } from '../types';
 import Button from './Button.astro';
 import CustomImage from './CustomImage.astro';
+import InstagramGallery from './InstagramGallery.astro';
 
 type Props = HeroProps;
 
-const { title, image, text, actions } = Astro.props;
+const { title, image, text, actions, instagramPosts, instagramTitle } = Astro.props;
 ---
 
 {
-    (title || image?.src || text || (actions && actions.length > 0)) && (
-        <section class="mb-16 flex w-full flex-col gap-8 sm:mb-24">
-            {title && <h1 class="font-serif text-3xl leading-tight font-medium sm:text-5xl sm:leading-tight">{title}</h1>}
-            {image?.src && (
-                <figure>
-                    <CustomImage
-                        class="w-full"
-                        {...image}
-                        widths={[480, 640, 768, 1024, 1536]}
-                        sizes="(min-width: 832px) 768px, calc(100vw - 32px)"
-                        fetchpriority="high"
-                        loading="eager"
-                    />
-                    {image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{image.caption}</figcaption>}
-                </figure>
-            )}
-            {text && <div class="prose sm:prose-lg max-w-none" set:html={marked.parse(text)} />}
-            {actions && actions.length > 0 && (
-                <div class="flex flex-wrap gap-4">
-                    {actions.map((action) => (
-                        <Button href={action.href}>{action.text}</Button>
-                    ))}
-                </div>
-            )}
-        </section>
+    (title ||
+        image?.src ||
+        text ||
+        (actions && actions.length > 0) ||
+        (instagramPosts && instagramPosts.length > 0)) && (
+        <>
+            <section class="mb-16 flex w-full flex-col gap-8 sm:mb-24">
+                {title && <h1 class="font-serif text-3xl leading-tight font-medium sm:text-5xl sm:leading-tight">{title}</h1>}
+                {image?.src && (
+                    <figure>
+                        <CustomImage
+                            class="w-full"
+                            {...image}
+                            widths={[480, 640, 768, 1024, 1536]}
+                            sizes="(min-width: 832px) 768px, calc(100vw - 32px)"
+                            fetchpriority="high"
+                            loading="eager"
+                        />
+                        {image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{image.caption}</figcaption>}
+                    </figure>
+                )}
+                {text && <div class="prose sm:prose-lg max-w-none" set:html={marked.parse(text)} />}
+                {actions && actions.length > 0 && (
+                    <div class="flex flex-wrap gap-4">
+                        {actions.map((action) => (
+                            <Button href={action.href}>{action.text}</Button>
+                        ))}
+                    </div>
+                )}
+            </section>
+            <InstagramGallery instagramPosts={instagramPosts} instagramTitle={instagramTitle} />
+        </>
     )
 }

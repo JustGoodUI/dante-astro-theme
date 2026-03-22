@@ -1,5 +1,5 @@
-import avatar from '../assets/images/avatar.jpg';
-import hero from '../assets/images/hero.jpg';
+import hero from 'src/assets/image/hero.jpg';
+import avatar from 'src/assets/images/avatar.jpg';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
@@ -25,8 +25,8 @@ const siteConfig: SiteConfig = {
             href: '/projects'
         },
         {
-            text: 'Blog',
-            href: '/blog'
+            text: 'Linkedin',
+            href: 'www.linkedin.com/in/dheiry-lopez-22665aa0'
         },
         {
             text: 'Tags',
@@ -43,31 +43,43 @@ const siteConfig: SiteConfig = {
             href: '/contact'
         },
         {
-            text: 'Terms',
-            href: '/terms'
+            text: 'Linkedin',
+            href: 'www.linkedin.com/in/dheiry-lopez-22665aa0'
         },
         {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
+            text: 'Github',
+            href: 'https://github.com/dheirylopez'
         }
+      
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+             text: 'Linkedin',
+            href: 'www.linkedin.com/in/dheiry-lopez-22665aa0'
+        },
+        {
+           text: 'Github',
+            href: 'https://github.com/dheirylopez'
+        },
+        {
+          text: 'Upwork',
+            href: 'https://www.upwork.com/freelancers/~01d1eb273b35ecee7c?s=1110580753069494272'
         },
         {
             text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            href: 'https://www.instagram.com/lopezdheiry?igsh=YmRjd3NxNmloZW5o&utm_source=qr' 
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+  title: 'Hello & Welcome! Explore My Software Projects!',
+  text: `Hi, I’m Dheiry López, a Senior Software Engineer with 7+ years of experience delivering scalable software solutions and supporting cross-functional project execution.
+
+         My background includes designing and developing enterprise applications, building RESTful APIs, contributing to microservices architectures, supporting AWS-based environments, and developing RPA bots with Automation Anywhere to streamline repetitive business processes and increase operational efficiency.
+
+         I’ve worked across industries including energy, HR/payroll, healthcare manufacturing, and technology, which has given me the adaptability to understand new domains quickly and develop practical solutions for diverse business needs.
+
+         Today, I’m focused on helping companies and clients build software and automation solutions that are clean, maintainable, user-centered, and capable of driving long-term impact.`,
+
         image: {
             src: hero,
             alt: 'A person sitting at a desk in front of a computer'

@@ -1,7 +1,7 @@
 ---
 title: 'STL – Telemetered Energy Loss Management System'
 description: STL is a desktop-based enterprise system developed to monitor, analyze, and manage energy loss across telemetered meters, helping improve operational control, reporting, and decision-making in the energy distribution process.
-publishDate: 'March 2017'
+
 seo:
   image:
     src: '../../assets/images/stl.jpg'

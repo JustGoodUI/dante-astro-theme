@@ -1,61 +1,103 @@
 ---
-title: FitQuest - AR Fitness Adventure Game
-description: This web application encourages users to embark on thrilling adventures, complete challenges, and achieve fitness goals in an engaging virtual environment.
-publishDate: 'Dec 28 2023'
+title: 'Email-to-Database Automation Bot'
+description: Intelligent automation solution built to monitor a customer service inbox, extract attachments, read files using AI-powered document processing, organize documents in folders, and send structured data to a database for faster and more reliable operations.
+
 seo:
   image:
-    src: '../../assets/images/project-6.jpg'
+    src: '../../assets/images/project-email-bot.jpg'
+    alt: Email-to-Database Automation Bot preview
 ---
 
-![Project preview](../../assets/images/project-6.jpg)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
-**Project Overview:**
-FitQuest is an augmented reality (AR) fitness adventure game that revolutionizes traditional workout routines by combining physical exercise with immersive gameplay. This web application encourages users to embark on thrilling adventures, complete challenges, and achieve fitness goals in an engaging virtual environment.
+## Project Overview
+
+This project consisted of building an intelligent automation bot designed to streamline the processing of customer service emails. The solution monitored a service mailbox, identified relevant incoming messages, downloaded attached files, stored them in organized folders, and sent the extracted information to a database for further processing and control.
+
+A key component of the solution was the use of AI-based file reading capabilities, which allowed the bot to interpret document content and capture relevant information automatically. This significantly reduced manual effort and improved the speed and accuracy of handling incoming customer documentation.
+
+By combining email monitoring, document processing, AI-based data extraction, file organization, and database integration, the solution transformed a repetitive manual workflow into a more efficient and scalable automated process.
 
 ## Objectives
 
-1. Develop a fitness app that leverages augmented reality to make workouts more enjoyable and interactive.
-2. Integrate real-world locations and landmarks into the game, turning everyday environments into exciting adventure settings.
-3. Motivate users to stay active and maintain a consistent fitness routine by blending physical activity with a captivating storyline.
+1. Automate the review of incoming emails in a customer service mailbox.
+2. Detect and download attached files from relevant emails.
+3. Read and process file content using AI-powered document interpretation.
+4. Organize processed files automatically into designated folders.
+5. Extract and send useful data to a database for tracking and processing.
+6. Reduce manual workload and improve operational efficiency.
+7. Improve traceability and control over files received through email.
+8. Minimize human error in repetitive document-handling and data-entry tasks.
 
-## Features
+## Key Features
 
-1. **Augmented Reality Workouts:**
+### 1. Email Monitoring
+The bot continuously reviewed a customer service inbox and detected new messages that matched the required business rules for processing.
 
-- FitQuest utilizes AR technology to overlay game elements onto the real-world environment, creating an immersive and dynamic workout experience.
-- Users engage in exercises that align with the game's storyline while interacting with virtual elements superimposed on their surroundings.
+### 2. Attachment Extraction
+Once a valid email was identified, the bot automatically downloaded the attached files, eliminating the need for manual retrieval.
 
-2. **Interactive Storyline and Challenges:**
+### 3. AI-Based File Reading
+The solution used intelligent document-processing capabilities to read file content and identify relevant information automatically. This enabled faster handling of incoming files and reduced the dependency on manual review.
 
-- The app features an adventure-driven storyline where users embark on quests and missions to complete fitness challenges.
-- Challenges include cardio exercises, strength training, and flexibility workouts, seamlessly integrated into the game's narrative.
+### 4. File Organization
+Processed attachments were stored in predefined folders, helping maintain an organized structure for future consultation and operational control.
 
-3. **Real-World Landmarks Integration:**
+### 5. Data Registration in Database
+Relevant information extracted from the emails and documents was sent to a database, allowing the business to keep a structured and traceable record of processed requests.
 
-- FitQuest incorporates real-world landmarks and locations as key elements in the game, turning parks, streets, and other environments into virtual fitness arenas.
-- Users explore these locations while completing fitness challenges and unlocking new levels.
+### 6. Process Automation
+The solution automated the full workflow, from inbox review and attachment download to document reading, file storage, and database registration.
 
-4. **Multiplayer Mode and Team Challenges:**
-
-- Users can connect with friends or join teams to participate in multiplayer challenges.
-- Team-based missions encourage collaboration and friendly competition, enhancing the social aspect of fitness.
-
-5. **Fitness Tracking and Progress Monitoring:**
-
-- The app includes a comprehensive fitness tracking system that monitors users' progress, calories burned, and achievements.
-- Users can set personalized fitness goals and track their improvement over time.
+### 7. Operational Traceability
+By storing both files and structured records, the bot improved visibility into what had been received, processed, and saved.
 
 ## Technology Stack
 
-- Frontend: Unity for AR game development.
-- Backend: Node.js for handling server-side logic and real-time data synchronization.
-- Database: MongoDB for storing user profiles, fitness data, and game progress.
-- AR Integration: ARCore (Android) and ARKit (iOS) for augmented reality features.
+- **Automation Platform:** Automation Anywhere
+- **Document Processing:** AI-powered file reading / intelligent document extraction
+- **Email Processing:** Automated mailbox monitoring and attachment handling
+- **Database:** SQL Server
+- **Data Handling:** File extraction, structured data capture, and database insertion
+- **Process Type:** Robotic Process Automation (RPA) / workflow automation
 
-## Outcome
+## My Contribution
 
-FitQuest has transformed the fitness landscape by merging physical activity with immersive gaming experiences. Users not only enjoy staying active but also find motivation in the storyline and challenges, creating a unique and entertaining approach to maintaining a healthy lifestyle.
+I developed the automation workflow for this solution, focusing on improving customer service operations through intelligent email and document processing.
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+My involvement included:
+
+- Building the bot in Automation Anywhere to monitor incoming emails automatically
+- Implementing logic to detect and download email attachments
+- Integrating AI-based document reading to capture relevant file information
+- Designing the file-handling process to store documents in organized folders
+- Sending extracted and structured information to a database
+- Supporting validation and testing to ensure reliable processing
+- Replacing repetitive manual tasks with a more scalable automated workflow
+
+This project allowed me to combine RPA, AI-based document processing, file management, and database integration to solve a real operational challenge.
+
+## Outcome & Impact
+
+The automation bot improved the handling of customer service emails by reducing manual intervention, organizing attachments automatically, reading files with AI-based processing, and ensuring that relevant data was stored in the database in a timely and structured way.
+
+Its impact included:
+
+- Faster processing of incoming service emails
+- Reduced manual workload for administrative teams
+- Better organization of received documents
+- More reliable extraction of information from files
+- Improved database registration of incoming data
+- Greater traceability and operational control
+- Lower risk of human error in repetitive tasks
+
+Overall, the project transformed a manual document-handling process into an efficient intelligent automation workflow.
+
+## Highlights
+
+- Intelligent email-to-database automation solution
+- Built with Automation Anywhere
+- Used AI-based document reading for file interpretation
+- Downloaded and organized attachments automatically
+- Sent extracted information to a database
+- Reduced manual workload and improved processing efficiency

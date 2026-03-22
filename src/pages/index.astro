@@ -30,17 +30,5 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
             </div>
         )
     }
-    {
-        featuredPosts?.length > 0 && (
-            <div class="mb-16 sm:mb-24">
-                <h2 class="mb-12 font-serif text-xl italic sm:mb-16 sm:text-2xl">Writing</h2>
-                {featuredPosts.map((post) => (
-                    <PostPreview post={post} class="mb-10 sm:mb-12" headingLevel="h3" />
-                ))}
-                <div class="mt-12 sm:mt-16">
-                    <Button href="/blog">View All Posts</Button>
-                </div>
-            </div>
-        )
-    }
+
 </BaseLayout>

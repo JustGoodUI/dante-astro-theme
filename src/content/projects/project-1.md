@@ -1,66 +1,99 @@
 ---
-title: 'EcoBuddy: Sustainable Living App'
-description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
-publishDate: 'Jan 02 2024'
+title: 'STL – Telemetered Energy Loss Management System'
+description: STL is a desktop-based enterprise system developed to monitor, analyze, and manage energy loss across telemetered meters, helping improve operational control, reporting, and decision-making in the energy distribution process.
+
 seo:
   image:
-    src: '../../assets/images/project-1.jpg'
-    alt: Project preview
+    src: '../../assets/images/stl.jpg'
+    alt: STL system preview
 ---
 
-![Project preview](../../assets/images/project-1.jpg)
+![STL system preview](../../assets/images/stl2.jpg)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+## Project Overview
 
-**Project Overview:**
-EcoBuddy is a revolutionary mobile application designed to make sustainable living accessible, engaging, and rewarding. With a focus on gamification and real-world impact, EcoBuddy encourages users to adopt eco-friendly habits, reduce their carbon footprint, and contribute to a healthier planet.
+STL (Telemetered Energy Loss Management System) is a business-critical desktop application designed to support the monitoring, analysis, and operational management of energy loss in telemetered meters. The platform was created to help energy teams identify anomalies, track loss patterns, and make data-driven decisions to improve control over energy distribution.
+
+The system centralizes multiple operational areas involved in energy loss analysis, allowing users to work with structured data, sector-based reports, maintenance processes, and security controls from a single solution. Its modular structure made it easier to support different departments and operational workflows while maintaining system scalability and maintainability.
+
+This project played an important role in improving visibility into energy loss behavior by providing accurate reporting, better control mechanisms, and a more organized way to manage information related to telemetered measurement points.
 
 ## Objectives
 
-1. Develop a user-friendly mobile app that motivates individuals to adopt sustainable practices in their daily lives.
-2. Utilize gamification elements to make sustainable living fun and interactive.
-3. Provide educational resources and personalized challenges to empower users to make informed eco-conscious decisions.
+The main objective of STL was to provide a reliable and structured platform for identifying, analyzing, and managing energy loss across key sectors and telemetered measurement points.
 
-## Features
+Specific goals included:
 
-1. **EcoScore and Challenges:**
+1. Generate complex operational and analytical reports for sectors with the highest energy loss.
+2. Improve the monitoring of telemetered meters and totalizers to detect inconsistencies and abnormal consumption behavior.
+3. Support decision-making through consolidated and actionable data.
+4. Enable technical and operational teams to investigate, control, and reduce energy loss at a broader organizational level.
+5. Strengthen process control by integrating security, maintenance, and operational modules into one system.
 
-- Users are assigned an EcoScore based on their sustainable activities and choices.
-- Daily and weekly challenges encourage users to adopt new habits and compete with friends or the community to earn EcoPoints.
+## Key Features
 
-2. **Personalized Eco-Goals:**
+STL was built with a modular architecture and included multiple functional areas to support end-to-end operational management. Among its most important modules were:
 
-- Users can set and track personalized eco-goals, such as reducing plastic usage, conserving water, or choosing eco-friendly transportation.
-- The app provides tips and suggestions to help users achieve their goals.
+### 1. Brigade Control
+This module allowed teams to manage and track field brigades involved in inspections, validations, and operational processes related to energy loss control. It supported better coordination of field activities and improved visibility into task execution.
 
-3. **Green Rewards Marketplace:**
+### 2. Totalizer Management
+The system included functionality for managing totalizers, helping compare and validate energy flow data across different points in the network. This made it easier to identify possible discrepancies and assess distribution performance.
 
-- EcoPoints earned through challenges and sustainable actions can be redeemed in a virtual Green Rewards Marketplace.
-- The marketplace offers discounts on eco-friendly products, services, and even contributions to environmental causes.
+### 3. Hexing Meter Energy Loss Monitoring
+One of the specialized modules focused on analyzing energy loss associated with Hexing telemetered meters. This allowed technical users to inspect meter behavior, review data patterns, and identify possible losses or irregularities.
 
-4. **Community Hub:**
+### 4. Telemetered Analysis
+This module supported deeper analysis of telemetered data, making it possible to evaluate energy measurements, compare records, and detect suspicious trends or areas with recurring loss conditions.
 
-- A community feature allows users to connect, share their eco-friendly achievements, and inspire others.
-- Users can join local eco-groups, organize clean-up events, and collaborate on sustainability projects.
+### 5. Security Module
+The application included security controls to manage user access, roles, and permissions. This ensured that only authorized personnel could access specific modules and operations, helping protect sensitive operational data.
 
-5. **EcoEducator AI Assistant:**
+### 6. Cell Management
+The cell-related module helped organize and manage operational units or groupings within the monitoring process, contributing to better data segmentation and control.
 
-- An AI-powered assistant, EcoEducator, provides personalized eco-tips, facts, and information based on users' preferences and habits.
-- Users can chat with EcoEducator for instant advice on sustainable living.
+### 7. Maintenance Module
+The maintenance area supported the administration of catalogues, configurations, and internal records required for the proper functioning of the system. This reduced dependency on manual data adjustments and improved system consistency.
+
+### 8. Reporting Module
+One of the most valuable parts of the platform was its reporting capability. Users could generate detailed reports for energy loss analysis, sector performance, operational monitoring, and strategic decision-making. These reports were essential for understanding where losses were occurring and how to address them.
 
 ## Technology Stack
 
-- Frontend: React Native for cross-platform mobile app development.
-- Backend: Firebase for real-time data synchronization and user authentication.
-- Database: Firestore for scalable and flexible data storage.
-- AI Integration: Dialogflow for natural language processing and conversation with EcoEducator.
+STL was developed as a Windows desktop application using a robust and maintainable enterprise approach.
 
-## Outcome
+- **Frontend/Desktop UI:** Windows Forms
+- **Programming Language:** C# /.NET
+- **Data Access:** Dapper ORM
+- **Architecture:** N-Layer Architecture
+- **Design Principles:** SOLID principles
+- **Interface Components:** Telerik UI
 
-EcoBuddy has successfully created a community of environmentally conscious individuals who actively participate in sustainable living practices. The app not only educates and motivates users but also provides tangible rewards for their commitment to a greener lifestyle, fostering a positive impact on the environment.
+This technology combination allowed the system to deliver solid performance, structured code organization, and a maintainable codebase suitable for enterprise-level internal operations.
 
-## Client Testimonial
+## My Contribution
 
-> We couldn't be happier with the results delivered by Ethan Donovan. From the initial concept discussions to the final product, their responsiveness and collaborative approach were impressive. Our startup's website now stands out, thanks to their creative input and commitment to excellence.
+I participated in the development of this solution as part of the software team, contributing to the implementation of functional modules, business logic, data handling, and reporting processes. The project required translating operational energy-control needs into software functionality, ensuring that the system could support both daily operations and higher-level analysis.
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+My work involved building and maintaining core features, collaborating on the modular structure of the application, and helping deliver a solution aligned with the operational requirements of the business.
+
+## Outcome & Impact
+
+STL contributed to a more organized and effective process for monitoring energy loss across telemetered meters and related sectors. By centralizing operational modules and improving access to analytical reports, the system helped teams better understand loss patterns, investigate irregularities, and strengthen control over energy distribution processes.
+
+Its impact can be summarized as follows:
+
+- Improved visibility into energy loss behavior.
+- Better operational control across multiple modules and teams.
+- Faster access to structured reports for analysis and decision-making.
+- More efficient management of telemetered data and associated processes.
+- Stronger internal controls through security and maintenance features.
+
+Overall, the project provided significant business value by supporting a more data-driven and controlled approach to energy loss management.
+
+## Highlights
+
+- Enterprise desktop application with multiple operational modules
+- Focused on telemetered meter analysis and energy loss control
+- Built with C# .NET, Dapper, Windows Forms, Telerik, and N-Layer Architecture
+- Designed to support reporting, operational monitoring, and decision-making

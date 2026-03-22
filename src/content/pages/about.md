@@ -4,40 +4,52 @@ seo:
   title: About Me
   description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
   image:
-    src: '../../assets/images/about.jpg'
+    src: '../../assets/images/perfil.jpg'
     alt: A person sitting at a desk in front of a computer
 ---
 
-![Alt text for image](../../assets/images/about.jpg)
+![Alt text for image](../../assets/images/perfil.jpg)
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
-## Ethan Donovan - Web Developer based in Estonia
 
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+## Dheiry Lopez  - Software Engineer and Systems Analyst 
+
+**Greetings!** I’m Dheiry López, a Software Engineer and Systems Analyst with 7+ years of experience delivering software solutions that improve processes, support operations, and create business value.
+
+I have worked on enterprise systems, RESTful APIs, automation solutions, and application improvements across industries including energy, HR/payroll, healthcare manufacturing, and technology. My experience combines hands-on development with strong collaboration across teams, helping ensure that technical solutions are practical, scalable, and aligned with organizational goals.
 
 ## Skills and Expertise
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
+My technical background includes **C#**, **.NET**, **ASP.NET**, **Angular**, **JavaScript**, **Node.js**, **SQL Server**, and **REST API development**. I also have experience with **RPA development using Automation Anywhere** and exposure to **AWS-based environments**.
 
-## Innovation and Problem-Solving
+In addition to software development, I have contributed to system migrations, process optimization initiatives, and cross-functional project execution, always with a focus on quality, maintainability, and delivery impact.
 
-I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
 
-## Global Perspective, Local Impact
+## Problem-Solving and Business Impact
 
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
+I’m passionate about solving real business problems through technology. Whether it’s developing new features, improving system performance, automating repetitive tasks, or supporting a critical migration, I focus on creating solutions that are practical, scalable, and aligned with business goals.
 
-## Continuous Learning
+I believe strong software is not only about writing code — it is also about understanding processes, user needs, and the bigger operational picture.
 
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
+
+## How I Work
+
+I enjoy turning complex requirements into structured, reliable solutions. I’m known for being adaptable, detail-oriented, and committed to clear communication. I work well with both technical and non-technical stakeholders, and I value teamwork as much as technical excellence.
+
 
 ## Collaboration and Communication
 
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
+Throughout my career, I have worked closely with developers, business users, stakeholders, and cross-functional teams. I value clear communication, accountability, and collaboration, and I take pride in contributing to projects that require both technical depth and teamwork.
+
+## Continuous Growth
+
+Technology continues to evolve, and I’m committed to continuous learning and professional growth. I’m always looking for ways to strengthen my technical skills, expand my knowledge, and contribute more effectively to the teams and projects I support.
+
 
 ## Get in Touch
 
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
+I’m open to remote opportunities, freelance collaborations, and professional connections in software engineering, systems analysis, and technical project delivery.
+
+Feel free to explore my work and reach out if you’d like to connect.
 
 _Let's build something amazing together!_

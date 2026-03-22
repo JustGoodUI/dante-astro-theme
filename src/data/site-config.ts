@@ -8,13 +8,10 @@ const siteConfig: SiteConfig = {
         alt: 'Dheiry Lopez'
     },
 
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
-    image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
-    },
+    title: 'Dheiry Lopez ',
+    subtitle: ' ',
+    description: ' ',
+
     headerNavLinks: [
         {
             text: 'Home',
@@ -23,15 +20,9 @@ const siteConfig: SiteConfig = {
         {
             text: 'Projects',
             href: '/projects'
-        },
-        {
-            text: 'Linkedin',
-            href: 'www.linkedin.com/in/dheiry-lopez-22665aa0'
-        },
-        {
-            text: 'Tags',
-            href: '/tags'
         }
+
+
     ],
     footerNavLinks: [
         {

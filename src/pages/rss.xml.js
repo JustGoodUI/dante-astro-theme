@@ -13,7 +13,7 @@ export async function GET(context) {
             title: item.data.title,
             description: item.data.excerpt,
             link: `/blog/${item.id}/`,
-            pubDate: item.data.publishDate.setUTCHours(0)
+            pubDate: item.data.publishDate
         }))
     });
 }

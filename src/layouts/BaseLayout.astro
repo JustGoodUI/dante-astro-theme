@@ -14,10 +14,12 @@ const { showHeader = true, ...head } = Astro.props;
 <html lang="en" class="wrap-break-words antialiased">
     <head>
         <BaseHead {...head} />
-        <script>
-            if (localStorage.theme === 'dark') {
-                document.documentElement.classList.add('dark');
-            }
+        <script is:inline>
+            try {
+                if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                    document.documentElement.classList.add('dark');
+                }
+            } catch {}
         </script>
         <ClientRouter />
         <script is:inline src="/theme-toggle.js"></script>

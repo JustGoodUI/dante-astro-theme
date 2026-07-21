@@ -1,5 +1,6 @@
 import { glob } from 'astro/loaders';
-import { defineCollection, z, type ImageFunction } from 'astro:content';
+import { z } from 'astro/zod';
+import { defineCollection, type ImageFunction } from 'astro:content';
 
 const imageSchema = (image: ImageFunction) =>
     z.object({

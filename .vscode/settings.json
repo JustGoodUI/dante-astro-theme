@@ -1,14 +1,25 @@
 {
-    "tailwindCSS.classAttributes": ["class", "className", "class:list"],
+    "tailwindCSS.classAttributes": [
+        "class",
+        "className",
+        "class:list"
+    ],
     "files.associations": {
         "*.css": "tailwindcss"
     },
-    "prettier.documentSelectors": ["**/*.astro"],
+    "prettier.documentSelectors": [
+        "**/*.astro"
+    ],
     "[astro]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.tabSize": 4,
     "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": ["source.organizeImports"],
-    "typescript.tsdk": "node_modules/typescript/lib"
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    // Deprecated name kept alongside js/ts.tsdk.path: the Astro extension
+    // still reads it (withastro/astro#16155)
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "js/ts.tsdk.path": "node_modules/typescript/lib"
 }

@@ -27,7 +27,7 @@ Clicking the button above ☝️ will create a new repo for you that looks exact
 
 ## Template Integrations
 
-- @astrojs/tailwind - https://docs.astro.build/en/guides/integrations-guide/tailwind/
+- Tailwind CSS (via `@tailwindcss/vite`) - https://docs.astro.build/en/guides/styling/#tailwind
 - @astrojs/sitemap - https://docs.astro.build/en/guides/integrations-guide/sitemap/
 - @astrojs/mdx - https://docs.astro.build/en/guides/markdown-content/
 - @astrojs/rss - https://docs.astro.build/en/guides/rss/
@@ -64,10 +64,11 @@ Inside of Dante Astro theme, you'll see the following folders and files:
 ├── public/
 ├── src/
 │   ├── assets/
+│   │   ├── icons/
+│   │   └── images/
 │   ├── components/
 │   ├── content/
 │   ├── data/
-│   ├── icons/
 │   ├── layouts/
 │   ├── pages/
 │   ├── styles/
@@ -90,7 +91,7 @@ Any static assets, like images, can be placed in the `public/` directory.
 
 ## Astro.js Commands
 
-All commands are run from the root of the project, from a terminal:
+Requires Node.js `22.12.0` or newer. All commands are run from the root of the project, from a terminal:
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
@@ -98,6 +99,7 @@ All commands are run from the root of the project, from a terminal:
 | `npm run dev`             | Starts local dev server at `localhost:4321`      |
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run check`           | Type-check the project with `astro check`        |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 

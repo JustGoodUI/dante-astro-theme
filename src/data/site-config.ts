@@ -1,27 +1,30 @@
-import avatar from '../assets/images/avatar.jpg';
-import hero from '../assets/images/hero.jpg';
+// He comentado estas dos líneas para que no den error de "no usado" 
+// ya que usaremos URLs directas para las imágenes de Pokémon por ahora.
+// import avatar from '../assets/images/avatar.jpg';
+// import hero from '../assets/images/hero.jpg';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
-    website: 'https://example.com',
+    website: 'https://Gilgamesh-Camilo.github.io',
     avatar: {
-        src: avatar,
-        alt: 'Ethan Donovan'
+        // Imagen de Pikachu temporal
+        src: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png',
+        alt: 'Juan Camilo Martín Barrero'
     },
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Portafolio BD2',
+    subtitle: 'Portafolio de Ingeniería de Sistemas',
+    description: 'Portafolio personal y proyectos de Juan Camilo Martín Barrero.',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png',
+        alt: 'Portafolio BD2 - Astro.js y Tailwind CSS'
     },
     headerNavLinks: [
         {
-            text: 'Home',
+            text: 'Inicio',
             href: '/'
         },
         {
-            text: 'Projects',
+            text: 'Proyectos',
             href: '/projects'
         },
         {
@@ -29,60 +32,61 @@ const siteConfig: SiteConfig = {
             href: '/blog'
         },
         {
-            text: 'Tags',
+            text: 'Etiquetas',
             href: '/tags'
         }
     ],
     footerNavLinks: [
         {
-            text: 'About',
+            text: 'Sobre mí',
             href: '/about'
         },
         {
-            text: 'Contact',
+            text: 'Contacto',
             href: '/contact'
         },
         {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
+            text: 'Mi GitHub',
+            href: 'https://github.com/Gilgamesh-Camilo'
         }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'GitHub',
+            href: 'https://github.com/Gilgamesh-Camilo'
         },
         {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
+            text: 'WhatsApp',
+            href: 'https://wa.me/573003361010' // Enlace directo a tu WhatsApp
         },
         {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'Llamar',
+            href: 'tel:3003361010'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+        title: '¡Hola! Bienvenido a mi Portafolio',
+        text: "Soy **Juan Camilo Martín Barrero**, estudiante de Ingeniería de Sistemas en la Universidad El Bosque.\n\nMe apasiona el desarrollo tecnológico, la estructuración de bases de datos y la resolución de problemas mediante código. Aquí comparto algunos de mis proyectos académicos y personales.\n\nPuedes explorar mi trabajo directamente en mi [GitHub](https://github.com/Gilgamesh-Camilo).",
         image: {
-            src: hero,
-            alt: 'A person sitting at a desk in front of a computer'
+            // Otra imagen de Pokémon temporal para la sección principal
+            src: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png',
+            alt: 'Avatar de Juan Camilo'
         },
         actions: [
             {
-                text: 'Get in Touch',
-                href: '/contact'
+                text: 'Ir a mi GitHub',
+                href: 'https://github.com/Gilgamesh-Camilo'
+            },
+            {
+                text: 'Contáctame',
+                href: 'tel:3003361010'
             }
         ]
     },
     subscribe: {
-        enabled: true,
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
+        enabled: false, // Apagado por defecto, ya que un newsletter no es común en un portafolio universitario
+        title: 'Suscríbete a mi boletín',
+        text: 'Recibe actualizaciones semanales directamente en tu correo.',
         form: {
             action: '#'
         }

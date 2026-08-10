@@ -14,5 +14,3 @@ Puedes escribirme directamente o llamarme a mi número personal: **[+57 300 336 
 
 _GitHub:_
 Explora el código fuente de mis proyectos, talleres de la universidad y repositorios en mi perfil. Búscame en GitHub como **[Gilgamesh-Camilo](https://github.com/Gilgamesh-Camilo)**. 
-
-¡Espero que podamos conectar pronto!

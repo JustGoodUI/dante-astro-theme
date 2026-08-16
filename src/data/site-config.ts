@@ -28,12 +28,12 @@ const siteConfig: SiteConfig = {
             href: '/projects'
         },
         {
-            text: 'Blog',
-            href: '/blog'
+            text: 'Presentación',
+            href: '/presentacion'
         },
         {
-            text: 'Etiquetas',
-            href: '/tags'
+            text: 'Evidencias',
+            href: '/evidencias'
         }
     ],
     footerNavLinks: [

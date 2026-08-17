@@ -8,7 +8,7 @@ seo:
     alt: Avatar de Juan Camilo
 ---
 
-![Fotografía de Juan Camilo Martín Barrero](../../assets/images/fotoperfilcam.jpg)
+
 
 ## Juan Camilo Martín Barrero - Estudiante de Ingeniería de Sistemas en Bogotá
 

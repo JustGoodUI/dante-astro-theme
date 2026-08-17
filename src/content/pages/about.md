@@ -4,16 +4,11 @@ seo:
   title: Sobre mí | Juan Camilo Martín Barrero
   description: Conoce más sobre mi trayectoria como estudiante de Ingeniería de Sistemas, mis proyectos y habilidades tecnológicas.
   image:
-    src: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png'
+    src: '../../assets/images/fotoperfilcam.jpg'
     alt: Avatar de Juan Camilo
 ---
 
-<!-- 
-  INSTRUCCIONES PARA TU FOTO:
-  Cuando quieras poner tu foto real, sube la imagen a la carpeta assets/images/ 
-  y cambia el enlace de abajo por algo como: ../../assets/images/mi-foto.jpg
--->
-![Avatar temporal de Juan Camilo](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png)
+![Fotografía de Juan Camilo Martín Barrero](../../assets/images/fotoperfilcam.jpg)
 
 ## Juan Camilo Martín Barrero - Estudiante de Ingeniería de Sistemas en Bogotá
 

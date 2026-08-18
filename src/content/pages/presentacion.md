@@ -14,7 +14,15 @@ seo:
 
 ### Video de Presentación
 
-<video controls width="100%" style="border-radius: 8px; margin-top: 1rem;">
-  <source src="../../assets/images/video-presentacion.mp4" type="video/mp4" />
-  Tu navegador no soporta la reproducción de video HTML5.
-</video>
+<iframe 
+  width="100%" 
+  height="400" 
+  src="https://www.youtube.com/embed/rngOgpJkfvY" 
+  title="Video de presentación" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen
+  style="border-radius: 8px; margin-top: 1rem;">
+</iframe>
+
+[Ver video directamente en YouTube](https://youtu.be/rngOgpJkfvY)

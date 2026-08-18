@@ -1,43 +1,41 @@
 ---
-title: About
+title: Sobre mí
 seo:
-  title: About Me
-  description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
+  title: Sobre mí | Juan Camilo Martín Barrero
+  description: Conoce más sobre mi trayectoria como estudiante de Ingeniería de Sistemas, mis proyectos y habilidades tecnológicas.
   image:
-    src: '../../assets/images/about.jpg'
-    alt: A person sitting at a desk in front of a computer
+    src: '../../assets/images/fotoperfilcam.jpg'
+    alt: Avatar de Juan Camilo
 ---
 
-![Alt text for image](../../assets/images/about.jpg)
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
-## Ethan Donovan - Web Developer based in Estonia
+## Juan Camilo Martín Barrero - Estudiante de Ingeniería de Sistemas en Bogotá
 
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+**¡Hola!** Soy Juan Camilo, un apasionado por la tecnología y estudiante de Ingeniería de Sistemas en la Universidad El Bosque. Con un enfoque orientado a la resolución de problemas lógicos y la estructuración de datos, me dedico a transformar requerimientos complejos en soluciones funcionales y eficientes.
 
-## Skills and Expertise
+## Habilidades y Conocimientos Técnicos
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
+A lo largo de mi carrera, he desarrollado un perfil versátil que abarca diferentes niveles de programación y diseño de sistemas. Mis conocimientos principales incluyen:
+*   **Bases de Datos:** Normalización, diseño relacional y consultas estructuradas en **SQL**.
+*   **Lenguajes de Programación:** Experiencia desarrollando en **Python**, **Java** y **MicroPython**, además de conocimientos en bajo nivel (Ensamblador 16-bits).
+*   **Modelado y Dinámica de Sistemas:** Uso de herramientas como **Vensim** para diagramas causales y simulación de estructuras (con claro enfoque en ciclos de refuerzo y balance).
+*   **Criptografía:** Implementación y análisis matemático de algoritmos como RSA.
 
-## Innovation and Problem-Solving
+## Innovación y Enfoque
 
-I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
+Me entusiasma enfrentar retos que requieran lógica pura, ya sea optimizando el rendimiento de una base de datos o escribiendo scripts que automaticen tareas. Abordo cada proyecto, desde los laboratorios universitarios hasta mis iniciativas personales, con el objetivo de entregar código limpio, escalable y bien estructurado.
 
-## Global Perspective, Local Impact
+## Perspectiva Local
 
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
+Vivir e interactuar con el entorno tecnológico en Bogotá me ha enseñado la importancia de la adaptabilidad y el pragmatismo a la hora de buscar soluciones de hardware y software. Entiendo el valor de construir herramientas digitales que tengan un impacto real y sean útiles para el usuario final.
 
-## Continuous Learning
+## Intereses y Aprendizaje Continuo
 
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
+La tecnología nunca se detiene y yo tampoco. Fuera de las bases de datos y el código puro, me interesa la cosmología y la exploración espacial, además de disfrutar optimizando estrategias y configuraciones en entornos competitivos o de simulación en mi tiempo libre.
 
-## Collaboration and Communication
+## ¡Trabajemos juntos!
 
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
+¿Tienes alguna idea en mente, un proyecto académico o simplemente quieres hablar de código? ¡Me encantaría escucharte! Siéntete libre de contactarme para colaborar o compartir conocimientos sobre desarrollo y bases de datos.
 
-## Get in Touch
-
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
-
-_Let's build something amazing together!_
+_¡El código es solo el principio!_

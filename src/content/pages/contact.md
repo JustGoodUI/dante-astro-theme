@@ -1,14 +1,16 @@
 ---
-title: Get in touch
+title: Contáctame
 seo:
-  title: Contact
-  description: Get in touch through email or social media! Let me know how I can help.
+  title: Contacto | Juan Camilo Martín Barrero
+  description: Ponte en contacto conmigo a través de mi teléfono, WhatsApp o GitHub. ¡Hablemos de código!
 ---
 
-Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
+¡Gracias por visitar mi portafolio! Ya sea que tengas una pregunta sobre mis proyectos, una sugerencia o simplemente quieras compartir ideas sobre bases de datos y desarrollo, estoy a tu disposición. 
 
-_Email:_
-Feel free to drop me an email at [example@example.com](mailto:example@example.com), and I'll do my best to respond as soon as possible.
+Siéntete libre de ponerte en contacto conmigo a través de cualquiera de los siguientes métodos:
 
-_Social Media:_
-Connect with me on social media as well. Find me on [Twitter](https://twitter.com) or [LinkedIn](https://www.linkedin.com/).
+_WhatsApp / Teléfono:_
+Puedes escribirme directamente o llamarme a mi número personal: **[+57 300 336 1010](https://wa.me/573003361010)**. Haré lo posible por responderte a la mayor brevedad.
+
+_GitHub:_
+Explora el código fuente de mis proyectos, talleres de la universidad y repositorios en mi perfil. Búscame en GitHub como **[Gilgamesh-Camilo](https://github.com/Gilgamesh-Camilo)**. 

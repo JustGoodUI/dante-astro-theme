@@ -11,14 +11,12 @@ const buttonClasses =
     'inline-flex items-center justify-center px-6 py-2 font-serif leading-tight italic text-main bg-transparent border border-main rounded-full transition-colors hover:bg-muted';
 ---
 
-{
-    href ? (
-        <a href={href} class:list={[buttonClasses, className]} {...rest}>
-            <slot />
-        </a>
-    ) : (
-        <button class:list={[buttonClasses, 'cursor-pointer', className]} {...rest}>
-            <slot />
-        </button>
-    )
-}
+{href ? (
+    <a href={href} class:list={[buttonClasses, className]} {...rest}>
+        <slot />
+    </a>
+) : (
+    <button class:list={[buttonClasses, 'cursor-pointer', className]} {...rest}>
+        <slot />
+    </button>
+)}

@@ -31,14 +31,16 @@ if (!subscribe?.enabled || !subscribe?.form?.action) {
             class="text-main border-main placeholder:text-main/60 h-9 w-full rounded-full border bg-transparent px-5 py-2 text-sm focus:outline-hidden"
             aria-label="Email address"
         />
-        {subscribe.form.hiddenFields?.map((field) => <input type="hidden" name={field.name} value={field.value} />)}
-        {
-            subscribe.form.honeypotFieldName && (
-                <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                    <input type="text" name={subscribe.form.honeypotFieldName} tabindex="-1" autocomplete="off" />
-                </div>
-            )
-        }
-        <Button type="submit" class="h-9 w-full sm:w-auto">Subscribe</Button>
+        {subscribe.form.hiddenFields?.map((field) => (
+            <input type="hidden" name={field.name} value={field.value} />
+        ))}
+        {subscribe.form.honeypotFieldName && (
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name={subscribe.form.honeypotFieldName} tabindex="-1" autocomplete="off" />
+            </div>
+        )}
+        <Button type="submit" class="h-9 w-full sm:w-auto">
+            Subscribe
+        </Button>
     </form>
 </section>

@@ -7,27 +7,21 @@ const { page, class: className } = Astro.props;
 ---
 
 <nav aria-label="Pagination" class:list={['relative px-12 py-2 text-center', className]}>
-    {
-        page.url.prev && (
-            <IconButton
-                class="absolute top-1/2 left-0 -translate-y-1/2"
-                href={page.url.prev}
-                aria-label={`Go to page ${page.currentPage - 1} of ${page.lastPage}`}
-            >
-                <ArrowLeft class="h-5 w-5 fill-current" />
-            </IconButton>
-        )
-    }
-    <span class="text-sm" aria-current="page">Page {page.currentPage} of {page.lastPage}</span>
-    {
-        page.url.next && (
-            <IconButton
-                class="absolute top-1/2 right-0 -translate-y-1/2"
-                href={page.url.next}
-                aria-label={`Go to page ${page.currentPage + 1} of ${page.lastPage}`}
-            >
-                <ArrowRight class="h-5 w-5 fill-current" />
-            </IconButton>
-        )
-    }
+    {page.url.prev && (
+        <IconButton class="absolute top-1/2 left-0 -translate-y-1/2" href={page.url.prev} aria-label={`Go to page ${page.currentPage - 1} of ${page.lastPage}`}>
+            <ArrowLeft class="h-5 w-5 fill-current" />
+        </IconButton>
+    )}
+    <span class="text-sm" aria-current="page">
+        Page {page.currentPage} of {page.lastPage}
+    </span>
+    {page.url.next && (
+        <IconButton
+            class="absolute top-1/2 right-0 -translate-y-1/2"
+            href={page.url.next}
+            aria-label={`Go to page ${page.currentPage + 1} of ${page.lastPage}`}
+        >
+            <ArrowRight class="h-5 w-5 fill-current" />
+        </IconButton>
+    )}
 </nav>

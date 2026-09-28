@@ -81,7 +81,7 @@ html.dark {
     }
 
     .prose a {
-        @apply underline font-normal decoration-1 underline-offset-2 decoration-dashed hover:decoration-solid;
+        @apply font-normal underline decoration-dashed decoration-1 underline-offset-2 hover:decoration-solid;
     }
 
     .prose :where(h1, h2, h3, h4, h5, h6) {
@@ -93,6 +93,6 @@ html.dark {
     }
 
     .prose blockquote {
-        @apply font-serif font-normal italic border-none pl-0 text-[1.375em] leading-snug sm:text-[1.66667em];
+        @apply border-none pl-0 font-serif text-[1.375em] leading-snug font-normal italic sm:text-[1.66667em];
     }
 }

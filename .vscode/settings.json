@@ -1,15 +1,9 @@
 {
-    "tailwindCSS.classAttributes": [
-        "class",
-        "className",
-        "class:list"
-    ],
+    "tailwindCSS.classAttributes": ["class", "className", "class:list"],
     "files.associations": {
         "*.css": "tailwindcss"
     },
-    "prettier.documentSelectors": [
-        "**/*.astro"
-    ],
+    "prettier.documentSelectors": ["**/*.astro"],
     "[astro]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },

@@ -37,47 +37,41 @@ const shareUrl = new URL(Astro.url.pathname, Astro.site).href;
             <h1 class="font-serif text-3xl leading-tight font-medium sm:text-5xl sm:leading-tight">{title}</h1>
             <div class="mt-4 text-sm">
                 <FormattedDate date={publishDate} />
-                {
-                    updatedDate && (
-                        <>
-                            {' '}
-                            <span>
-                                (Updated on <FormattedDate date={updatedDate} />)
-                            </span>
-                        </>
-                    )
-                }
+                {updatedDate && (
+                    <>
+                        {' '}
+                        <span>
+                            (Updated on <FormattedDate date={updatedDate} />)
+                        </span>
+                    </>
+                )}
             </div>
         </header>
         <div class="prose sm:prose-lg max-w-none">
             <Content />
         </div>
         <div class="mt-8 flex flex-wrap items-center justify-between gap-6 text-sm sm:mt-12 sm:text-base">
-            {
-                tags.length > 0 && (
-                    <div class="flex flex-wrap gap-x-5 gap-y-1 text-sm">
-                        {tags.map((tag) => (
-                            <a class="text-main hover:underline" href={`/tags/${slugify(tag)}`}>
-                                #{tag}
-                            </a>
-                        ))}
-                    </div>
-                )
-            }
-            <Button class="copy-url-button" aria-label="Copy link" data-url={shareUrl} data-tooltip-default="Copy link" data-tooltip-success="Copied"
-                >Share</Button
-            >
+            {tags.length > 0 && (
+                <div class="flex flex-wrap gap-x-5 gap-y-1 text-sm">
+                    {tags.map((tag) => (
+                        <a class="text-main hover:underline" href={`/tags/${slugify(tag)}`}>
+                            #{tag}
+                        </a>
+                    ))}
+                </div>
+            )}
+            <Button class="copy-url-button" aria-label="Copy link" data-url={shareUrl} data-tooltip-default="Copy link" data-tooltip-success="Copied">
+                Share
+            </Button>
         </div>
     </article>
-    {
-        (prevPost || nextPost) && (
-            <div class="my-16 sm:my-24">
-                <h2 class="mb-12 font-serif text-xl italic sm:mb-16 sm:text-2xl">Read Next</h2>
-                {nextPost && <PostPreview post={nextPost} class="mb-10 sm:mb-12" headingLevel="h3" />}
-                {prevPost && <PostPreview post={prevPost} class="mb-10 sm:mb-12" headingLevel="h3" />}
-            </div>
-        )
-    }
+    {(prevPost || nextPost) && (
+        <div class="my-16 sm:my-24">
+            <h2 class="mb-12 font-serif text-xl italic sm:mb-16 sm:text-2xl">Read Next</h2>
+            {nextPost && <PostPreview post={nextPost} class="mb-10 sm:mb-12" headingLevel="h3" />}
+            {prevPost && <PostPreview post={prevPost} class="mb-10 sm:mb-12" headingLevel="h3" />}
+        </div>
+    )}
     <Subscribe class="my-16 sm:my-24" />
 </BaseLayout>
 

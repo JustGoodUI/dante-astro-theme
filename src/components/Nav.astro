@@ -7,35 +7,30 @@ const navLinks = siteConfig.headerNavLinks ?? [];
 ---
 
 <nav class="relative min-h-10 pt-4 pb-12 sm:min-h-14 sm:pb-24 md:pt-8" aria-label="Primary navigation">
-    {
-        navLinks.length > 0 && (
-            <div class="relative mx-auto w-full max-w-3xl">
-                <button
-                    class="menu-toggle relative z-30 -ml-1 flex h-8 w-8 cursor-pointer items-center justify-center md:hidden"
-                    aria-label="Open Menu"
-                    aria-expanded="false"
-                    aria-controls="menu-items"
-                >
-                    <span class="menu-toggle-icon relative h-px w-6 bg-current" />
-                </button>
-                <ul
-                    id="menu-items"
-                    class="menu max-md:bg-main max-md:border-main flex gap-6 max-md:absolute max-md:-top-2.5 max-md:-left-2.5 max-md:z-20 max-md:max-w-64 max-md:flex-col max-md:gap-1 max-md:border max-md:border-dashed max-md:px-3 max-md:pt-16 max-md:pb-10"
-                >
-                    {navLinks.map((link) => (
-                        <li class="py-1">
-                            <NavLink
-                                class="text-main font-serif text-xl hover:underline hover:decoration-1 hover:underline-offset-2 md:text-base"
-                                href={link.href}
-                            >
-                                {link.text}
-                            </NavLink>
-                        </li>
-                    ))}
-                </ul>
-            </div>
-        )
-    }
+    {navLinks.length > 0 && (
+        <div class="relative mx-auto w-full max-w-3xl">
+            <button
+                class="menu-toggle relative z-30 -ml-1 flex h-8 w-8 cursor-pointer items-center justify-center md:hidden"
+                aria-label="Open Menu"
+                aria-expanded="false"
+                aria-controls="menu-items"
+            >
+                <span class="menu-toggle-icon relative h-px w-6 bg-current" />
+            </button>
+            <ul
+                id="menu-items"
+                class="menu max-md:bg-main max-md:border-main flex gap-6 max-md:absolute max-md:-top-2.5 max-md:-left-2.5 max-md:z-20 max-md:max-w-64 max-md:flex-col max-md:gap-1 max-md:border max-md:border-dashed max-md:px-3 max-md:pt-16 max-md:pb-10"
+            >
+                {navLinks.map((link) => (
+                    <li class="py-1">
+                        <NavLink class="text-main font-serif text-xl hover:underline hover:decoration-1 hover:underline-offset-2 md:text-base" href={link.href}>
+                            {link.text}
+                        </NavLink>
+                    </li>
+                ))}
+            </ul>
+        </div>
+    )}
     <div class="absolute top-4 right-0 z-10 md:top-8">
         <ThemeToggle />
     </div>

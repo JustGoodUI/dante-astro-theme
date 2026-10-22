@@ -8,6 +8,10 @@ Dante is a single-author blog and portfolio theme for Astro.js. Featuring a mini
 
 Clicking the button above ☝️ will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify.
 
+[![Deploy to Wasmer](https://img.shields.io/badge/Deploy%20to-Wasmer-171717?logo=wasmer&logoColor=white)](https://wasmer.io/apps/create?github=JustGoodUI%2Fdante-astro-theme)
+
+The Wasmer button imports this repository into Wasmer Edge to build the static `dist` output. Unlike the Netlify button, it does not create a copy in your GitHub account, so import your own fork to deploy your customized site.
+
 ## Theme Features:
 
 - ✅ Dark and light color mode

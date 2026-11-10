@@ -49,6 +49,20 @@ You can update this file to customize:
 
 Images can be referenced either as imports from `src/assets/` (for optimized Astro images) or as string paths from the `public/` directory.
 
+### Draft posts
+
+Add `draft: true` to a post's frontmatter to keep it out of production builds:
+
+```yaml
+---
+title: 'A post that is not ready yet'
+publishDate: 2026-11-10
+draft: true
+---
+```
+
+Drafts still render in `astro dev` so you can preview them. They are excluded from the blog archive, tag pages, homepage, RSS feed and sitemap in `astro build`.
+
 ### Images
 
 The theme uses a `CustomImage` component that automatically displays images using Astro’s optimized `<Image />` or a standard `<img>` tag depending on the source.
